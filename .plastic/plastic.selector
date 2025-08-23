@@ -1,0 +1,4 @@
+repository "Esmera 2025-08-23_20-16-30/Esmera@4674115104336@cloud"
+  path "/"
+    br "/main"
+    co "/main"
