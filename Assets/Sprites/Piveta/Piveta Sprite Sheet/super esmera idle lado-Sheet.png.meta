@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: bc2f0922fdcd0ab4dac03b5bad3284c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4407764715278898825
+    second: super esmera idle lado-Sheet_0
+  - first:
+      213: 7971206884587510413
+    second: super esmera idle lado-Sheet_1
+  - first:
+      213: -7065344079215223566
+    second: super esmera idle lado-Sheet_2
+  - first:
+      213: -6055310689729057003
+    second: super esmera idle lado-Sheet_3
+  - first:
+      213: -2218850404154234685
+    second: super esmera idle lado-Sheet_4
+  - first:
+      213: -9206196326215874682
+    second: super esmera idle lado-Sheet_5
+  - first:
+      213: 462318518039938563
+    second: super esmera idle lado-Sheet_6
+  - first:
+      213: 4786749773653894502
+    second: super esmera idle lado-Sheet_7
+  - first:
+      213: -3152532926124760221
+    second: super esmera idle lado-Sheet_8
+  - first:
+      213: 902139232140128235
+    second: super esmera idle lado-Sheet_9
+  - first:
+      213: 676334062779448745
+    second: super esmera idle lado-Sheet_10
+  - first:
+      213: -5539466599800424583
+    second: super esmera idle lado-Sheet_11
+  - first:
+      213: -6955861465615943046
+    second: super esmera idle lado-Sheet_12
+  - first:
+      213: -7091216418107759962
+    second: super esmera idle lado-Sheet_13
+  - first:
+      213: 4377050858011360262
+    second: super esmera idle lado-Sheet_14
+  - first:
+      213: 4786685695538792297
+    second: super esmera idle lado-Sheet_15
+  - first:
+      213: 6586415059837214183
+    second: super esmera idle lado-Sheet_16
+  - first:
+      213: 887963998968442438
+    second: super esmera idle lado-Sheet_17
+  - first:
+      213: 9168859344852563531
+    second: super esmera idle lado-Sheet_18
+  - first:
+      213: -5661194150647410613
+    second: super esmera idle lado-Sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779ec44485974d2c0800000000000000
+      internalID: -4407764715278898825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a9cf2ad6a6f9e60800000000000000
+      internalID: 7971206884587510413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc97766efad2fd90800000000000000
+      internalID: -7065344079215223566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fe216920737fba0800000000000000
+      internalID: -6055310689729057003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8a7aa305f0531e0800000000000000
+      internalID: -2218850404154234685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6878563c7350d3080800000000000000
+      internalID: -9206196326215874682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3060bd02e3c7a6600800000000000000
+      internalID: 462318518039938563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665625fce83fd6240800000000000000
+      internalID: 4786749773653894502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3636c9ba104ff34d0800000000000000
+      internalID: -3152532926124760221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befe7a51ada058c00800000000000000
+      internalID: 902139232140128235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad37792f32d26900800000000000000
+      internalID: 676334062779448745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97731c11a7cdf13b0800000000000000
+      internalID: -5539466599800424583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 9
+        width: 242
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a322bc9d0d77f90800000000000000
+      internalID: -6955861465615943046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 9
+        width: 232
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2e4451d30f69d90800000000000000
+      internalID: -7091216418107759962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 9
+        width: 232
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cf59390986ebc30800000000000000
+      internalID: 4377050858011360262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3759
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96788067749bd6240800000000000000
+      internalID: 4786685695538792297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed51e0c995a76b50800000000000000
+      internalID: 6586415059837214183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 4259
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e69db6d8ea25c00800000000000000
+      internalID: 887963998968442438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4509
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b463575def45e3f70800000000000000
+      internalID: 9168859344852563531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super esmera idle lado-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4759
+        y: 9
+        width: 232
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40542e0ae56f61b0800000000000000
+      internalID: -5661194150647410613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      super esmera idle lado-Sheet_0: -4407764715278898825
+      super esmera idle lado-Sheet_1: 7971206884587510413
+      super esmera idle lado-Sheet_10: 676334062779448745
+      super esmera idle lado-Sheet_11: -5539466599800424583
+      super esmera idle lado-Sheet_12: -6955861465615943046
+      super esmera idle lado-Sheet_13: -7091216418107759962
+      super esmera idle lado-Sheet_14: 4377050858011360262
+      super esmera idle lado-Sheet_15: 4786685695538792297
+      super esmera idle lado-Sheet_16: 6586415059837214183
+      super esmera idle lado-Sheet_17: 887963998968442438
+      super esmera idle lado-Sheet_18: 9168859344852563531
+      super esmera idle lado-Sheet_19: -5661194150647410613
+      super esmera idle lado-Sheet_2: -7065344079215223566
+      super esmera idle lado-Sheet_3: -6055310689729057003
+      super esmera idle lado-Sheet_4: -2218850404154234685
+      super esmera idle lado-Sheet_5: -9206196326215874682
+      super esmera idle lado-Sheet_6: 462318518039938563
+      super esmera idle lado-Sheet_7: 4786749773653894502
+      super esmera idle lado-Sheet_8: -3152532926124760221
+      super esmera idle lado-Sheet_9: 902139232140128235
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
