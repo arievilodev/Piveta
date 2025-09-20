@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 320
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,15 +109,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: super esmera walk costas-Sheet_0
+      name: sprite-piveta-walk-up-1
       rect:
         serializedVersion: 2
-        x: 99
-        y: 99
-        width: 2402
-        height: 3302
+        x: 0
+        y: 0
+        width: 2600
+        height: 3600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -131,15 +131,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera walk costas-Sheet_1
+      name: sprite-piveta-walk-up-2
       rect:
         serializedVersion: 2
-        x: 2699
-        y: 99
-        width: 2402
-        height: 3302
+        x: 2600
+        y: 0
+        width: 2600
+        height: 3600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,15 +153,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera walk costas-Sheet_2
+      name: sprite-piveta-walk-up-3
       rect:
         serializedVersion: 2
-        x: 5299
-        y: 99
-        width: 2402
-        height: 3302
+        x: 5200
+        y: 0
+        width: 2600
+        height: 3600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,15 +175,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera walk costas-Sheet_3
+      name: sprite-piveta-walk-up-4
       rect:
         serializedVersion: 2
-        x: 7899
-        y: 99
-        width: 2402
-        height: 3302
+        x: 7800
+        y: 0
+        width: 2600
+        height: 3600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6f2a6db48c9f2474da3d1dfff22669c1
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      super esmera walk costas-Sheet_0: -7149975815111449315
-      super esmera walk costas-Sheet_1: -3723677114959659600
-      super esmera walk costas-Sheet_2: -2074312704188932661
-      super esmera walk costas-Sheet_3: 2385130078570349755
+      sprite-piveta-walk-up-1: -7149975815111449315
+      sprite-piveta-walk-up-2: -3723677114959659600
+      sprite-piveta-walk-up-3: -2074312704188932661
+      sprite-piveta-walk-up-4: 2385130078570349755
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
