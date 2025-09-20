@@ -94,7 +94,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,7 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 320
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,7 +132,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -157,15 +157,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_0
+      name: sprite-piveta-idle-back-1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 9
-        width: 242
-        height: 332
+        x: 0
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -179,15 +179,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_1
+      name: sprite-piveta-idle-back-2
       rect:
         serializedVersion: 2
-        x: 279
-        y: 9
-        width: 242
-        height: 332
+        x: 270
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -201,15 +201,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_2
+      name: sprite-piveta-idle-back-3
       rect:
         serializedVersion: 2
-        x: 549
-        y: 9
-        width: 242
-        height: 332
+        x: 540
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -223,15 +223,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_3
+      name: sprite-piveta-idle-back-4
       rect:
         serializedVersion: 2
-        x: 819
-        y: 9
-        width: 242
-        height: 332
+        x: 810
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -245,15 +245,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_4
+      name: sprite-piveta-idle-back-5
       rect:
         serializedVersion: 2
-        x: 1089
-        y: 9
-        width: 242
-        height: 332
+        x: 1080
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -267,15 +267,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_5
+      name: sprite-piveta-idle-back-6
       rect:
         serializedVersion: 2
-        x: 1359
-        y: 9
-        width: 242
-        height: 332
+        x: 1350
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -289,15 +289,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_6
+      name: sprite-piveta-idle-back-7
       rect:
         serializedVersion: 2
-        x: 1629
-        y: 9
-        width: 242
-        height: 332
+        x: 1620
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -311,15 +311,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_7
+      name: sprite-piveta-idle-back-8
       rect:
         serializedVersion: 2
-        x: 1899
-        y: 9
-        width: 242
-        height: 332
+        x: 1890
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -333,15 +333,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_8
+      name: sprite-piveta-idle-back-9
       rect:
         serializedVersion: 2
-        x: 2169
-        y: 9
-        width: 242
-        height: 332
+        x: 2160
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -355,15 +355,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_9
+      name: sprite-piveta-idle-back-10
       rect:
         serializedVersion: 2
-        x: 2439
-        y: 9
-        width: 242
-        height: 332
+        x: 2430
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -377,15 +377,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_10
+      name: sprite-piveta-idle-back-11
       rect:
         serializedVersion: 2
-        x: 2709
-        y: 9
-        width: 242
-        height: 332
+        x: 2700
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -399,15 +399,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_11
+      name: sprite-piveta-idle-back-12
       rect:
         serializedVersion: 2
-        x: 2979
-        y: 9
-        width: 242
-        height: 302
+        x: 2970
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -421,15 +421,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_12
+      name: sprite-piveta-idle-back-13
       rect:
         serializedVersion: 2
-        x: 3239
-        y: 9
-        width: 262
-        height: 292
+        x: 3240
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -443,15 +443,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_13
+      name: sprite-piveta-idle-back-14
       rect:
         serializedVersion: 2
-        x: 3509
-        y: 9
-        width: 262
-        height: 282
+        x: 3510
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -465,15 +465,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_14
+      name: sprite-piveta-idle-back-15
       rect:
         serializedVersion: 2
-        x: 3789
-        y: 9
-        width: 242
-        height: 292
+        x: 3780
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -487,15 +487,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_15
+      name: sprite-piveta-idle-back-16
       rect:
         serializedVersion: 2
-        x: 4059
-        y: 9
-        width: 242
-        height: 332
+        x: 4050
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -509,15 +509,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_16
+      name: sprite-piveta-idle-back-17
       rect:
         serializedVersion: 2
-        x: 4329
-        y: 9
-        width: 242
-        height: 332
+        x: 4320
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -531,15 +531,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_17
+      name: sprite-piveta-idle-back-18
       rect:
         serializedVersion: 2
-        x: 4599
-        y: 9
-        width: 242
-        height: 332
+        x: 4590
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -553,15 +553,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_18
+      name: sprite-piveta-idle-back-19
       rect:
         serializedVersion: 2
-        x: 4869
-        y: 9
-        width: 242
-        height: 332
+        x: 4860
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -575,15 +575,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: superesmera idle atras-Sheet_19
+      name: sprite-piveta-idle-back-20
       rect:
         serializedVersion: 2
-        x: 5139
-        y: 9
-        width: 242
-        height: 332
+        x: 5130
+        y: 0
+        width: 270
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -600,7 +600,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 860f68757a8db5c44afaad148781bf22
     internalID: 0
     vertices: []
     indices: 
@@ -610,26 +610,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      superesmera idle atras-Sheet_0: -3759969621707277314
-      superesmera idle atras-Sheet_1: 1873872927508815120
-      superesmera idle atras-Sheet_10: -4325116722285465741
-      superesmera idle atras-Sheet_11: 8677463859265063390
-      superesmera idle atras-Sheet_12: -5476860646974071115
-      superesmera idle atras-Sheet_13: -5628841726448755205
-      superesmera idle atras-Sheet_14: -5717359319152547925
-      superesmera idle atras-Sheet_15: 6210135431813342222
-      superesmera idle atras-Sheet_16: 4921589149420481327
-      superesmera idle atras-Sheet_17: 4981521266220964303
-      superesmera idle atras-Sheet_18: -91225184608887205
-      superesmera idle atras-Sheet_19: -2863179909826714997
-      superesmera idle atras-Sheet_2: -5053154007337529298
-      superesmera idle atras-Sheet_3: -1431826552767890375
-      superesmera idle atras-Sheet_4: -4592275880656313784
-      superesmera idle atras-Sheet_5: 9176308037300108847
-      superesmera idle atras-Sheet_6: 7636453646555709319
-      superesmera idle atras-Sheet_7: 7936019141100512181
-      superesmera idle atras-Sheet_8: -6689656136591598792
-      superesmera idle atras-Sheet_9: -6491530989463333167
+      sprite-piveta-idle-back-1: -3759969621707277314
+      sprite-piveta-idle-back-10: -6491530989463333167
+      sprite-piveta-idle-back-11: -4325116722285465741
+      sprite-piveta-idle-back-12: 8677463859265063390
+      sprite-piveta-idle-back-13: -5476860646974071115
+      sprite-piveta-idle-back-14: -5628841726448755205
+      sprite-piveta-idle-back-15: -5717359319152547925
+      sprite-piveta-idle-back-16: 6210135431813342222
+      sprite-piveta-idle-back-17: 4921589149420481327
+      sprite-piveta-idle-back-18: 4981521266220964303
+      sprite-piveta-idle-back-19: -91225184608887205
+      sprite-piveta-idle-back-2: 1873872927508815120
+      sprite-piveta-idle-back-20: -2863179909826714997
+      sprite-piveta-idle-back-3: -5053154007337529298
+      sprite-piveta-idle-back-4: -1431826552767890375
+      sprite-piveta-idle-back-5: -4592275880656313784
+      sprite-piveta-idle-back-6: 9176308037300108847
+      sprite-piveta-idle-back-7: 7636453646555709319
+      sprite-piveta-idle-back-8: 7936019141100512181
+      sprite-piveta-idle-back-9: -6689656136591598792
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
