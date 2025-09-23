@@ -5,19 +5,24 @@ using UnityEngine.AI;
 
 public class EnemyShortDistance : MonoBehaviour
 {
-    private Transform posPlayer; // Variável para armazenar a posição do jogador
+    private Player player; // Variável para armazenar a posição do jogador
     public float speedEnemy;
     [SerializeField] private Rigidbody2D rbEnemy;
     private bool playerDetected = false;
+    private bool playerAttackable = false;
     private Vector2 initialPositionEnemy;
     public Animator anim;
 
     // Sistema de vida do inimigo
     [SerializeField] private int maxLife = 30;
     [SerializeField] private int currentLife;
+    [SerializeField] private float detectRange, attackRange; //range para detectar e atacar o player
     [SerializeField] private bool isDead = false;
     [SerializeField] private Transform target;
+    [SerializeField] private List<Transform> Waypoints = new List<Transform>();
+    [SerializeField] private int patrolTurnDistance; //a distância do waypoint para troca
     NavMeshAgent agent;
+    int currentWaypoint;
 
 
 
@@ -29,7 +34,7 @@ public class EnemyShortDistance : MonoBehaviour
 
         agent.speed = speedEnemy; // Define a velocidade do inimigo
 
-        posPlayer = GameObject.FindGameObjectWithTag("Player").transform; // Encontra o jogador na cena e armazena sua posição
+        // Encontra o jogador na cena e armazena sua posição
 
         rbEnemy = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -40,26 +45,62 @@ public class EnemyShortDistance : MonoBehaviour
 
     void Update()
     {
-        if (playerDetected)
-        {
-            FollowPlayer();
-        }
 
+        playerDetected = Physics.CheckSphere(transform.position, detectRange, 6);     
+        playerAttackable = Physics.CheckSphere(transform.position, detectRange, 6);
         // teste de dano do inimigo
         if (Input.GetKeyDown(KeyCode.L))
         {
             TakeDamageEnemy(10);
         }
+        if (!playerDetected && !playerAttackable) Patrol();
+        if (playerDetected && !playerAttackable) FollowPlayer();
+        if (playerDetected && playerAttackable) attackPlayer();
+        
     }
 
+    private void Patrol()
+    {
+        agent.SetDestination(Waypoints[currentWaypoint].position);
+        if (Vector3.Distance(transform.position, Waypoints[currentWaypoint].position) >= patrolTurnDistance) changeWaypoint();        
+    }
+    private void changeWaypoint()
+    {
+        currentWaypoint++;
+        if (currentWaypoint < Waypoints.Count)
+        {
+            currentWaypoint = 0;
+        }
+    }
     private void FollowPlayer()
     {
-        if (posPlayer.gameObject != null)
+        if (player.gameObject != null)
         {
-            agent.SetDestination(posPlayer.position); // Move o inimigo em direção ao jogador
+            agent.SetDestination(player.transform.position); // Move o inimigo em direção ao jogador
         }
 
     }
+    private void attackPlayer()
+    {
+        // Verifica se o objeto colidido é o jogador a partir da tag "Player"
+        // Obt�m o componente Player, guarda os resultados no objeto player
+            
+            /* Se o componente PlayerMov não for nulo, ou seja, se tiver sido encontrado, então o método TakeDamage é chamado,
+             tirando 10 pontos de vida do jogador */
+        if (player != null)
+        {
+            var knockbackDirection = (player.transform.position - transform.position).normalized;
+            player.TakeDamage(10, knockbackDirection);
+            if (player.isDead)
+            {
+                playerDetected = false;
+                StartCoroutine(ReturnToStart());
+            }
+
+        }
+
+    }
+    
 
     public void TakeDamageEnemy(int amount)
     {
@@ -90,37 +131,14 @@ public class EnemyShortDistance : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!playerDetected && other.CompareTag("Player"))
-        {
-            playerDetected = true;
-        }
+        
     }
 
 
     // Inicializando a colisão do inimigo
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Verifica se o objeto colidido é o jogador a partir da tag "Player"
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            // Obt�m o componente Player, guarda os resultados no objeto player
-            Player player = collision.gameObject.GetComponent<Player>();
-            /* Se o componente PlayerMov não for nulo, ou seja, se tiver sido encontrado, então o método TakeDamage é chamado,
-             tirando 10 pontos de vida do jogador */
-            if (player != null)
-            {
-                var knockbackDirection = (player.transform.position - transform.position).normalized;
-                player.TakeDamage(10, knockbackDirection);
-                if (player.isDead)
-                {
-                    playerDetected = false;
-                    StartCoroutine(ReturnToStart());
-                }
-
-            }
-
-        }
-
+    
     }
 
     private IEnumerator ReturnToStart()
