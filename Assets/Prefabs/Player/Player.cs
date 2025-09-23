@@ -22,9 +22,6 @@ public class Player : MonoBehaviour
 
     // Knockback do jogador ao receber dano
     public KnockbackComponent knockbackComponent;
-    public float kBForce;
-    public float kBCount;
-    public float kBTime;
 
     //ATAQUE DO JOGADOR
     [SerializeField] private float attackRange = 1f; // alcance do ataque
