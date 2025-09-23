@@ -188,17 +188,17 @@ BlendTree:
   m_Name: walk-piveta
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 139b53201cbfca34db9c7dc217b6a847, type: 2}
+    m_Motion: {fileID: 7400000, guid: 545402955de6ecd458138fd016e9904b, type: 2}
     m_Threshold: 0
-    m_Position: {x: 0, y: 1}
+    m_Position: {x: 0, y: -1}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Horizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 545402955de6ecd458138fd016e9904b, type: 2}
+    m_Motion: {fileID: 7400000, guid: 139b53201cbfca34db9c7dc217b6a847, type: 2}
     m_Threshold: 0.33333334
-    m_Position: {x: 0, y: -1}
+    m_Position: {x: 0, y: 1}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Horizontal
