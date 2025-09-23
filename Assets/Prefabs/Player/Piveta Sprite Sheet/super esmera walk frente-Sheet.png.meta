@@ -109,89 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite-piveta-walk-down-1
+      name: super-piveta-walk-down-1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3000
-        height: 4000
+        width: 300
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 05357b6f0362c1be0800000000000000
-      internalID: -1505286183709093040
+      spriteID: ae620bb6c63e2a2429cff1b95e908b44
+      internalID: 1860202673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-piveta-walk-down-2
+      name: super-piveta-walk-down-2
       rect:
         serializedVersion: 2
-        x: 3000
+        x: 300
         y: 0
-        width: 3000
-        height: 4000
+        width: 300
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: debf4bf78468740c0800000000000000
-      internalID: -4591553649142596627
+      spriteID: 0d7324f9525c31b499a9f23f465c7e08
+      internalID: 153359724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-piveta-walk-down-3
+      name: super-piveta-walk-down-3
       rect:
         serializedVersion: 2
-        x: 6000
+        x: 600
         y: 0
-        width: 3000
-        height: 4000
+        width: 300
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 03ef8ca4c610b0aa0800000000000000
-      internalID: -6193855297895203280
+      spriteID: 55935d5b37ed34646998ed8d2d5f6dd8
+      internalID: -1715105938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-piveta-walk-down-4
+      name: super-piveta-walk-down-4
       rect:
         serializedVersion: 2
-        x: 9000
+        x: 900
         y: 0
-        width: 3000
-        height: 4000
+        width: 300
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0b2cee700cd1967f0800000000000000
-      internalID: -618930763182718288
+      spriteID: 2efa4dea61a3190449d9dd8d4aa5e6ce
+      internalID: -1531872148
       vertices: []
       indices: 
       edges: []
@@ -210,10 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sprite-piveta-walk-down-1: -1505286183709093040
-      sprite-piveta-walk-down-2: -4591553649142596627
-      sprite-piveta-walk-down-3: -6193855297895203280
-      sprite-piveta-walk-down-4: -618930763182718288
+      super-piveta-walk-down-1: 1860202673
+      super-piveta-walk-down-2: 153359724
+      super-piveta-walk-down-3: -1715105938
+      super-piveta-walk-down-4: -1531872148
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
