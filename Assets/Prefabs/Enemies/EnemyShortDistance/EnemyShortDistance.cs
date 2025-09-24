@@ -5,11 +5,12 @@ using UnityEngine.AI;
 
 public class EnemyShortDistance : MonoBehaviour
 {
-    private Player player; // Variável para armazenar a posição do jogador
+    [SerializeField] private Player player; // Variável para armazenar a posição do jogador
     public float speedEnemy;
     [SerializeField] private Rigidbody2D rbEnemy;
     [SerializeField] private bool playerDetected = false;
     [SerializeField] private bool playerAttackable = false;
+    [SerializeField] private int damage;
     private Vector2 initialPositionEnemy;
     public Animator anim;
 
@@ -20,9 +21,9 @@ public class EnemyShortDistance : MonoBehaviour
     [SerializeField] private bool isDead = false;
     [SerializeField] private Transform target;
     [SerializeField] private List<Transform> Waypoints = new List<Transform>();
-    [SerializeField] private int patrolTurnDistance; //a distância do waypoint para troca
+    [SerializeField] private float patrolTurnDistance; //a distância do waypoint para troca
     NavMeshAgent agent;
-    int currentWaypoint;
+    [SerializeField] int currentWaypoint;
 
 
 
@@ -46,8 +47,8 @@ public class EnemyShortDistance : MonoBehaviour
     void Update()
     {
 
-        playerDetected = Physics.CheckSphere(transform.position, detectRange, 6);     
-        playerAttackable = Physics.CheckSphere(transform.position, detectRange, 6);
+        playerDetected = Physics2D.OverlapCircle(transform.position, detectRange, LayerMask.GetMask("Piveta"));     
+        playerAttackable = Physics2D.OverlapCircle(transform.position, attackRange, LayerMask.GetMask("Piveta"));
         // teste de dano do inimigo
         if (Input.GetKeyDown(KeyCode.L))
         {
@@ -55,19 +56,19 @@ public class EnemyShortDistance : MonoBehaviour
         }
         if (!playerDetected && !playerAttackable) Patrol();
         if (playerDetected && !playerAttackable) FollowPlayer();
-        if (playerDetected && playerAttackable) attackPlayer();
+        if (playerDetected && playerAttackable) AttackPlayer();
         
     }
 
     private void Patrol()
     {
         agent.SetDestination(Waypoints[currentWaypoint].position);
-        if (Vector3.Distance(transform.position, Waypoints[currentWaypoint].position) >= patrolTurnDistance) changeWaypoint();        
+        if (Vector3.Distance(transform.position, Waypoints[currentWaypoint].position) <= patrolTurnDistance) changeWaypoint();        
     }
     private void changeWaypoint()
     {
         currentWaypoint++;
-        if (currentWaypoint < Waypoints.Count)
+        if (currentWaypoint >= Waypoints.Count)
         {
             currentWaypoint = 0;
         }
@@ -80,23 +81,18 @@ public class EnemyShortDistance : MonoBehaviour
         }
 
     }
-    private void attackPlayer()
+    private void AttackPlayer()
     {
-        // Verifica se o objeto colidido é o jogador a partir da tag "Player"
-        // Obt�m o componente Player, guarda os resultados no objeto player
-            
-            /* Se o componente PlayerMov não for nulo, ou seja, se tiver sido encontrado, então o método TakeDamage é chamado,
-             tirando 10 pontos de vida do jogador */
         if (player != null)
         {
             var knockbackDirection = (player.transform.position - transform.position).normalized;
-            player.TakeDamage(10, knockbackDirection);
+            player.TakeDamage(damage, knockbackDirection);
             if (player.isDead)
             {
                 playerDetected = false;
                 StartCoroutine(ReturnToStart());
             }
-
+            
         }
 
     }
