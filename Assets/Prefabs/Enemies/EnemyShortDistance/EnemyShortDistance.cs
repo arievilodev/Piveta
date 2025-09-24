@@ -8,8 +8,8 @@ public class EnemyShortDistance : MonoBehaviour
     private Player player; // Variável para armazenar a posição do jogador
     public float speedEnemy;
     [SerializeField] private Rigidbody2D rbEnemy;
-    private bool playerDetected = false;
-    private bool playerAttackable = false;
+    [SerializeField] private bool playerDetected = false;
+    [SerializeField] private bool playerAttackable = false;
     private Vector2 initialPositionEnemy;
     public Animator anim;
 
@@ -26,7 +26,7 @@ public class EnemyShortDistance : MonoBehaviour
 
 
 
-    void Start()
+    void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false; // Desativa a rotação automática do NavMeshAgent
@@ -39,7 +39,7 @@ public class EnemyShortDistance : MonoBehaviour
         rbEnemy = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        initialPositionEnemy = rbEnemy.position;
+        //initialPositionEnemy = rbEnemy.position;
         currentLife = maxLife; // Inicializa a vida do inimigo com o valor máximo
     }
 
