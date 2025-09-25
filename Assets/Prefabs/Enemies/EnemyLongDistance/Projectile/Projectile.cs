@@ -1,11 +1,13 @@
-using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Projectile : MonoBehaviour
 {
     [SerializeField] float speed;
-    [SerializeField] int damage;  
+    [SerializeField] int damage;
+    private Vector2 moveDirection;
     
     
     void Start()
@@ -16,7 +18,7 @@ public class Projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(-Vector2.up * speed * Time.deltaTime);       
+        transform.Translate(moveDirection * speed * Time.deltaTime);       
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -26,6 +28,12 @@ public class Projectile : MonoBehaviour
             other.gameObject.GetComponent<Player>().TakeDamage(damage, knockbackDirection);
             Destroy(gameObject);
         }
+    }
+    public void SetDirection(Vector2 direction)
+    {
+        moveDirection = direction.normalized;
+       
+
     }
     IEnumerator Destroy()
     {

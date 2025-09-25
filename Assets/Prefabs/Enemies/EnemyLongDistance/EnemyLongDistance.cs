@@ -82,8 +82,22 @@ public class EnemyLongDistance : MonoBehaviour
         if (player.gameObject != null)
         {
             agent.SetDestination(player.transform.position); // Move o inimigo em direção ao jogador
+            FacePlayer();
         }
 
+    }
+    private void FacePlayer()
+    {
+        if (player == null) return;
+
+        if (player.transform.position.x > transform.position.x)
+        {
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
+        else
+        {
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
     }
     private void AttackPlayer()
     {
@@ -94,7 +108,11 @@ public class EnemyLongDistance : MonoBehaviour
          tirando 10 pontos de vida do jogador */
         if (!onAttackCooldown)
         {
-            Instantiate(projectile, projectileSpawnPoint.position, Quaternion.identity);
+            Vector2 direction = (player.transform.position - projectileSpawnPoint.position).normalized;
+
+            // Spawn projectile
+            GameObject proj = Instantiate(projectile, projectileSpawnPoint.position, Quaternion.identity);
+            proj.GetComponent<Projectile>().SetDirection(direction);
             onAttackCooldown = true;
             StartCoroutine(attackCooldown());
         }

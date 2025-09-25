@@ -78,8 +78,17 @@ public class EnemyShortDistance : MonoBehaviour
         if (player.gameObject != null)
         {
             agent.SetDestination(player.transform.position); // Move o inimigo em direção ao jogador
+            RotateTowardsPlayer();
         }
 
+    }
+    private void RotateTowardsPlayer()
+    {
+        if (player == null) return;
+
+        Vector2 direction = (player.transform.position - transform.position).normalized;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle + 90f); // subtract 90 if your sprite faces "up" by default
     }
     private void AttackPlayer()
     {
