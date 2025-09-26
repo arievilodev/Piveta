@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1898849696194270172}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.65, z: 0}
+  m_LocalPosition: {x: 1.1, y: -0.122, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43,6 +43,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyLongDistance
       objectReference: {fileID: 0}
+    - target: {fileID: 5226654414520643612, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
+      propertyPath: m_Mass
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5226654414520643612, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5226654414520643612, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5440936959350681393, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 0.625
@@ -53,11 +65,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5440936959350681393, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.625
+      value: 1.98
       objectReference: {fileID: 0}
     - target: {fileID: 5440936959350681393, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1
+      value: 1.77
       objectReference: {fileID: 0}
     - target: {fileID: 8129452634980360073, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       propertyPath: m_LocalPosition.x
@@ -167,7 +179,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 74653892926062773, guid: d86c1a5aee04f1d4f818bee41c50b286, type: 3}
+  m_Sprite: {fileID: -8532698903809523874, guid: 54be521bf6251f245a6ee64d3e3ef570, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -209,5 +221,7 @@ MonoBehaviour:
   patrolTurnDistance: 1
   projectileSpawnPoint: {fileID: 9084623338048906891}
   projectile: {fileID: 1474898694749684568, guid: fb286a7ac77eb374e9dc4bfffb8f0c25, type: 3}
+  onAttackCooldown: 0
+  cooldown: 1
   currentWaypoint: 0
   invulnerableTime: 0.2
