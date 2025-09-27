@@ -27,13 +27,13 @@ public class Player : MonoBehaviour
     [SerializeField] private float attackRange = 1f; // alcance do ataque
     [SerializeField] private int attackDamage = 1;  // dano do ataque
     [SerializeField] private LayerMask enemyLayer;   // layer dos inimigos
+    [SerializeField] private PowerSO currentPower;
 
 
     void Start()
     {
         knockbackComponent = GetComponent<KnockbackComponent>();
         currentLife = maxLife;
-
     }
 
     void Update()
@@ -170,5 +170,9 @@ public class Player : MonoBehaviour
             }
 
         }
+    }
+    public void setCurrentPower(PowerSO power)
+    {
+        currentPower = power;        
     }
 };
