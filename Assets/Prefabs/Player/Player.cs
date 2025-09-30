@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using System;
+using System.Runtime.CompilerServices;
 
 public class Player : MonoBehaviour
 {
@@ -25,9 +26,14 @@ public class Player : MonoBehaviour
     public KnockbackComponent knockbackComponent;
 
     //ATAQUE DO JOGADOR
-    public bool IsPlayingPunchRightAnimation;
+ /*   public bool IsPlayingPunchRightAnimation;
     public bool IsPlayingPunchLeftAnimation;
     public bool IsPlayingPunchKickAnimation;
+
+    [SerializeField] private int punchRightDamage = 5;
+    [SerializeField] private int punchLeftDamage = 7;
+    [SerializeField] private int kickDamage = 12;
+    private int attackIndex = 0; // 0: soco direito, 1: soco esquerdo, 2: chute*/
 
 
     void Start()
@@ -39,7 +45,9 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        MoveLogic();
+            MoveLogic();
+            //Attack();
+    
 
         // Teste da barra de vida para perder vida
         if (Input.GetKeyDown(KeyCode.J))
@@ -105,11 +113,6 @@ public class Player : MonoBehaviour
 
     }
 
-    public void PlayPunchRightAnimation(Vector3 dir, Action<Vector3> onMit, Action onAnimComplete) { }
-
-    public void PlayPunchLeftAnimation(Vector3 dir, Action<Vector3> onMit, Action onAnimComplete) { }
-
-    public void PlayKicktAnimation(Vector3 dir, Action<Vector3> onMit, Action onAnimComplete) { }
 
 
     /*private void OnDrawGizmosSelected()
