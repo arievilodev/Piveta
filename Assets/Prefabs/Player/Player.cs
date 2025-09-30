@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using System;
 
 public class Player : MonoBehaviour
 {
@@ -24,9 +25,9 @@ public class Player : MonoBehaviour
     public KnockbackComponent knockbackComponent;
 
     //ATAQUE DO JOGADOR
-    [SerializeField] private float attackRange = 1f; // alcance do ataque
-    [SerializeField] private int attackDamage = 1;  // dano do ataque
-    [SerializeField] private LayerMask enemyLayer;   // layer dos inimigos
+    public bool IsPlayingPunchRightAnimation;
+    public bool IsPlayingPunchLeftAnimation;
+    public bool IsPlayingPunchKickAnimation;
 
 
     void Start()
@@ -51,8 +52,6 @@ public class Player : MonoBehaviour
         {
             Heal(10);
         };
-
-        Atacar();
 
     }
 
@@ -106,27 +105,18 @@ public class Player : MonoBehaviour
 
     }
 
-    private void Atacar()
-    {
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            anim.SetTrigger("Attack");
-            // Detecta inimigos no alcance
-            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
+    public void PlayPunchRightAnimation(Vector3 dir, Action<Vector3> onMit, Action onAnimComplete) { }
 
-            foreach (Collider2D enemy in hitEnemies)
-            {
-                enemy.GetComponent<EnemyShortDistance>()?.TakeDamageEnemy(attackDamage);
-            }
-        }
-        ;
-    }
+    public void PlayPunchLeftAnimation(Vector3 dir, Action<Vector3> onMit, Action onAnimComplete) { }
 
-    private void OnDrawGizmosSelected()
+    public void PlayKicktAnimation(Vector3 dir, Action<Vector3> onMit, Action onAnimComplete) { }
+
+
+    /*private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
-    }
+    }*/
 
 
     IEnumerator DecreasingRedLifeBar(Vector3 Scale)
