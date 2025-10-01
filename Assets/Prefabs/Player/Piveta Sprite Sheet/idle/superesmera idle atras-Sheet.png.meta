@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 2470d8e440e590842b6bd9c0ee08e4ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3759969621707277314
+    second: superesmera idle atras-Sheet_0
+  - first:
+      213: 1873872927508815120
+    second: superesmera idle atras-Sheet_1
+  - first:
+      213: -5053154007337529298
+    second: superesmera idle atras-Sheet_2
+  - first:
+      213: -1431826552767890375
+    second: superesmera idle atras-Sheet_3
+  - first:
+      213: -4592275880656313784
+    second: superesmera idle atras-Sheet_4
+  - first:
+      213: 9176308037300108847
+    second: superesmera idle atras-Sheet_5
+  - first:
+      213: 7636453646555709319
+    second: superesmera idle atras-Sheet_6
+  - first:
+      213: 7936019141100512181
+    second: superesmera idle atras-Sheet_7
+  - first:
+      213: -6689656136591598792
+    second: superesmera idle atras-Sheet_8
+  - first:
+      213: -6491530989463333167
+    second: superesmera idle atras-Sheet_9
+  - first:
+      213: -4325116722285465741
+    second: superesmera idle atras-Sheet_10
+  - first:
+      213: 8677463859265063390
+    second: superesmera idle atras-Sheet_11
+  - first:
+      213: -5476860646974071115
+    second: superesmera idle atras-Sheet_12
+  - first:
+      213: -5628841726448755205
+    second: superesmera idle atras-Sheet_13
+  - first:
+      213: -5717359319152547925
+    second: superesmera idle atras-Sheet_14
+  - first:
+      213: 6210135431813342222
+    second: superesmera idle atras-Sheet_15
+  - first:
+      213: 4921589149420481327
+    second: superesmera idle atras-Sheet_16
+  - first:
+      213: 4981521266220964303
+    second: superesmera idle atras-Sheet_17
+  - first:
+      213: -91225184608887205
+    second: superesmera idle atras-Sheet_18
+  - first:
+      213: -2863179909826714997
+    second: superesmera idle atras-Sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbb0ebdc87e1dbc0800000000000000
+      internalID: -3759969621707277314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d5266df75510a10800000000000000
+      internalID: 1873872927508815120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e201e4df3379fd9b0800000000000000
+      internalID: -5053154007337529298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c3c4e1651212ce0800000000000000
+      internalID: -1431826552767890375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842e2eeda65f440c0800000000000000
+      internalID: -4592275880656313784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2eb5d0ba8bc85f70800000000000000
+      internalID: 9176308037300108847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f70b2c1222af960800000000000000
+      internalID: 7636453646555709319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b32ffbac57622e60800000000000000
+      internalID: 7936019141100512181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b12f4ef219923a0800000000000000
+      internalID: -6689656136591598792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6199c65f279e5a0800000000000000
+      internalID: -6491530989463333167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fa21ca1491af3c0800000000000000
+      internalID: -4325116722285465741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 9
+        width: 242
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9c8c2a76b8c6870800000000000000
+      internalID: 8677463859265063390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 9
+        width: 262
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be5bcc52484ef3b0800000000000000
+      internalID: -5476860646974071115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 9
+        width: 262
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd102ec54652e1b0800000000000000
+      internalID: -5628841726448755205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 9
+        width: 242
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7a4a8bdfbd7a0b0800000000000000
+      internalID: -5717359319152547925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4059
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e042d44c545de2650800000000000000
+      internalID: 6210135431813342222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 4329
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bef95714ffc4440800000000000000
+      internalID: 4921589149420481327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 4599
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9972ac23be12540800000000000000
+      internalID: 4981521266220964303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4869
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e51dc8d27ebbef0800000000000000
+      internalID: -91225184608887205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superesmera idle atras-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 5139
+        y: 9
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b826eb2ba01f348d0800000000000000
+      internalID: -2863179909826714997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      superesmera idle atras-Sheet_0: -3759969621707277314
+      superesmera idle atras-Sheet_1: 1873872927508815120
+      superesmera idle atras-Sheet_10: -4325116722285465741
+      superesmera idle atras-Sheet_11: 8677463859265063390
+      superesmera idle atras-Sheet_12: -5476860646974071115
+      superesmera idle atras-Sheet_13: -5628841726448755205
+      superesmera idle atras-Sheet_14: -5717359319152547925
+      superesmera idle atras-Sheet_15: 6210135431813342222
+      superesmera idle atras-Sheet_16: 4921589149420481327
+      superesmera idle atras-Sheet_17: 4981521266220964303
+      superesmera idle atras-Sheet_18: -91225184608887205
+      superesmera idle atras-Sheet_19: -2863179909826714997
+      superesmera idle atras-Sheet_2: -5053154007337529298
+      superesmera idle atras-Sheet_3: -1431826552767890375
+      superesmera idle atras-Sheet_4: -4592275880656313784
+      superesmera idle atras-Sheet_5: 9176308037300108847
+      superesmera idle atras-Sheet_6: 7636453646555709319
+      superesmera idle atras-Sheet_7: 7936019141100512181
+      superesmera idle atras-Sheet_8: -6689656136591598792
+      superesmera idle atras-Sheet_9: -6491530989463333167
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

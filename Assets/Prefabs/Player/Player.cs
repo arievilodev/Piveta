@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using System;
+using System.Runtime.CompilerServices;
 
 public class Player : MonoBehaviour
 {
@@ -24,21 +26,40 @@ public class Player : MonoBehaviour
     public KnockbackComponent knockbackComponent;
 
     //ATAQUE DO JOGADOR
-    [SerializeField] private float attackRange = 1f; // alcance do ataque
-    [SerializeField] private int attackDamage = 1;  // dano do ataque
-    [SerializeField] private LayerMask enemyLayer;   // layer dos inimigos
-    [SerializeField] private PowerSO currentPower;
+    public bool IsPlayingPunchRightAnimation;
+    public bool IsPlayingPunchLeftAnimation;
+    public bool IsPlayingPunchKickAnimation;
+
+    [SerializeField] private int punchRightDamage = 5;
+    [SerializeField] private int punchLeftDamage = 7;
+    [SerializeField] private int kickDamage = 12;
+    private int attackIndex = 0; // 0: soco direito, 1: soco esquerdo, 2: chute
+
+    [SerializeField] private float attackRange = 5f;
+    [SerializeField] private LayerMask enemyLayer;
+    private bool attackQueued = false;
 
 
     void Start()
     {
         knockbackComponent = GetComponent<KnockbackComponent>();
         currentLife = maxLife;
+
     }
 
     void Update()
     {
         MoveLogic();
+        if (Input.GetKeyDown(KeyCode.P) &&
+        !IsPlayingPunchRightAnimation &&
+        !IsPlayingPunchLeftAnimation &&
+        !IsPlayingPunchKickAnimation)
+        {
+            attackQueued = true;
+            Debug.Log("Ataque acionado");
+        }
+        Attack();
+    
 
         // Teste da barra de vida para perder vida
         if (Input.GetKeyDown(KeyCode.J))
@@ -51,8 +72,6 @@ public class Player : MonoBehaviour
         {
             Heal(10);
         };
-
-        Atacar();
 
     }
 
@@ -106,22 +125,93 @@ public class Player : MonoBehaviour
 
     }
 
-    private void Atacar()
-    {
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            anim.SetTrigger("Attack");
-            // Detecta inimigos no alcance
-            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
 
-            foreach (Collider2D enemy in hitEnemies)
+    private void Attack()
+    {
+        if (attackQueued)
+        {
+            Vector3 attackDir = new Vector3(mov.x, mov.y, 0).normalized;
+            if (attackDir == Vector3.zero)
+                attackDir = Vector3.right;
+
+            switch (attackIndex)
             {
-                enemy.GetComponent<EnemyShortDistance>()?.TakeDamageEnemy(attackDamage);
+                case 0:
+                    StartCoroutine(PlayPunchRightAnimation(attackDir, punchRightDamage));
+                    break;
+                case 1:
+                    StartCoroutine(PlayPunchLeftAnimation(attackDir, punchLeftDamage));
+                    break;
+                case 2:
+                    StartCoroutine(PlayKickAnimation(attackDir, kickDamage));
+                    break;
             }
+            attackIndex = (attackIndex + 1) % 3;
+            attackQueued = false;
         }
-        ;
     }
 
+    // Corrotinas para controlar animação e flag
+    private IEnumerator PlayPunchRightAnimation(Vector3 dir, int damage)
+    {
+        IsPlayingPunchRightAnimation = true;
+        anim.Play("attack-piveta-punchRight");
+        yield return new WaitForSeconds(0.1f); // Momento do impacto
+        ApplyDamageToEnemies(damage);
+        float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(animLength - 0.1f);
+        IsPlayingPunchRightAnimation = false;
+        VoltarParaIdleOuWalk();
+    }
+
+    private IEnumerator PlayPunchLeftAnimation(Vector3 dir, int damage)
+    {
+        IsPlayingPunchLeftAnimation = true;
+        anim.Play("attack-piveta-punchLeft");
+        yield return new WaitForSeconds(0.1f);
+        ApplyDamageToEnemies(damage);
+        float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(animLength - 0.1f);
+        IsPlayingPunchLeftAnimation = false;
+        VoltarParaIdleOuWalk();
+    }
+
+    private IEnumerator PlayKickAnimation(Vector3 dir, int damage)
+    {
+        IsPlayingPunchKickAnimation = true;
+        anim.Play("attack-piveta-kick");
+        yield return new WaitForSeconds(0.1f);
+        ApplyDamageToEnemies(damage);
+        float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(animLength - 0.1f);
+        IsPlayingPunchKickAnimation = false;
+        VoltarParaIdleOuWalk();
+    }
+
+    // Função para retornar ao idle ou walk
+    private void VoltarParaIdleOuWalk()
+    {
+        if (Input.GetKey(KeyCode.P))
+            return; // Não volta para idle/walk se P ainda estiver pressionado
+
+        if (mov.sqrMagnitude > 0.01f)
+            anim.Play("walk-piveta");
+        else
+            anim.Play("idle-piveta");
+    }
+
+    private void ApplyDamageToEnemies(int damage)
+    {
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            // Supondo que EnemyShortDistance tenha um método TakeDamageEnemy(int)
+            enemy.GetComponent<EnemyShortDistance>()?.TakeDamageEnemy(damage);
+            enemy.GetComponent<EnemyLongDistance>()?.TakeDamageEnemy(damage);
+        }
+    }
+
+    // Visualizar range de ataque do jogaodor no editor
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
@@ -170,9 +260,5 @@ public class Player : MonoBehaviour
             }
 
         }
-    }
-    public void setCurrentPower(PowerSO power)
-    {
-        currentPower = power;        
     }
 };
