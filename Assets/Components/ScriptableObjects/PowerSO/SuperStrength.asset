@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1efa466055ea9464880d35b77dec73d4, type: 3}
   m_Name: SuperStrength
   m_EditorClassIdentifier: 
+  id: 1
   name: "Super for\xE7a"
   description: Os ataques do jogador se tornam mais fortes
   icon: {fileID: -3106506509227680175, guid: 855dcd45f25c0014aa183a617b630d9f, type: 3}
+  duration: 10
+  cooldown: 5

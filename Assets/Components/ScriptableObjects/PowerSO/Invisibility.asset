@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1efa466055ea9464880d35b77dec73d4, type: 3}
   m_Name: Invisibility
   m_EditorClassIdentifier: 
+  id: 3
   name: Invisibilidade
   description: "Torna o player invis\xEDvel por X segundos"
   icon: {fileID: 6937817954938267909, guid: 669b620a10de8f549a9d2e8453ed1ba4, type: 3}

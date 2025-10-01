@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1efa466055ea9464880d35b77dec73d4, type: 3}
   m_Name: Ranged
   m_EditorClassIdentifier: 
+  id: 2
   name: Longo alcance
   description: "O ataque do jogador dispara proj\xE9teis."
   icon: {fileID: 8389134475083476877, guid: 6749c7b2048f01840811bc02e64f3323, type: 3}

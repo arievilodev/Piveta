@@ -38,6 +38,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float attackRange = 5f;
     [SerializeField] private LayerMask enemyLayer;
     private bool attackQueued = false;
+    [SerializeField] PowerSO assignedPower; //Poder associado ao player por meio do coletável
+    [SerializeField] PowerSO activePower; //Poder ativo no momento sendo aplicado ao player
+    [SerializeField] private bool powerIsActive = false;
+    [SerializeField] private bool powerIsOnCooldown = false;
 
 
     void Start()
@@ -58,7 +62,7 @@ public class Player : MonoBehaviour
             attackQueued = true;
             Debug.Log("Ataque acionado");
         }
-        Attack();
+        chooseAttackByPower();
     
 
         // Teste da barra de vida para perder vida
@@ -125,31 +129,64 @@ public class Player : MonoBehaviour
 
     }
 
-
-    private void Attack()
+    public void chooseAttackByPower()
     {
+
         if (attackQueued)
         {
-            Vector3 attackDir = new Vector3(mov.x, mov.y, 0).normalized;
-            if (attackDir == Vector3.zero)
-                attackDir = Vector3.right;
-
-            switch (attackIndex)
-            {
-                case 0:
-                    StartCoroutine(PlayPunchRightAnimation(attackDir, punchRightDamage));
-                    break;
-                case 1:
-                    StartCoroutine(PlayPunchLeftAnimation(attackDir, punchLeftDamage));
-                    break;
-                case 2:
-                    StartCoroutine(PlayKickAnimation(attackDir, kickDamage));
-                    break;
+            if (!activePower){
+                AttackBase();
             }
-            attackIndex = (attackIndex + 1) % 3;
-            attackQueued = false;
+            if (activePower.id == 0)
+            {
+                AttackBase();
+            }
+            if (activePower.id == 1)
+            {
+                AttackBase();
+            }
+            if (activePower.id == 2)
+            {
+                AttackRanged();
+            }
+            if (activePower.id == 3)
+            {
+                AttackInvis();
+            }
         }
     }
+    private void AttackBase()
+    {
+        
+        Vector3 attackDir = new Vector3(mov.x, mov.y, 0).normalized;
+        if (attackDir == Vector3.zero)
+            attackDir = Vector3.right;
+
+        switch (attackIndex)
+        {
+            case 0:
+                StartCoroutine(PlayPunchRightAnimation(attackDir, punchRightDamage));
+                break;
+            case 1:
+                StartCoroutine(PlayPunchLeftAnimation(attackDir, punchLeftDamage));
+                break;
+                case 2:
+                StartCoroutine(PlayKickAnimation(attackDir, kickDamage));
+                break;
+        }
+        attackIndex = (attackIndex + 1) % 3;
+        attackQueued = false;
+    
+    }
+    private void AttackRanged()
+    {
+
+    }
+    private void AttackInvis()
+    {
+
+    }
+
 
     // Corrotinas para controlar animação e flag
     private IEnumerator PlayPunchRightAnimation(Vector3 dir, int damage)
@@ -188,6 +225,7 @@ public class Player : MonoBehaviour
         VoltarParaIdleOuWalk();
     }
 
+
     // Função para retornar ao idle ou walk
     private void VoltarParaIdleOuWalk()
     {
@@ -209,6 +247,45 @@ public class Player : MonoBehaviour
             enemy.GetComponent<EnemyShortDistance>()?.TakeDamageEnemy(damage);
             enemy.GetComponent<EnemyLongDistance>()?.TakeDamageEnemy(damage);
         }
+    }
+    public void activatePower()
+    {
+        if (!powerIsOnCooldown && !powerIsActive)
+        {
+            activePower = assignedPower;
+            if (assignedPower.id == 0) return;
+            if (assignedPower.id == 1)
+            {
+                punchLeftDamage *= 2;
+                punchRightDamage *= 2;
+                kickDamage *= 2;
+            }
+            StartCoroutine(powerActive());
+        }
+    }
+    private void deactivatePower()
+    {
+        if (activePower.id == 1)
+        {
+            punchLeftDamage /= 2;
+            punchRightDamage /= 2;
+            kickDamage /= 2;
+        }
+        powerIsOnCooldown = true;
+        activePower = null;
+        StartCoroutine(powerCooldown());
+    }
+    private IEnumerator powerActive()
+    {
+        powerIsActive = true;
+        yield return new WaitForSeconds(activePower.duration);
+        powerIsActive = false;
+        deactivatePower();
+    }
+    private IEnumerator powerCooldown()
+    {
+        yield return new WaitForSeconds(assignedPower.cooldown);
+        powerIsOnCooldown = false;
     }
 
     // Visualizar range de ataque do jogaodor no editor
@@ -260,5 +337,9 @@ public class Player : MonoBehaviour
             }
 
         }
+    }
+    public void SetCurrentPower(PowerSO power)
+    {
+        assignedPower = power;
     }
 };

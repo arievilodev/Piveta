@@ -19,7 +19,7 @@ public class Collectible : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                setCurrentPower(powerSO);
+                SetCurrentPower(powerSO);
             }
         }
     }
@@ -39,9 +39,9 @@ public class Collectible : MonoBehaviour
             playerIsInside = false;
         }
     }
-    public void setCurrentPower(PowerSO powerSO)
+    public void SetCurrentPower(PowerSO powerSO)
     {
-        playerInside.GetComponent<Player>().setCurrentPower(powerSO);
+        playerInside.GetComponent<Player>().SetCurrentPower(powerSO);
         powerIcon.sprite = powerSO.icon;
     }
 }
