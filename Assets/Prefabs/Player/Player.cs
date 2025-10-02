@@ -45,6 +45,8 @@ public class Player : MonoBehaviour
     [SerializeField] PowerSO activePower; //Poder ativo no momento sendo aplicado ao player
     [SerializeField] private bool powerIsActive = false;
     [SerializeField] private bool powerIsOnCooldown = false;
+    [SerializeField] private Transform projectileSpawn;
+    [SerializeField] private PlayerProjectile playerProjectile;
 
 
     void Start()
@@ -117,6 +119,20 @@ public class Player : MonoBehaviour
         {
             anim.SetFloat("Horizontal", lastMoveDir.x);
             anim.SetFloat("Vertical", lastMoveDir.y);
+        }
+        if (projectileSpawn != null)
+        {
+            float spawnDistance = 0.5f;
+
+           
+            Vector2 dir = lastMoveDir.sqrMagnitude > 0.01f ? lastMoveDir : Vector2.down;
+
+            // Place launcher in front of the player
+            projectileSpawn.localPosition = dir.normalized * spawnDistance;
+
+            // Rotate it to face that direction
+            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            projectileSpawn.rotation = Quaternion.Euler(0, 0, angle - 90f);
         }
     }
 
@@ -196,6 +212,18 @@ public class Player : MonoBehaviour
     }
     private void AttackRanged()
     {
+        Vector3 attackDir = new Vector3(mov.x, mov.y, 0).normalized;
+        if (attackDir == Vector3.zero)
+            attackDir = Vector3.right;
+
+        StartCoroutine(PlayPunchRightAnimation(attackDir, 0));
+        Vector2 direction = lastMoveDir.sqrMagnitude > 0.01f ? lastMoveDir : Vector2.down;
+
+        // Spawn projectile
+        GameObject proj = Instantiate(playerProjectile.gameObject, projectileSpawn.position, Quaternion.identity);
+        attackQueued = false;
+        proj.GetComponent<PlayerProjectile>().SetDirection(direction);     
+        
 
     }
     private void AttackInvis()
@@ -259,8 +287,8 @@ public class Player : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
         foreach (Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<EnemyShortDistance>()?.TakeDamageEnemy(damage);
-            enemy.GetComponent<EnemyLongDistance>()?.TakeDamageEnemy(damage);
+            enemy.GetComponent<EnemyHealth>()?.TakeDamageEnemy(damage);
+            
         }
     }
 
