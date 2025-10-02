@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
     [SerializeField] private int punchRightDamage = 5;
     [SerializeField] private int punchLeftDamage = 7;
     [SerializeField] private int kickDamage = 12;
+    [SerializeField] private int stealthAttackDamage = 9999;
     private int attackIndex = 0; // 0: soco direito, 1: soco esquerdo, 2: chute
 
     [SerializeField] private float attackRange = 5f;
@@ -228,7 +229,10 @@ public class Player : MonoBehaviour
     }
     private void AttackInvis()
     {
-
+        Vector3 attackDir = new Vector3(mov.x, mov.y, 0).normalized;
+        if (attackDir == Vector3.zero)
+            attackDir = Vector3.right;
+        StartCoroutine(PlayStealthAttackAnimation(attackDir, stealthAttackDamage));        
     }
 
     private IEnumerator PlayPunchRightAnimation(Vector3 dir, int damage)
@@ -266,6 +270,18 @@ public class Player : MonoBehaviour
         IsPlayingPunchKickAnimation = false;
         VoltarParaIdleOuWalk();
     }
+    private IEnumerator PlayStealthAttackAnimation(Vector3 dir, int damage)
+    {
+        IsPlayingPunchRightAnimation = true;
+        anim.Play("attack-piveta-punchRight");
+        yield return new WaitForSeconds(0.1f); // Momento do impacto
+        ApplyDamageToEnemies(damage);
+        float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(animLength - 0.1f);
+        IsPlayingPunchRightAnimation = false;
+        VoltarParaIdleOuWalk();
+        deactivatePower();
+    }
 
     private void VoltarParaIdleOuWalk()
     {
@@ -287,8 +303,7 @@ public class Player : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
         foreach (Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<EnemyHealth>()?.TakeDamageEnemy(damage);
-            
+            enemy.GetComponent<EnemyHealth>()?.TakeDamageEnemy(damage);            
         }
     }
 
@@ -310,6 +325,13 @@ public class Player : MonoBehaviour
                 punchRightDamage *= 2;
                 kickDamage *= 2;
             }
+            if (assignedPower.id == 3)
+            {
+                gameObject.layer = LayerMask.NameToLayer("Invisible");
+                powerIsActive = true;
+                return;
+            }
+            powerIsActive = true;
             StartCoroutine(powerActive());
         }
     }
@@ -321,15 +343,19 @@ public class Player : MonoBehaviour
             punchRightDamage /= 2;
             kickDamage /= 2;
         }
+        if (activePower.id == 3)
+        {
+            gameObject.layer = LayerMask.NameToLayer("Piveta");
+        }
+        powerIsActive = false;
         powerIsOnCooldown = true;
         activePower = basePower;
         StartCoroutine(powerCooldown());
     }
     private IEnumerator powerActive()
     {
-        powerIsActive = true;
         yield return new WaitForSeconds(activePower.duration);
-        powerIsActive = false;
+        //powerIsActive = false;
         deactivatePower();
     }
     private IEnumerator powerCooldown()
@@ -382,6 +408,8 @@ public class Player : MonoBehaviour
     }
     public void SetCurrentPower(PowerSO power)
     {
+        deactivatePower();
+        powerIsOnCooldown = false;
         assignedPower = power;
     }
 };
