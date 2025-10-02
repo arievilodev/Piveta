@@ -13,8 +13,9 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     public Collider2D playerCollider;
     public Vector2 mov;
-    private Vector2 lastMoveDir = Vector2.down; // Direção padrão inicial
     public Animator anim;
+
+    private Vector2 lastMoveDir = Vector2.down; // Direção padrão inicial
 
     // Vida do jogador
     [SerializeField] Image lifeBar;
@@ -101,7 +102,23 @@ public class Player : MonoBehaviour
         anim.SetFloat("Horizontal", mov.x);
         anim.SetFloat("Vertical", mov.y);
         anim.SetFloat("Speed", mov.sqrMagnitude);
+
+        // Salva a última direção válida de movimento
+        // Só atualiza direção se estiver se movendo
+        if (mov.sqrMagnitude > 0.01f)
+        {
+            lastMoveDir = mov.normalized;
+            anim.SetFloat("Horizontal", lastMoveDir.x);
+            anim.SetFloat("Vertical", lastMoveDir.y);
+        }
+        // Se não estiver se movendo, mantém a última direção
+        else
+        {
+            anim.SetFloat("Horizontal", lastMoveDir.x);
+            anim.SetFloat("Vertical", lastMoveDir.y);
+        }
     }
+
 
     public void TakeDamage(int amount, Vector2 knockbackDirection)
     {
@@ -236,7 +253,11 @@ public class Player : MonoBehaviour
         if (mov.sqrMagnitude > 0.01f)
             anim.Play("walk-piveta");
         else
+            anim.SetFloat("Horizontal", lastMoveDir.x);
+            anim.SetFloat("Vertical", lastMoveDir.y);
+            anim.SetFloat("Speed", 0);
             anim.Play("idle-piveta");
+
     }
 
     private void ApplyDamageToEnemies(int damage)
