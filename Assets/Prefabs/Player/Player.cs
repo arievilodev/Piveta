@@ -8,7 +8,7 @@ using System.Runtime.CompilerServices;
 
 public class Player : MonoBehaviour
 {
-    // Movimentação do jogador  
+    // Movimentação e idle do jogador  
     [SerializeField] float speed = 1;
     public Rigidbody2D rb;
     public Collider2D playerCollider;
@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     // Knockback do jogador ao receber dano
     public KnockbackComponent knockbackComponent;
 
-    //ATAQUE DO JOGADOR
+    //Ataque do jogador
     public bool IsPlayingPunchRightAnimation;
     public bool IsPlayingPunchLeftAnimation;
     public bool IsPlayingPunchKickAnimation;
@@ -68,7 +68,7 @@ public class Player : MonoBehaviour
         chooseAttackByPower();
     
 
-        // Teste da barra de vida para perder vida
+        /*// Teste da barra de vida para perder vida
         if (Input.GetKeyDown(KeyCode.J))
         {
             TakeDamage(10, new Vector2(0, 0));
@@ -78,7 +78,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.H))
         {
             Heal(10);
-        };
+        };*/
 
     }
 
@@ -203,8 +203,6 @@ public class Player : MonoBehaviour
 
     }
 
-
-    // Corrotinas para controlar animação e flag
     private IEnumerator PlayPunchRightAnimation(Vector3 dir, int damage)
     {
         IsPlayingPunchRightAnimation = true;
@@ -241,8 +239,6 @@ public class Player : MonoBehaviour
         VoltarParaIdleOuWalk();
     }
 
-
-    // Função para retornar ao idle ou walk
     private void VoltarParaIdleOuWalk()
     {
         if (Input.GetKey(KeyCode.P))
@@ -263,10 +259,16 @@ public class Player : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
         foreach (Collider2D enemy in hitEnemies)
         {
-            // Supondo que EnemyShortDistance tenha um método TakeDamageEnemy(int)
             enemy.GetComponent<EnemyShortDistance>()?.TakeDamageEnemy(damage);
             enemy.GetComponent<EnemyLongDistance>()?.TakeDamageEnemy(damage);
         }
+    }
+
+    // Visualizar range de ataque do jogador no editor
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
     public void activatePower()
     {
@@ -307,14 +309,6 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(assignedPower.cooldown);
         powerIsOnCooldown = false;
     }
-
-    // Visualizar range de ataque do jogaodor no editor
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
-    }
-
 
     IEnumerator DecreasingRedLifeBar(Vector3 Scale)
     {
