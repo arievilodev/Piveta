@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     public Collider2D playerCollider;
     public Vector2 mov;
+    private Vector2 lastMoveDir = Vector2.down; // Direção padrão inicial
     public Animator anim;
 
     // Vida do jogador

@@ -1,67 +1,67 @@
 fileFormatVersion: 2
-guid: 2470d8e440e590842b6bd9c0ee08e4ef
+guid: d1dacf4c21ce3af47b29545ffda73976
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3759969621707277314
-    second: superesmera idle atras-Sheet_0
+      213: -4086159864797267475
+    second: super esmera idle lado-Sheet - Copia_0
   - first:
-      213: 1873872927508815120
-    second: superesmera idle atras-Sheet_1
+      213: -322485919606553343
+    second: super esmera idle lado-Sheet - Copia_1
   - first:
-      213: -5053154007337529298
-    second: superesmera idle atras-Sheet_2
+      213: 3148116258818550593
+    second: super esmera idle lado-Sheet - Copia_2
   - first:
-      213: -1431826552767890375
-    second: superesmera idle atras-Sheet_3
+      213: -2183759295500523805
+    second: super esmera idle lado-Sheet - Copia_3
   - first:
-      213: -4592275880656313784
-    second: superesmera idle atras-Sheet_4
+      213: 2577403966444224946
+    second: super esmera idle lado-Sheet - Copia_4
   - first:
-      213: 9176308037300108847
-    second: superesmera idle atras-Sheet_5
+      213: -5119407109008846878
+    second: super esmera idle lado-Sheet - Copia_5
   - first:
-      213: 7636453646555709319
-    second: superesmera idle atras-Sheet_6
+      213: -7643143404910415765
+    second: super esmera idle lado-Sheet - Copia_6
   - first:
-      213: 7936019141100512181
-    second: superesmera idle atras-Sheet_7
+      213: -3980432841677383929
+    second: super esmera idle lado-Sheet - Copia_7
   - first:
-      213: -6689656136591598792
-    second: superesmera idle atras-Sheet_8
+      213: 8098868282025449105
+    second: super esmera idle lado-Sheet - Copia_8
   - first:
-      213: -6491530989463333167
-    second: superesmera idle atras-Sheet_9
+      213: 1541741182147932933
+    second: super esmera idle lado-Sheet - Copia_9
   - first:
-      213: -4325116722285465741
-    second: superesmera idle atras-Sheet_10
+      213: -4646891391047433000
+    second: super esmera idle lado-Sheet - Copia_10
   - first:
-      213: 8677463859265063390
-    second: superesmera idle atras-Sheet_11
+      213: 1746635541215961633
+    second: super esmera idle lado-Sheet - Copia_11
   - first:
-      213: -5476860646974071115
-    second: superesmera idle atras-Sheet_12
+      213: -4489202058946589696
+    second: super esmera idle lado-Sheet - Copia_12
   - first:
-      213: -5628841726448755205
-    second: superesmera idle atras-Sheet_13
+      213: -4532284164699277799
+    second: super esmera idle lado-Sheet - Copia_13
   - first:
-      213: -5717359319152547925
-    second: superesmera idle atras-Sheet_14
+      213: 8703705206361751187
+    second: super esmera idle lado-Sheet - Copia_14
   - first:
-      213: 6210135431813342222
-    second: superesmera idle atras-Sheet_15
+      213: 611518617615517226
+    second: super esmera idle lado-Sheet - Copia_15
   - first:
-      213: 4921589149420481327
-    second: superesmera idle atras-Sheet_16
+      213: -7994875049042114141
+    second: super esmera idle lado-Sheet - Copia_16
   - first:
-      213: 4981521266220964303
-    second: superesmera idle atras-Sheet_17
+      213: 6986471654678239516
+    second: super esmera idle lado-Sheet - Copia_17
   - first:
-      213: -91225184608887205
-    second: superesmera idle atras-Sheet_18
+      213: -5497608858760137554
+    second: super esmera idle lado-Sheet - Copia_18
   - first:
-      213: -2863179909826714997
-    second: superesmera idle atras-Sheet_19
+      213: -6325993574426866206
+    second: super esmera idle lado-Sheet - Copia_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -157,13 +157,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle-piveta-down-1
+      name: idle-piveta-right-1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efbb0ebdc87e1dbc0800000000000000
-      internalID: -3759969621707277314
+      spriteID: de9fc4b904b0b47c0800000000000000
+      internalID: -4086159864797267475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-2
+      name: idle-piveta-right-2
       rect:
         serializedVersion: 2
-        x: 270
+        x: 250
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01d5266df75510a10800000000000000
-      internalID: 1873872927508815120
+      spriteID: 10549c4c3cc468bf0800000000000000
+      internalID: -322485919606553343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-3
+      name: idle-piveta-right-3
       rect:
         serializedVersion: 2
-        x: 540
+        x: 500
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e201e4df3379fd9b0800000000000000
-      internalID: -5053154007337529298
+      spriteID: 14be286de0b50bb20800000000000000
+      internalID: 3148116258818550593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-4
+      name: idle-piveta-right-4
       rect:
         serializedVersion: 2
-        x: 810
+        x: 750
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93c3c4e1651212ce0800000000000000
-      internalID: -1431826552767890375
+      spriteID: 3e6ebb4ad7ab1b1e0800000000000000
+      internalID: -2183759295500523805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-5
+      name: idle-piveta-right-5
       rect:
         serializedVersion: 2
-        x: 1080
+        x: 1000
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 842e2eeda65f440c0800000000000000
-      internalID: -4592275880656313784
+      spriteID: 2b147967047c4c320800000000000000
+      internalID: 2577403966444224946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-6
+      name: idle-piveta-right-6
       rect:
         serializedVersion: 2
-        x: 1350
+        x: 1250
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,20 +282,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2eb5d0ba8bc85f70800000000000000
-      internalID: 9176308037300108847
+      spriteID: 2ef0beeab5634f8b0800000000000000
+      internalID: -5119407109008846878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-7
+      name: idle-piveta-right-7
       rect:
         serializedVersion: 2
-        x: 1620
+        x: 1500
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,20 +304,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78f70b2c1222af960800000000000000
-      internalID: 7636453646555709319
+      spriteID: b60f1fe71991ee590800000000000000
+      internalID: -7643143404910415765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-8
+      name: idle-piveta-right-8
       rect:
         serializedVersion: 2
-        x: 1890
+        x: 1750
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b32ffbac57622e60800000000000000
-      internalID: 7936019141100512181
+      spriteID: 70755837b69a2c8c0800000000000000
+      internalID: -3980432841677383929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-9
+      name: idle-piveta-right-9
       rect:
         serializedVersion: 2
-        x: 2160
+        x: 2000
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,20 +348,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83b12f4ef219923a0800000000000000
-      internalID: -6689656136591598792
+      spriteID: 1961ec8fac5f46070800000000000000
+      internalID: 8098868282025449105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-10
+      name: idle-piveta-right-10
       rect:
         serializedVersion: 2
-        x: 2430
+        x: 2250
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,20 +370,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d6199c65f279e5a0800000000000000
-      internalID: -6491530989463333167
+      spriteID: 503b489cf6d556510800000000000000
+      internalID: 1541741182147932933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-11
+      name: idle-piveta-right-11
       rect:
         serializedVersion: 2
-        x: 2700
+        x: 2500
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37fa21ca1491af3c0800000000000000
-      internalID: -4325116722285465741
+      spriteID: 8d40cce66ece28fb0800000000000000
+      internalID: -4646891391047433000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-12
+      name: idle-piveta-right-12
       rect:
         serializedVersion: 2
-        x: 2970
+        x: 2750
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,20 +414,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed9c8c2a76b8c6870800000000000000
-      internalID: 8677463859265063390
+      spriteID: 122ef3a45cb4d3810800000000000000
+      internalID: 1746635541215961633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-13
+      name: idle-piveta-right-13
       rect:
         serializedVersion: 2
-        x: 3240
+        x: 3000
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,20 +436,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5be5bcc52484ef3b0800000000000000
-      internalID: -5476860646974071115
+      spriteID: 00c498f138623b1c0800000000000000
+      internalID: -4489202058946589696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-14
+      name: idle-piveta-right-14
       rect:
         serializedVersion: 2
-        x: 3510
+        x: 3250
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,20 +458,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bfd102ec54652e1b0800000000000000
-      internalID: -5628841726448755205
+      spriteID: 916b8f5b0971a11c0800000000000000
+      internalID: -4532284164699277799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-15
+      name: idle-piveta-right-15
       rect:
         serializedVersion: 2
-        x: 3780
+        x: 3500
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,20 +480,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba7a4a8bdfbd7a0b0800000000000000
-      internalID: -5717359319152547925
+      spriteID: 39ef8ee55c5c9c870800000000000000
+      internalID: 8703705206361751187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-16
+      name: idle-piveta-right-16
       rect:
         serializedVersion: 2
-        x: 4050
+        x: 3750
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,20 +502,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e042d44c545de2650800000000000000
-      internalID: 6210135431813342222
+      spriteID: a26c28851fc8c7800800000000000000
+      internalID: 611518617615517226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-17
+      name: idle-piveta-right-17
       rect:
         serializedVersion: 2
-        x: 4320
+        x: 4000
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,20 +524,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2bef95714ffc4440800000000000000
-      internalID: 4921589149420481327
+      spriteID: 3a90636608f7c0190800000000000000
+      internalID: -7994875049042114141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-18
+      name: idle-piveta-right-18
       rect:
         serializedVersion: 2
-        x: 4590
+        x: 4250
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,20 +546,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc9972ac23be12540800000000000000
-      internalID: 4981521266220964303
+      spriteID: c199e6a34fee4f060800000000000000
+      internalID: 6986471654678239516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-19
+      name: idle-piveta-right-19
       rect:
         serializedVersion: 2
-        x: 4860
+        x: 4500
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,20 +568,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5e51dc8d27ebbef0800000000000000
-      internalID: -91225184608887205
+      spriteID: ea4bf8bded194b3b0800000000000000
+      internalID: -5497608858760137554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle-piveta-down-20
+      name: idle-piveta-right-20
       rect:
         serializedVersion: 2
-        x: 5130
+        x: 4750
         y: 0
-        width: 270
-        height: 350
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,8 +590,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b826eb2ba01f348d0800000000000000
-      internalID: -2863179909826714997
+      spriteID: 2ed02e05c5e8538a0800000000000000
+      internalID: -6325993574426866206
       vertices: []
       indices: 
       edges: []
@@ -600,7 +600,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0d986e2a0567a2546af41625323ecea5
+    spriteID: 9d7d6cd257b60e044ba6062ac5395631
     internalID: 0
     vertices: []
     indices: 
@@ -610,26 +610,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      idle-piveta-down-1: -3759969621707277314
-      idle-piveta-down-10: -6491530989463333167
-      idle-piveta-down-11: -4325116722285465741
-      idle-piveta-down-12: 8677463859265063390
-      idle-piveta-down-13: -5476860646974071115
-      idle-piveta-down-14: -5628841726448755205
-      idle-piveta-down-15: -5717359319152547925
-      idle-piveta-down-16: 6210135431813342222
-      idle-piveta-down-17: 4921589149420481327
-      idle-piveta-down-18: 4981521266220964303
-      idle-piveta-down-19: -91225184608887205
-      idle-piveta-down-2: 1873872927508815120
-      idle-piveta-down-20: -2863179909826714997
-      idle-piveta-down-3: -5053154007337529298
-      idle-piveta-down-4: -1431826552767890375
-      idle-piveta-down-5: -4592275880656313784
-      idle-piveta-down-6: 9176308037300108847
-      idle-piveta-down-7: 7636453646555709319
-      idle-piveta-down-8: 7936019141100512181
-      idle-piveta-down-9: -6689656136591598792
+      idle-piveta-right-1: -4086159864797267475
+      idle-piveta-right-10: 1541741182147932933
+      idle-piveta-right-11: -4646891391047433000
+      idle-piveta-right-12: 1746635541215961633
+      idle-piveta-right-13: -4489202058946589696
+      idle-piveta-right-14: -4532284164699277799
+      idle-piveta-right-15: 8703705206361751187
+      idle-piveta-right-16: 611518617615517226
+      idle-piveta-right-17: -7994875049042114141
+      idle-piveta-right-18: 6986471654678239516
+      idle-piveta-right-19: -5497608858760137554
+      idle-piveta-right-2: -322485919606553343
+      idle-piveta-right-20: -6325993574426866206
+      idle-piveta-right-3: 3148116258818550593
+      idle-piveta-right-4: -2183759295500523805
+      idle-piveta-right-5: 2577403966444224946
+      idle-piveta-right-6: -5119407109008846878
+      idle-piveta-right-7: -7643143404910415765
+      idle-piveta-right-8: -3980432841677383929
+      idle-piveta-right-9: 8098868282025449105
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

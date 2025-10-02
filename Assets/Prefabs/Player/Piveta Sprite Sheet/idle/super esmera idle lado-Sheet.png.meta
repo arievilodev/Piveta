@@ -94,7 +94,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,7 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 320
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -157,13 +157,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_0
+      name: idle-piveta-left-1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 9
-        width: 232
-        height: 352
+        x: 0
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,13 +179,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_1
+      name: idle-piveta-left-2
       rect:
         serializedVersion: 2
-        x: 259
-        y: 9
-        width: 232
-        height: 352
+        x: 250
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,13 +201,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_2
+      name: idle-piveta-left-3
       rect:
         serializedVersion: 2
-        x: 509
-        y: 9
-        width: 232
-        height: 352
+        x: 500
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,13 +223,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_3
+      name: idle-piveta-left-4
       rect:
         serializedVersion: 2
-        x: 759
-        y: 9
-        width: 232
-        height: 352
+        x: 750
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,13 +245,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_4
+      name: idle-piveta-left-5
       rect:
         serializedVersion: 2
-        x: 1009
-        y: 9
-        width: 232
-        height: 352
+        x: 1000
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,13 +267,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_5
+      name: idle-piveta-left-6
       rect:
         serializedVersion: 2
-        x: 1259
-        y: 9
-        width: 232
-        height: 352
+        x: 1250
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,13 +289,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_6
+      name: idle-piveta-left-7
       rect:
         serializedVersion: 2
-        x: 1509
-        y: 9
-        width: 232
-        height: 352
+        x: 1500
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,13 +311,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_7
+      name: idle-piveta-left-8
       rect:
         serializedVersion: 2
-        x: 1759
-        y: 9
-        width: 232
-        height: 352
+        x: 1750
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,13 +333,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_8
+      name: idle-piveta-left-9
       rect:
         serializedVersion: 2
-        x: 2009
-        y: 9
-        width: 232
-        height: 352
+        x: 2000
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,13 +355,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_9
+      name: idle-piveta-left-10
       rect:
         serializedVersion: 2
-        x: 2259
-        y: 9
-        width: 232
-        height: 352
+        x: 2250
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,13 +377,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_10
+      name: idle-piveta-left-11
       rect:
         serializedVersion: 2
-        x: 2509
-        y: 9
-        width: 232
-        height: 352
+        x: 2500
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -399,13 +399,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_11
+      name: idle-piveta-left-12
       rect:
         serializedVersion: 2
-        x: 2759
-        y: 9
-        width: 232
-        height: 352
+        x: 2750
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,13 +421,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_12
+      name: idle-piveta-left-13
       rect:
         serializedVersion: 2
-        x: 2999
-        y: 9
-        width: 242
-        height: 342
+        x: 3000
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,13 +443,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_13
+      name: idle-piveta-left-14
       rect:
         serializedVersion: 2
-        x: 3259
-        y: 9
-        width: 232
-        height: 322
+        x: 3250
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,13 +465,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_14
+      name: idle-piveta-left-15
       rect:
         serializedVersion: 2
-        x: 3509
-        y: 9
-        width: 232
-        height: 332
+        x: 3500
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,13 +487,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_15
+      name: idle-piveta-left-16
       rect:
         serializedVersion: 2
-        x: 3759
-        y: 9
-        width: 232
-        height: 352
+        x: 3750
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,13 +509,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_16
+      name: idle-piveta-left-17
       rect:
         serializedVersion: 2
-        x: 4009
-        y: 9
-        width: 232
-        height: 352
+        x: 4000
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,13 +531,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_17
+      name: idle-piveta-left-18
       rect:
         serializedVersion: 2
-        x: 4259
-        y: 9
-        width: 232
-        height: 352
+        x: 4250
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,13 +553,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_18
+      name: idle-piveta-left-19
       rect:
         serializedVersion: 2
-        x: 4509
-        y: 9
-        width: 232
-        height: 352
+        x: 4500
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,13 +575,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: super esmera idle lado-Sheet_19
+      name: idle-piveta-left-20
       rect:
         serializedVersion: 2
-        x: 4759
-        y: 9
-        width: 232
-        height: 352
+        x: 4750
+        y: 0
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,7 +600,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9bbabc4f200602d4c81915cc27cd68e9
     internalID: 0
     vertices: []
     indices: 
@@ -610,26 +610,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      super esmera idle lado-Sheet_0: -4407764715278898825
-      super esmera idle lado-Sheet_1: 7971206884587510413
-      super esmera idle lado-Sheet_10: 676334062779448745
-      super esmera idle lado-Sheet_11: -5539466599800424583
-      super esmera idle lado-Sheet_12: -6955861465615943046
-      super esmera idle lado-Sheet_13: -7091216418107759962
-      super esmera idle lado-Sheet_14: 4377050858011360262
-      super esmera idle lado-Sheet_15: 4786685695538792297
-      super esmera idle lado-Sheet_16: 6586415059837214183
-      super esmera idle lado-Sheet_17: 887963998968442438
-      super esmera idle lado-Sheet_18: 9168859344852563531
-      super esmera idle lado-Sheet_19: -5661194150647410613
-      super esmera idle lado-Sheet_2: -7065344079215223566
-      super esmera idle lado-Sheet_3: -6055310689729057003
-      super esmera idle lado-Sheet_4: -2218850404154234685
-      super esmera idle lado-Sheet_5: -9206196326215874682
-      super esmera idle lado-Sheet_6: 462318518039938563
-      super esmera idle lado-Sheet_7: 4786749773653894502
-      super esmera idle lado-Sheet_8: -3152532926124760221
-      super esmera idle lado-Sheet_9: 902139232140128235
+      idle-piveta-left-1: -4407764715278898825
+      idle-piveta-left-10: 902139232140128235
+      idle-piveta-left-11: 676334062779448745
+      idle-piveta-left-12: -5539466599800424583
+      idle-piveta-left-13: -6955861465615943046
+      idle-piveta-left-14: -7091216418107759962
+      idle-piveta-left-15: 4377050858011360262
+      idle-piveta-left-16: 4786685695538792297
+      idle-piveta-left-17: 6586415059837214183
+      idle-piveta-left-18: 887963998968442438
+      idle-piveta-left-19: 9168859344852563531
+      idle-piveta-left-2: 7971206884587510413
+      idle-piveta-left-20: -5661194150647410613
+      idle-piveta-left-3: -7065344079215223566
+      idle-piveta-left-4: -6055310689729057003
+      idle-piveta-left-5: -2218850404154234685
+      idle-piveta-left-6: -9206196326215874682
+      idle-piveta-left-7: 462318518039938563
+      idle-piveta-left-8: 4786749773653894502
+      idle-piveta-left-9: -3152532926124760221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
