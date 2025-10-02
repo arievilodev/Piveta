@@ -40,6 +40,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float attackRange = 5f;
     [SerializeField] private LayerMask enemyLayer;
     private bool attackQueued = false;
+    [SerializeField] PowerSO basePower;
     [SerializeField] PowerSO assignedPower; //Poder associado ao player por meio do coletável
     [SerializeField] PowerSO activePower; //Poder ativo no momento sendo aplicado ao player
     [SerializeField] private bool powerIsActive = false;
@@ -152,9 +153,6 @@ public class Player : MonoBehaviour
 
         if (attackQueued)
         {
-            if (!activePower){
-                AttackBase();
-            }
             if (activePower.id == 0)
             {
                 AttackBase();
@@ -294,7 +292,7 @@ public class Player : MonoBehaviour
             kickDamage /= 2;
         }
         powerIsOnCooldown = true;
-        activePower = null;
+        activePower = basePower;
         StartCoroutine(powerCooldown());
     }
     private IEnumerator powerActive()
