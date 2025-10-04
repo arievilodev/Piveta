@@ -218,7 +218,7 @@ public class Player : MonoBehaviour
             attackDir = Vector3.right;
 
         StartCoroutine(PlayPunchRightAnimation(attackDir, 0));
-        Vector2 direction = lastMoveDir.sqrMagnitude > 0.01f ? lastMoveDir : Vector2.down;
+        Vector2 direction = lastMoveDir.sqrMagnitude > 0.01f ? CorrectDirection(lastMoveDir) : Vector2.down;
 
         // Spawn projectile
         GameObject proj = Instantiate(playerProjectile.gameObject, projectileSpawn.position, Quaternion.identity);
@@ -404,6 +404,17 @@ public class Player : MonoBehaviour
                 playerCollider.enabled = false;
             }
 
+        }
+    }
+    private Vector2 CorrectDirection(Vector2 dir)
+    {
+        if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+        {
+            return dir.x > 0 ? Vector2.right : Vector2.left;
+        }
+        else
+        {
+            return dir.y > 0 ? Vector2.up : Vector2.down;
         }
     }
     public void SetCurrentPower(PowerSO power)
