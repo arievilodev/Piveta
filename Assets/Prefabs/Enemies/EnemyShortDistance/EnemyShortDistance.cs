@@ -114,7 +114,7 @@ public class EnemyShortDistance : MonoBehaviour
 
     public void TakeDamageEnemy(int amount)
     {
-        anim.SetTrigger("hit");
+        //anim.SetTrigger("hit"); // FALTA SPRITES DE ANIMAÇÃO DE DANO
 
         if (isDead || isInvulnerable) return;
 
@@ -123,7 +123,7 @@ public class EnemyShortDistance : MonoBehaviour
 
         if (currentLife > 0)
         {
-            anim.SetTrigger("hit");
+            //anim.SetTrigger("hit");
             StartCoroutine(InvulnerabilityFrames());
         }
         else
