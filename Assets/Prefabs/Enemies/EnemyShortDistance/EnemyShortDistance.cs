@@ -20,10 +20,10 @@ public class EnemyShortDistance : MonoBehaviour
     [SerializeField] private float detectRange, attackRange; //range para detectar e atacar o player
     [SerializeField] private bool isDead = false;
     [SerializeField] private Transform target;
-    [SerializeField] private List<Transform> Waypoints = new List<Transform>();
-    [SerializeField] private float patrolTurnDistance; //a distância do waypoint para troca
+    //[SerializeField] private List<Transform> Waypoints = new List<Transform>();
+    //[SerializeField] private float patrolTurnDistance; //a distância do waypoint para troca
     NavMeshAgent agent;
-    [SerializeField] int currentWaypoint;
+    //[SerializeField] int currentWaypoint;
 
 
 
@@ -54,13 +54,13 @@ public class EnemyShortDistance : MonoBehaviour
         {
             TakeDamageEnemy(10);
         }
-        if (!playerDetected && !playerAttackable) Patrol();
+        //if (!playerDetected && !playerAttackable) Patrol();
         if (playerDetected && !playerAttackable) FollowPlayer();
         if (playerDetected && playerAttackable) AttackPlayer();
         
     }
 
-    private void Patrol()
+    /*/private void Patrol()
     {
         agent.SetDestination(Waypoints[currentWaypoint].position);
         if (Vector3.Distance(transform.position, Waypoints[currentWaypoint].position) <= patrolTurnDistance) changeWaypoint();        
@@ -73,6 +73,7 @@ public class EnemyShortDistance : MonoBehaviour
             currentWaypoint = 0;
         }
     }
+    /*/
     private void FollowPlayer()
     {
         if (player.gameObject != null)

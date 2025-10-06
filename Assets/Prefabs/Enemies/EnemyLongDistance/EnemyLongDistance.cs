@@ -58,17 +58,17 @@ public class EnemyLongDistance : MonoBehaviour
         {
             TakeDamageEnemy(10);
         }
-        if (!playerDetected && !playerAttackable) Patrol();
         if (playerDetected && !playerAttackable) FollowPlayer();
         if (playerDetected && playerAttackable) AttackPlayer();
 
     }
-
+    /*/
     private void Patrol()
     {
         agent.SetDestination(Waypoints[currentWaypoint].position);
         if (Vector3.Distance(transform.position, Waypoints[currentWaypoint].position) <= patrolTurnDistance) changeWaypoint();
     }
+    
     private void changeWaypoint()
     {
         currentWaypoint++;
@@ -77,6 +77,7 @@ public class EnemyLongDistance : MonoBehaviour
             currentWaypoint = 0;
         }
     }
+    /*/
     private void FollowPlayer()
     {
         if (player.gameObject != null)
@@ -86,6 +87,7 @@ public class EnemyLongDistance : MonoBehaviour
         }
 
     }
+    
     private void FacePlayer()
     {
         if (player == null) return;
