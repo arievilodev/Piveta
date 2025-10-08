@@ -48,6 +48,10 @@ public class Player : MonoBehaviour
     [SerializeField] private bool powerIsOnCooldown = false;
     [SerializeField] private Transform projectileSpawn;
     [SerializeField] private PlayerProjectile playerProjectile;
+    [SerializeField] private Material defaultMaterial;
+    [SerializeField] private Material strengthMaterial;
+    [SerializeField] private Material rangedMaterial;
+    [SerializeField] private Material invisMaterial;
 
 
     void Start()
@@ -313,6 +317,11 @@ public class Player : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
     }
+    public void changeMaterial(Material mat)
+    {
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        sr.material = mat;
+    }
     public void activatePower()
     {
         if (!powerIsOnCooldown && !powerIsActive)
@@ -324,11 +333,17 @@ public class Player : MonoBehaviour
                 punchLeftDamage *= 2;
                 punchRightDamage *= 2;
                 kickDamage *= 2;
+                changeMaterial(strengthMaterial);
+            }
+            if (assignedPower.id == 2)
+            {
+                changeMaterial(rangedMaterial);
             }
             if (assignedPower.id == 3)
             {
+                changeMaterial(invisMaterial);
                 gameObject.layer = LayerMask.NameToLayer("Invisible");
-                powerIsActive = true;
+                powerIsActive = true; 
                 return;
             }
             powerIsActive = true;
@@ -347,6 +362,7 @@ public class Player : MonoBehaviour
         {
             gameObject.layer = LayerMask.NameToLayer("Piveta");
         }
+        changeMaterial(defaultMaterial);
         powerIsActive = false;
         powerIsOnCooldown = true;
         activePower = basePower;
