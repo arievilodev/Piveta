@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 451e2ab53249d854cad7f01437f6be84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3684959247819659652
+    second: inimigo_robo_melle_idle_lado-Sheet_0
+  - first:
+      213: -3566775825046261481
+    second: inimigo_robo_melle_idle_lado-Sheet_1
+  - first:
+      213: -6267911923904338023
+    second: inimigo_robo_melle_idle_lado-Sheet_2
+  - first:
+      213: 7157160192015632963
+    second: inimigo_robo_melle_idle_lado-Sheet_3
+  - first:
+      213: -7671258073795849208
+    second: inimigo_robo_melle_idle_lado-Sheet_4
+  - first:
+      213: 7390663573544593459
+    second: inimigo_robo_melle_idle_lado-Sheet_5
+  - first:
+      213: -7838468872452293406
+    second: inimigo_robo_melle_idle_lado-Sheet_6
+  - first:
+      213: -3476959011289018110
+    second: inimigo_robo_melle_idle_lado-Sheet_7
+  - first:
+      213: -8731614446203005987
+    second: inimigo_robo_melle_idle_lado-Sheet_8
+  - first:
+      213: 4498996475181980184
+    second: inimigo_robo_melle_idle_lado-Sheet_9
+  - first:
+      213: -1928791358292247620
+    second: inimigo_robo_melle_idle_lado-Sheet_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inimigo_robo_melle_idle_lado-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 232
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c762bed76156cdcc0800000000000000
+      internalID: -3684959247819659652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_idle_lado-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 0
+        width: 232
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711baa2e844408ec0800000000000000
+      internalID: -3566775825046261481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_idle_lado-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 0
+        width: 232
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9972f346057e309a0800000000000000
+      internalID: -6267911923904338023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_idle_lado-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 0
+        width: 232
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a88ad3647535360800000000000000
+      internalID: 7157160192015632963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_idle_lado-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 0
+        width: 232
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8041d0b0d673a8590800000000000000
+      internalID: -7671258073795849208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_idle_lado-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 0
+        width: 232
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3386b8bdc59e09660800000000000000
+      internalID: 7390663573544593459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_idle_lado-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 0
+        width: 232
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec368a271a283390800000000000000
+      internalID: -7838468872452293406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_idle_lado-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 0
+        width: 232
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2015681733c5fbfc0800000000000000
+      internalID: -3476959011289018110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_idle_lado-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 0
+        width: 232
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3966a5ce213d680800000000000000
+      internalID: -8731614446203005987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_idle_lado-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3589
+        y: 0
+        width: 232
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ad4fc1575af6e30800000000000000
+      internalID: 4498996475181980184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_idle_lado-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3979
+        y: 0
+        width: 232
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbb5239a7e8b35e0800000000000000
+      internalID: -1928791358292247620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      inimigo_robo_melle_idle_lado-Sheet_0: -3684959247819659652
+      inimigo_robo_melle_idle_lado-Sheet_1: -3566775825046261481
+      inimigo_robo_melle_idle_lado-Sheet_10: -1928791358292247620
+      inimigo_robo_melle_idle_lado-Sheet_2: -6267911923904338023
+      inimigo_robo_melle_idle_lado-Sheet_3: 7157160192015632963
+      inimigo_robo_melle_idle_lado-Sheet_4: -7671258073795849208
+      inimigo_robo_melle_idle_lado-Sheet_5: 7390663573544593459
+      inimigo_robo_melle_idle_lado-Sheet_6: -7838468872452293406
+      inimigo_robo_melle_idle_lado-Sheet_7: -3476959011289018110
+      inimigo_robo_melle_idle_lado-Sheet_8: -8731614446203005987
+      inimigo_robo_melle_idle_lado-Sheet_9: 4498996475181980184
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

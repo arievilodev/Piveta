@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 9bd9922ee3b16b54ab6347dd4ba87ace
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 355628205422405141
+    second: inimigo_robo_ranged_idle_costas-Sheet_0
+  - first:
+      213: -224808036257275677
+    second: inimigo_robo_ranged_idle_costas-Sheet_1
+  - first:
+      213: -2743231485657481403
+    second: inimigo_robo_ranged_idle_costas-Sheet_2
+  - first:
+      213: -7779572433156280554
+    second: inimigo_robo_ranged_idle_costas-Sheet_3
+  - first:
+      213: -2983658247624245710
+    second: inimigo_robo_ranged_idle_costas-Sheet_4
+  - first:
+      213: 6074369366030369251
+    second: inimigo_robo_ranged_idle_costas-Sheet_5
+  - first:
+      213: 2725083665071762408
+    second: inimigo_robo_ranged_idle_costas-Sheet_6
+  - first:
+      213: -3784231244710280045
+    second: inimigo_robo_ranged_idle_costas-Sheet_7
+  - first:
+      213: 8467266176699371207
+    second: inimigo_robo_ranged_idle_costas-Sheet_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_idle_costas-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 99
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516ef48f7f17fe400800000000000000
+      internalID: 355628205422405141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_idle_costas-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 99
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e06b38384251ecf0800000000000000
+      internalID: -224808036257275677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_idle_costas-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 99
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ff7b08f751ee9d0800000000000000
+      internalID: -2743231485657481403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_idle_costas-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 99
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f6c490718690490800000000000000
+      internalID: -7779572433156280554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_idle_costas-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 99
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e3133c1aae796d0800000000000000
+      internalID: -2983658247624245710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_idle_costas-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 69
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e141c841ce7c4450800000000000000
+      internalID: 6074369366030369251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_idle_costas-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 39
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb62dfb72171d520800000000000000
+      internalID: 2725083665071762408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_idle_costas-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3959
+        y: 69
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3940c1f8bb5bb7bc0800000000000000
+      internalID: -3784231244710280045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_idle_costas-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4519
+        y: 99
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce88d8e9b5c18570800000000000000
+      internalID: 8467266176699371207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      inimigo_robo_ranged_idle_costas-Sheet_0: 355628205422405141
+      inimigo_robo_ranged_idle_costas-Sheet_1: -224808036257275677
+      inimigo_robo_ranged_idle_costas-Sheet_2: -2743231485657481403
+      inimigo_robo_ranged_idle_costas-Sheet_3: -7779572433156280554
+      inimigo_robo_ranged_idle_costas-Sheet_4: -2983658247624245710
+      inimigo_robo_ranged_idle_costas-Sheet_5: 6074369366030369251
+      inimigo_robo_ranged_idle_costas-Sheet_6: 2725083665071762408
+      inimigo_robo_ranged_idle_costas-Sheet_7: -3784231244710280045
+      inimigo_robo_ranged_idle_costas-Sheet_8: 8467266176699371207
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1651 @@
+fileFormatVersion: 2
+guid: 33e5984e773313d4880f0e1867151971
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -819950066442129449
+    second: inimigo_ranged_morte-Sheet_0
+  - first:
+      213: 4811279689082537385
+    second: inimigo_ranged_morte-Sheet_1
+  - first:
+      213: 1820747559134307288
+    second: inimigo_ranged_morte-Sheet_2
+  - first:
+      213: 7356398758765680065
+    second: inimigo_ranged_morte-Sheet_3
+  - first:
+      213: -2733836500099233768
+    second: inimigo_ranged_morte-Sheet_4
+  - first:
+      213: 7027525144955945014
+    second: inimigo_ranged_morte-Sheet_5
+  - first:
+      213: 3090001279505469236
+    second: inimigo_ranged_morte-Sheet_6
+  - first:
+      213: 5066907592602146084
+    second: inimigo_ranged_morte-Sheet_7
+  - first:
+      213: 8661836823425232432
+    second: inimigo_ranged_morte-Sheet_8
+  - first:
+      213: -1590983609838255464
+    second: inimigo_ranged_morte-Sheet_9
+  - first:
+      213: 6206748704386964442
+    second: inimigo_ranged_morte-Sheet_10
+  - first:
+      213: 6493831325205652816
+    second: inimigo_ranged_morte-Sheet_11
+  - first:
+      213: -8180745555385493409
+    second: inimigo_ranged_morte-Sheet_12
+  - first:
+      213: -5422801789882445325
+    second: inimigo_ranged_morte-Sheet_13
+  - first:
+      213: -148004314142650786
+    second: inimigo_ranged_morte-Sheet_14
+  - first:
+      213: -9221107297540330243
+    second: inimigo_ranged_morte-Sheet_15
+  - first:
+      213: -2469236827954675706
+    second: inimigo_ranged_morte-Sheet_16
+  - first:
+      213: -1418259804883945269
+    second: inimigo_ranged_morte-Sheet_17
+  - first:
+      213: -1431296020074474344
+    second: inimigo_ranged_morte-Sheet_18
+  - first:
+      213: -2413136393605316943
+    second: inimigo_ranged_morte-Sheet_19
+  - first:
+      213: 275901381284097714
+    second: inimigo_ranged_morte-Sheet_20
+  - first:
+      213: -8003996151848307210
+    second: inimigo_ranged_morte-Sheet_21
+  - first:
+      213: -8883379377740338385
+    second: inimigo_ranged_morte-Sheet_22
+  - first:
+      213: 7429644066635003200
+    second: inimigo_ranged_morte-Sheet_23
+  - first:
+      213: -4796349864276956068
+    second: inimigo_ranged_morte-Sheet_24
+  - first:
+      213: 464945318174371810
+    second: inimigo_ranged_morte-Sheet_25
+  - first:
+      213: 480191433486739458
+    second: inimigo_ranged_morte-Sheet_26
+  - first:
+      213: 3939192285638189341
+    second: inimigo_ranged_morte-Sheet_27
+  - first:
+      213: -8473015796696619970
+    second: inimigo_ranged_morte-Sheet_28
+  - first:
+      213: 3844101800425670578
+    second: inimigo_ranged_morte-Sheet_29
+  - first:
+      213: 3400652214688816775
+    second: inimigo_ranged_morte-Sheet_30
+  - first:
+      213: 4705056515097333938
+    second: inimigo_ranged_morte-Sheet_31
+  - first:
+      213: -7465838894987386694
+    second: inimigo_ranged_morte-Sheet_32
+  - first:
+      213: -1467591124391300026
+    second: inimigo_ranged_morte-Sheet_33
+  - first:
+      213: -3021579219984541067
+    second: inimigo_ranged_morte-Sheet_34
+  - first:
+      213: -3748819920827156085
+    second: inimigo_ranged_morte-Sheet_35
+  - first:
+      213: 5876123921153420942
+    second: inimigo_ranged_morte-Sheet_36
+  - first:
+      213: 4702133868049064639
+    second: inimigo_ranged_morte-Sheet_37
+  - first:
+      213: -290630349265242121
+    second: inimigo_ranged_morte-Sheet_38
+  - first:
+      213: -6440102191802928443
+    second: inimigo_ranged_morte-Sheet_39
+  - first:
+      213: -7695423073133330209
+    second: inimigo_ranged_morte-Sheet_40
+  - first:
+      213: 7530129276884381888
+    second: inimigo_ranged_morte-Sheet_41
+  - first:
+      213: -736089120716185849
+    second: inimigo_ranged_morte-Sheet_42
+  - first:
+      213: 2888307086900113097
+    second: inimigo_ranged_morte-Sheet_43
+  - first:
+      213: 7475757944611732996
+    second: inimigo_ranged_morte-Sheet_44
+  - first:
+      213: -114601244140266445
+    second: inimigo_ranged_morte-Sheet_45
+  - first:
+      213: -8290837843635761226
+    second: inimigo_ranged_morte-Sheet_46
+  - first:
+      213: 845140023487782255
+    second: inimigo_ranged_morte-Sheet_47
+  - first:
+      213: -6857180646732823791
+    second: inimigo_ranged_morte-Sheet_48
+  - first:
+      213: 216967985544680909
+    second: inimigo_ranged_morte-Sheet_49
+  - first:
+      213: -1630488943684207561
+    second: inimigo_ranged_morte-Sheet_50
+  - first:
+      213: 3989978061055355148
+    second: inimigo_ranged_morte-Sheet_51
+  - first:
+      213: 5101260992995641929
+    second: inimigo_ranged_morte-Sheet_52
+  - first:
+      213: 2652810912948676897
+    second: inimigo_ranged_morte-Sheet_53
+  - first:
+      213: -3017480747509401822
+    second: inimigo_ranged_morte-Sheet_54
+  - first:
+      213: -1807465546814458123
+    second: inimigo_ranged_morte-Sheet_55
+  - first:
+      213: -4677392097288554939
+    second: inimigo_ranged_morte-Sheet_56
+  - first:
+      213: 4394307960706336563
+    second: inimigo_ranged_morte-Sheet_57
+  - first:
+      213: 3063183915580388648
+    second: inimigo_ranged_morte-Sheet_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 79
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfa82442c3fe94f0800000000000000
+      internalID: -819950066442129449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 79
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a501dec26915c240800000000000000
+      internalID: 4811279689082537385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 79
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d32cdf1248944910800000000000000
+      internalID: 1820747559134307288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 79
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c55a5af1bd271660800000000000000
+      internalID: 7356398758765680065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 69
+        width: 382
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818869900367f0ad0800000000000000
+      internalID: -2733836500099233768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 69
+        width: 382
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630893bc2e8c68160800000000000000
+      internalID: 7027525144955945014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3839
+        y: 69
+        width: 442
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f0d6ccac3e1ea20800000000000000
+      internalID: 3090001279505469236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 5079
+        y: 379
+        width: 112
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425d7ce1c95415640800000000000000
+      internalID: 5066907592602146084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 5229
+        y: 309
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ea8a2d2b6053870800000000000000
+      internalID: 8661836823425232432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 5609
+        y: 409
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8924f1416d0bbe9e0800000000000000
+      internalID: -1590983609838255464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 5719
+        y: 419
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbd917df0dc22650800000000000000
+      internalID: 6206748704386964442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 5799
+        y: 399
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055ef2a3f29be1a50800000000000000
+      internalID: 6493831325205652816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 6119
+        y: 449
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f585465c247287e80800000000000000
+      internalID: -8180745555385493409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 6189
+        y: 449
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f154bad0865eb4b0800000000000000
+      internalID: -5422801789882445325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 6269
+        y: 449
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e4d464cde22fdf0800000000000000
+      internalID: -148004314142650786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6339
+        y: 449
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfca856b4cb080080800000000000000
+      internalID: -9221107297540330243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 6409
+        y: 419
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600037300328bbdd0800000000000000
+      internalID: -2469236827954675706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 69
+        width: 442
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc87da2c834515ce0800000000000000
+      internalID: -1418259804883945269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4929
+        y: 349
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894d7036ad3032ce0800000000000000
+      internalID: -1431296020074474344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 5469
+        y: 379
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be76904c31d28ed0800000000000000
+      internalID: -2413136393605316943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 6019
+        y: 399
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be6a7038d234d300800000000000000
+      internalID: 275901381284097714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 6639
+        y: 419
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5fc7928e71ce090800000000000000
+      internalID: -8003996151848307210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 5569
+        y: 269
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ba1c8a585e7b480800000000000000
+      internalID: -8883379377740338385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 5899
+        y: 349
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0453e572ae56b1760800000000000000
+      internalID: 7429644066635003200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 6109
+        y: 349
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c6749e531ff6db0800000000000000
+      internalID: -4796349864276956068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 6279
+        y: 359
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efa3c1bd41d37600800000000000000
+      internalID: 464945318174371810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 6449
+        y: 369
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208a929809bf9a600800000000000000
+      internalID: 480191433486739458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3449
+        y: 169
+        width: 152
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d116c675382daa630800000000000000
+      internalID: 3939192285638189341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 5029
+        y: 179
+        width: 202
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34ef9d560dc96a80800000000000000
+      internalID: -8473015796696619970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 5729
+        y: 319
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7cfc6783ef85530800000000000000
+      internalID: 3844101800425670578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 5849
+        y: 309
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e1c2dfb2b813f20800000000000000
+      internalID: 3400652214688816775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 6419
+        y: 319
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b09386d8f7bb4140800000000000000
+      internalID: 4705056515097333938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 4889
+        y: 229
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab06bf9a413046890800000000000000
+      internalID: -7465838894987386694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 5459
+        y: 259
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644f323e5a112abe0800000000000000
+      internalID: -1467591124391300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 5999
+        y: 279
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a9e1c55b13116d0800000000000000
+      internalID: -3021579219984541067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 5689
+        y: 189
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b897034e42489fbc0800000000000000
+      internalID: -3748819920827156085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 6109
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e6680c29f2c8150800000000000000
+      internalID: 5876123921153420942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 6229
+        y: 209
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2e56b07d5514140800000000000000
+      internalID: 4702133868049064639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 6309
+        y: 229
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7f817bc3977fbf0800000000000000
+      internalID: -290630349265242121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 4929
+        y: 69
+        width: 122
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c23f5c7d2920a6a0800000000000000
+      internalID: -6440102191802928443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 5449
+        y: 129
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd00b81bc7d543590800000000000000
+      internalID: -7695423073133330209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 6259
+        y: 169
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c076755ea4608860800000000000000
+      internalID: 7530129276884381888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 6299
+        y: 189
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f9eac38d2e8c5f0800000000000000
+      internalID: -736089120716185849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 6639
+        y: 189
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ceacec1ef3551820800000000000000
+      internalID: 2888307086900113097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 5229
+        y: 59
+        width: 122
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ef26b0e3a3fb760800000000000000
+      internalID: 7475757944611732996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 5839
+        y: 109
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c933096cad86ef0800000000000000
+      internalID: -114601244140266445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 5969
+        y: 139
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf89bf68e601fc80800000000000000
+      internalID: -8290837843635761226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 6399
+        y: 119
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d5475af5a8abb00800000000000000
+      internalID: 845140023487782255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 6509
+        y: 139
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1138ece588666d0a0800000000000000
+      internalID: -6857180646732823791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 6959
+        y: 119
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5d50abb33d20300800000000000000
+      internalID: 216967985544680909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 5099
+        y: 39
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c3085c1f65f59e0800000000000000
+      internalID: -1630488943684207561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 6439
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c096ece18ef3f5730800000000000000
+      internalID: 3989978061055355148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 7139
+        y: 119
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94acf0278d15bc640800000000000000
+      internalID: 5101260992995641929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 5519
+        y: 59
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129e59a587da0d420800000000000000
+      internalID: 2652810912948676897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 5669
+        y: 49
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2273f185f31cf16d0800000000000000
+      internalID: -3017480747509401822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 5779
+        y: 69
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6fd5a59a79ae6e0800000000000000
+      internalID: -1807465546814458123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 6059
+        y: 59
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54675ed5ba0961fb0800000000000000
+      internalID: -4677392097288554939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 6219
+        y: 59
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3378297eec7bbfc30800000000000000
+      internalID: 4394307960706336563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_ranged_morte-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 6329
+        y: 69
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825fbd1ba8d928a20800000000000000
+      internalID: 3063183915580388648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      inimigo_ranged_morte-Sheet_0: -819950066442129449
+      inimigo_ranged_morte-Sheet_1: 4811279689082537385
+      inimigo_ranged_morte-Sheet_10: 6206748704386964442
+      inimigo_ranged_morte-Sheet_11: 6493831325205652816
+      inimigo_ranged_morte-Sheet_12: -8180745555385493409
+      inimigo_ranged_morte-Sheet_13: -5422801789882445325
+      inimigo_ranged_morte-Sheet_14: -148004314142650786
+      inimigo_ranged_morte-Sheet_15: -9221107297540330243
+      inimigo_ranged_morte-Sheet_16: -2469236827954675706
+      inimigo_ranged_morte-Sheet_17: -1418259804883945269
+      inimigo_ranged_morte-Sheet_18: -1431296020074474344
+      inimigo_ranged_morte-Sheet_19: -2413136393605316943
+      inimigo_ranged_morte-Sheet_2: 1820747559134307288
+      inimigo_ranged_morte-Sheet_20: 275901381284097714
+      inimigo_ranged_morte-Sheet_21: -8003996151848307210
+      inimigo_ranged_morte-Sheet_22: -8883379377740338385
+      inimigo_ranged_morte-Sheet_23: 7429644066635003200
+      inimigo_ranged_morte-Sheet_24: -4796349864276956068
+      inimigo_ranged_morte-Sheet_25: 464945318174371810
+      inimigo_ranged_morte-Sheet_26: 480191433486739458
+      inimigo_ranged_morte-Sheet_27: 3939192285638189341
+      inimigo_ranged_morte-Sheet_28: -8473015796696619970
+      inimigo_ranged_morte-Sheet_29: 3844101800425670578
+      inimigo_ranged_morte-Sheet_3: 7356398758765680065
+      inimigo_ranged_morte-Sheet_30: 3400652214688816775
+      inimigo_ranged_morte-Sheet_31: 4705056515097333938
+      inimigo_ranged_morte-Sheet_32: -7465838894987386694
+      inimigo_ranged_morte-Sheet_33: -1467591124391300026
+      inimigo_ranged_morte-Sheet_34: -3021579219984541067
+      inimigo_ranged_morte-Sheet_35: -3748819920827156085
+      inimigo_ranged_morte-Sheet_36: 5876123921153420942
+      inimigo_ranged_morte-Sheet_37: 4702133868049064639
+      inimigo_ranged_morte-Sheet_38: -290630349265242121
+      inimigo_ranged_morte-Sheet_39: -6440102191802928443
+      inimigo_ranged_morte-Sheet_4: -2733836500099233768
+      inimigo_ranged_morte-Sheet_40: -7695423073133330209
+      inimigo_ranged_morte-Sheet_41: 7530129276884381888
+      inimigo_ranged_morte-Sheet_42: -736089120716185849
+      inimigo_ranged_morte-Sheet_43: 2888307086900113097
+      inimigo_ranged_morte-Sheet_44: 7475757944611732996
+      inimigo_ranged_morte-Sheet_45: -114601244140266445
+      inimigo_ranged_morte-Sheet_46: -8290837843635761226
+      inimigo_ranged_morte-Sheet_47: 845140023487782255
+      inimigo_ranged_morte-Sheet_48: -6857180646732823791
+      inimigo_ranged_morte-Sheet_49: 216967985544680909
+      inimigo_ranged_morte-Sheet_5: 7027525144955945014
+      inimigo_ranged_morte-Sheet_50: -1630488943684207561
+      inimigo_ranged_morte-Sheet_51: 3989978061055355148
+      inimigo_ranged_morte-Sheet_52: 5101260992995641929
+      inimigo_ranged_morte-Sheet_53: 2652810912948676897
+      inimigo_ranged_morte-Sheet_54: -3017480747509401822
+      inimigo_ranged_morte-Sheet_55: -1807465546814458123
+      inimigo_ranged_morte-Sheet_56: -4677392097288554939
+      inimigo_ranged_morte-Sheet_57: 4394307960706336563
+      inimigo_ranged_morte-Sheet_58: 3063183915580388648
+      inimigo_ranged_morte-Sheet_6: 3090001279505469236
+      inimigo_ranged_morte-Sheet_7: 5066907592602146084
+      inimigo_ranged_morte-Sheet_8: 8661836823425232432
+      inimigo_ranged_morte-Sheet_9: -1590983609838255464
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

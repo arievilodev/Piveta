@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: e13ad181af4060049aa569b89efa6890
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8327826912379792718
+    second: inimigo_robo_melle_morte-Sheet_0
+  - first:
+      213: 3335070787011603022
+    second: inimigo_robo_melle_morte-Sheet_1
+  - first:
+      213: -265369790476577486
+    second: inimigo_robo_melle_morte-Sheet_2
+  - first:
+      213: -5567604775958037420
+    second: inimigo_robo_melle_morte-Sheet_3
+  - first:
+      213: 490190560699174249
+    second: inimigo_robo_melle_morte-Sheet_4
+  - first:
+      213: 3220453353824261466
+    second: inimigo_robo_melle_morte-Sheet_5
+  - first:
+      213: -8731582746302456271
+    second: inimigo_robo_melle_morte-Sheet_6
+  - first:
+      213: 6764605143528268859
+    second: inimigo_robo_melle_morte-Sheet_7
+  - first:
+      213: -3021715330602963897
+    second: inimigo_robo_melle_morte-Sheet_8
+  - first:
+      213: -1570730333008538662
+    second: inimigo_robo_melle_morte-Sheet_9
+  - first:
+      213: 5145821192676231504
+    second: inimigo_robo_melle_morte-Sheet_10
+  - first:
+      213: -3819470341077419193
+    second: inimigo_robo_melle_morte-Sheet_11
+  - first:
+      213: -1524464034624239001
+    second: inimigo_robo_melle_morte-Sheet_12
+  - first:
+      213: 4259817456374109143
+    second: inimigo_robo_melle_morte-Sheet_13
+  - first:
+      213: -1487936559538794345
+    second: inimigo_robo_melle_morte-Sheet_14
+  - first:
+      213: 9068372383918013462
+    second: inimigo_robo_melle_morte-Sheet_15
+  - first:
+      213: 3097114334777623355
+    second: inimigo_robo_melle_morte-Sheet_16
+  - first:
+      213: -3556084721469612001
+    second: inimigo_robo_melle_morte-Sheet_17
+  - first:
+      213: -1060005004007081079
+    second: inimigo_robo_melle_morte-Sheet_18
+  - first:
+      213: 5147205366265800571
+    second: inimigo_robo_melle_morte-Sheet_19
+  - first:
+      213: -1631681394337310888
+    second: inimigo_robo_melle_morte-Sheet_20
+  - first:
+      213: -4487910611079409761
+    second: inimigo_robo_melle_morte-Sheet_21
+  - first:
+      213: 3836502416242336789
+    second: inimigo_robo_melle_morte-Sheet_22
+  - first:
+      213: -60928008546332382
+    second: inimigo_robo_melle_morte-Sheet_23
+  - first:
+      213: -3035974126882267165
+    second: inimigo_robo_melle_morte-Sheet_24
+  - first:
+      213: -8708823720120481439
+    second: inimigo_robo_melle_morte-Sheet_25
+  - first:
+      213: -1753672276720430091
+    second: inimigo_robo_melle_morte-Sheet_26
+  - first:
+      213: -1198367515828594645
+    second: inimigo_robo_melle_morte-Sheet_27
+  - first:
+      213: -8630291940776023984
+    second: inimigo_robo_melle_morte-Sheet_28
+  - first:
+      213: 3467784605223657666
+    second: inimigo_robo_melle_morte-Sheet_29
+  - first:
+      213: -266826800790647355
+    second: inimigo_robo_melle_morte-Sheet_30
+  - first:
+      213: -1707236735011207053
+    second: inimigo_robo_melle_morte-Sheet_31
+  - first:
+      213: -2910080702644327588
+    second: inimigo_robo_melle_morte-Sheet_32
+  - first:
+      213: 8156055771141582139
+    second: inimigo_robo_melle_morte-Sheet_33
+  - first:
+      213: -5005988254706060522
+    second: inimigo_robo_melle_morte-Sheet_34
+  - first:
+      213: -9060252661897742396
+    second: inimigo_robo_melle_morte-Sheet_35
+  - first:
+      213: -586164885462228190
+    second: inimigo_robo_melle_morte-Sheet_36
+  - first:
+      213: -1520506266184905355
+    second: inimigo_robo_melle_morte-Sheet_37
+  - first:
+      213: -7751707103898434797
+    second: inimigo_robo_melle_morte-Sheet_38
+  - first:
+      213: -6280614975731058699
+    second: inimigo_robo_melle_morte-Sheet_39
+  - first:
+      213: -7096185908850417993
+    second: inimigo_robo_melle_morte-Sheet_40
+  - first:
+      213: 8828722166627744623
+    second: inimigo_robo_melle_morte-Sheet_41
+  - first:
+      213: 1148196274337980048
+    second: inimigo_robo_melle_morte-Sheet_42
+  - first:
+      213: -9006655839166492646
+    second: inimigo_robo_melle_morte-Sheet_43
+  - first:
+      213: 8938785699193125942
+    second: inimigo_robo_melle_morte-Sheet_44
+  - first:
+      213: -5571055077918842215
+    second: inimigo_robo_melle_morte-Sheet_45
+  - first:
+      213: -5990351913133446956
+    second: inimigo_robo_melle_morte-Sheet_46
+  - first:
+      213: -7362982911430196072
+    second: inimigo_robo_melle_morte-Sheet_47
+  - first:
+      213: -8281310008941457370
+    second: inimigo_robo_melle_morte-Sheet_48
+  - first:
+      213: -8266155361782076023
+    second: inimigo_robo_melle_morte-Sheet_49
+  - first:
+      213: 5722415039380596784
+    second: inimigo_robo_melle_morte-Sheet_50
+  - first:
+      213: -7080976145473977849
+    second: inimigo_robo_melle_morte-Sheet_51
+  - first:
+      213: 797733640060989271
+    second: inimigo_robo_melle_morte-Sheet_52
+  - first:
+      213: 2686775761420560397
+    second: inimigo_robo_melle_morte-Sheet_53
+  - first:
+      213: 5944288195193128829
+    second: inimigo_robo_melle_morte-Sheet_54
+  - first:
+      213: -6026364620085183756
+    second: inimigo_robo_melle_morte-Sheet_55
+  - first:
+      213: -3070586971880442228
+    second: inimigo_robo_melle_morte-Sheet_56
+  - first:
+      213: -3053277476113520653
+    second: inimigo_robo_melle_morte-Sheet_57
+  - first:
+      213: 4174892574363294132
+    second: inimigo_robo_melle_morte-Sheet_58
+  - first:
+      213: -5112435556849386669
+    second: inimigo_robo_melle_morte-Sheet_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 9
+        width: 472
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b21aa0cb8d9d6c80800000000000000
+      internalID: -8327826912379792718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 9
+        width: 472
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4aeb98f53d884e20800000000000000
+      internalID: 3335070787011603022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 9
+        width: 472
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2351680e497315cf0800000000000000
+      internalID: -265369790476577486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 9
+        width: 472
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cb04764f4ebb2b0800000000000000
+      internalID: -5567604775958037420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 9
+        width: 472
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d49b2c7b18dc600800000000000000
+      internalID: 490190560699174249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 19
+        width: 382
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55196a334951bc20800000000000000
+      internalID: 3220453353824261466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 19
+        width: 382
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e56bf01cf23d680800000000000000
+      internalID: -8731582746302456271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 4129
+        y: 19
+        width: 442
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3468c1a984b0ed50800000000000000
+      internalID: 6764605143528268859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4649
+        y: 29
+        width: 442
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cee03aae5b016d0800000000000000
+      internalID: -3021715330602963897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 5159
+        y: 309
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3581f8515a33ae0800000000000000
+      internalID: -1570730333008538662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 5309
+        y: 339
+        width: 112
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059c42b6c11a96740800000000000000
+      internalID: 5145821192676231504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 5459
+        y: 269
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bb0f116f38efac0800000000000000
+      internalID: -3819470341077419193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 5799
+        y: 359
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a0d57990408dae0800000000000000
+      internalID: -1524464034624239001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 5909
+        y: 369
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3df273869ed1b30800000000000000
+      internalID: 4259817456374109143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 5989
+        y: 349
+        width: 92
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7909f502599c95be0800000000000000
+      internalID: -1487936559538794345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6279
+        y: 389
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c356a03a459dd70800000000000000
+      internalID: 9068372383918013462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 6349
+        y: 389
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33c03904192bfa20800000000000000
+      internalID: 3097114334777623355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 6429
+        y: 389
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f102c9969cf36aec0800000000000000
+      internalID: -3556084721469612001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 6499
+        y: 389
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b7504a01b1a41f0800000000000000
+      internalID: -1060005004007081079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 6569
+        y: 359
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77e142720c8e6740800000000000000
+      internalID: 5147205366265800571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 5659
+        y: 329
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85719e7ba6a1b59e0800000000000000
+      internalID: -1631681394337310888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 6089
+        y: 299
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fc7e2c31db7b1c0800000000000000
+      internalID: -4487910611079409761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 6179
+        y: 339
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5146d04fe9efd3530800000000000000
+      internalID: 3836502416242336789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 6769
+        y: 339
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22159bd8c4a872ff0800000000000000
+      internalID: -60928008546332382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 5259
+        y: 139
+        width: 202
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efd7ebed9d0ed5d0800000000000000
+      internalID: -3035974126882267165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 5759
+        y: 219
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16909b6c7fa042780800000000000000
+      internalID: -8708823720120481439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 6269
+        y: 289
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3d0ad0b54b9a7e0800000000000000
+      internalID: -1753672276720430091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 6439
+        y: 299
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b285ba4f71b8e5fe0800000000000000
+      internalID: -1198367515828594645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 6609
+        y: 309
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058e022843b0b3880800000000000000
+      internalID: -8630291940776023984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 119
+        width: 152
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0acefa9bb002030800000000000000
+      internalID: 3467784605223657666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 5119
+        y: 189
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdc15a307a0c4cf0800000000000000
+      internalID: -266826800790647355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 5919
+        y: 269
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378c82e1c3dae48e0800000000000000
+      internalID: -1707236735011207053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 6039
+        y: 259
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b6a2be4015d97d0800000000000000
+      internalID: -2910080702644327588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 6579
+        y: 259
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d2b2fd281203170800000000000000
+      internalID: 8156055771141582139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 5649
+        y: 209
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613b7788438278ab0800000000000000
+      internalID: -5005988254706060522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 6159
+        y: 219
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c73c401534834280800000000000000
+      internalID: -9060252661897742396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 5879
+        y: 139
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223673e64268dd7f0800000000000000
+      internalID: -586164885462228190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 6269
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d0b4d5b9316eae0800000000000000
+      internalID: -1520506266184905355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 149
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313034595776c6490800000000000000
+      internalID: -7751707103898434797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 6469
+        y: 169
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f73d88a4f5c6d8a0800000000000000
+      internalID: -6280614975731058699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 5159
+        y: 29
+        width: 122
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be96da5388458d90800000000000000
+      internalID: -7096185908850417993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 5459
+        y: 19
+        width: 122
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6bb672b80ce58a70800000000000000
+      internalID: 8828722166627744623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 5639
+        y: 79
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e97589d663fef00800000000000000
+      internalID: 1148196274337980048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 6029
+        y: 59
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10984ccb3ee10380800000000000000
+      internalID: -9006655839166492646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 6419
+        y: 109
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c7fb3db32fc0c70800000000000000
+      internalID: 8938785699193125942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 6459
+        y: 129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992e2806ce2afa2b0800000000000000
+      internalID: -5571055077918842215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 6769
+        y: 109
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8691a5caefddca0800000000000000
+      internalID: -5990351913133446956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 6129
+        y: 79
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8948ee48d0e61d990800000000000000
+      internalID: -7362982911430196072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 7259
+        y: 99
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62058225c60e21d80800000000000000
+      internalID: -8281310008941457370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 5329
+        y: 0
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98de9c29e77b84d80800000000000000
+      internalID: -8266155361782076023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 5969
+        y: 19
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03822afd82a1a6f40800000000000000
+      internalID: 5722415039380596784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 6559
+        y: 59
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702420a56b15bbd90800000000000000
+      internalID: -7080976145473977849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 6599
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fe631e48e121b00800000000000000
+      internalID: 797733640060989271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 6639
+        y: 59
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d082a92e158594520800000000000000
+      internalID: 2686775761420560397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 7089
+        y: 39
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77c80d8e9a5e7250800000000000000
+      internalID: 5944288195193128829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 5709
+        y: 9
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa37dc9e4d0e5ca0800000000000000
+      internalID: -6026364620085183756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 5859
+        y: 0
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86bf11fa651365d0800000000000000
+      internalID: -3070586971880442228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 6219
+        y: 0
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f76d8bff4490a5d0800000000000000
+      internalID: -3053277476113520653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 6379
+        y: 0
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b917564da230f930800000000000000
+      internalID: 4174892574363294132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_melle_morte-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 6489
+        y: 9
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b7ae8a2fafc09b0800000000000000
+      internalID: -5112435556849386669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      inimigo_robo_melle_morte-Sheet_0: -8327826912379792718
+      inimigo_robo_melle_morte-Sheet_1: 3335070787011603022
+      inimigo_robo_melle_morte-Sheet_10: 5145821192676231504
+      inimigo_robo_melle_morte-Sheet_11: -3819470341077419193
+      inimigo_robo_melle_morte-Sheet_12: -1524464034624239001
+      inimigo_robo_melle_morte-Sheet_13: 4259817456374109143
+      inimigo_robo_melle_morte-Sheet_14: -1487936559538794345
+      inimigo_robo_melle_morte-Sheet_15: 9068372383918013462
+      inimigo_robo_melle_morte-Sheet_16: 3097114334777623355
+      inimigo_robo_melle_morte-Sheet_17: -3556084721469612001
+      inimigo_robo_melle_morte-Sheet_18: -1060005004007081079
+      inimigo_robo_melle_morte-Sheet_19: 5147205366265800571
+      inimigo_robo_melle_morte-Sheet_2: -265369790476577486
+      inimigo_robo_melle_morte-Sheet_20: -1631681394337310888
+      inimigo_robo_melle_morte-Sheet_21: -4487910611079409761
+      inimigo_robo_melle_morte-Sheet_22: 3836502416242336789
+      inimigo_robo_melle_morte-Sheet_23: -60928008546332382
+      inimigo_robo_melle_morte-Sheet_24: -3035974126882267165
+      inimigo_robo_melle_morte-Sheet_25: -8708823720120481439
+      inimigo_robo_melle_morte-Sheet_26: -1753672276720430091
+      inimigo_robo_melle_morte-Sheet_27: -1198367515828594645
+      inimigo_robo_melle_morte-Sheet_28: -8630291940776023984
+      inimigo_robo_melle_morte-Sheet_29: 3467784605223657666
+      inimigo_robo_melle_morte-Sheet_3: -5567604775958037420
+      inimigo_robo_melle_morte-Sheet_30: -266826800790647355
+      inimigo_robo_melle_morte-Sheet_31: -1707236735011207053
+      inimigo_robo_melle_morte-Sheet_32: -2910080702644327588
+      inimigo_robo_melle_morte-Sheet_33: 8156055771141582139
+      inimigo_robo_melle_morte-Sheet_34: -5005988254706060522
+      inimigo_robo_melle_morte-Sheet_35: -9060252661897742396
+      inimigo_robo_melle_morte-Sheet_36: -586164885462228190
+      inimigo_robo_melle_morte-Sheet_37: -1520506266184905355
+      inimigo_robo_melle_morte-Sheet_38: -7751707103898434797
+      inimigo_robo_melle_morte-Sheet_39: -6280614975731058699
+      inimigo_robo_melle_morte-Sheet_4: 490190560699174249
+      inimigo_robo_melle_morte-Sheet_40: -7096185908850417993
+      inimigo_robo_melle_morte-Sheet_41: 8828722166627744623
+      inimigo_robo_melle_morte-Sheet_42: 1148196274337980048
+      inimigo_robo_melle_morte-Sheet_43: -9006655839166492646
+      inimigo_robo_melle_morte-Sheet_44: 8938785699193125942
+      inimigo_robo_melle_morte-Sheet_45: -5571055077918842215
+      inimigo_robo_melle_morte-Sheet_46: -5990351913133446956
+      inimigo_robo_melle_morte-Sheet_47: -7362982911430196072
+      inimigo_robo_melle_morte-Sheet_48: -8281310008941457370
+      inimigo_robo_melle_morte-Sheet_49: -8266155361782076023
+      inimigo_robo_melle_morte-Sheet_5: 3220453353824261466
+      inimigo_robo_melle_morte-Sheet_50: 5722415039380596784
+      inimigo_robo_melle_morte-Sheet_51: -7080976145473977849
+      inimigo_robo_melle_morte-Sheet_52: 797733640060989271
+      inimigo_robo_melle_morte-Sheet_53: 2686775761420560397
+      inimigo_robo_melle_morte-Sheet_54: 5944288195193128829
+      inimigo_robo_melle_morte-Sheet_55: -6026364620085183756
+      inimigo_robo_melle_morte-Sheet_56: -3070586971880442228
+      inimigo_robo_melle_morte-Sheet_57: -3053277476113520653
+      inimigo_robo_melle_morte-Sheet_58: 4174892574363294132
+      inimigo_robo_melle_morte-Sheet_59: -5112435556849386669
+      inimigo_robo_melle_morte-Sheet_6: -8731582746302456271
+      inimigo_robo_melle_morte-Sheet_7: 6764605143528268859
+      inimigo_robo_melle_morte-Sheet_8: -3021715330602963897
+      inimigo_robo_melle_morte-Sheet_9: -1570730333008538662
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

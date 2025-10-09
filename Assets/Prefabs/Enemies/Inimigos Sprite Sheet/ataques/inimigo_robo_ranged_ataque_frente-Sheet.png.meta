@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 10210364af1082346873596aa36451e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4771571432074203815
+    second: inimigo_robo_ranged_ataque_frente-Sheet_0
+  - first:
+      213: -6673325059986003232
+    second: inimigo_robo_ranged_ataque_frente-Sheet_1
+  - first:
+      213: -2269290212038933950
+    second: inimigo_robo_ranged_ataque_frente-Sheet_2
+  - first:
+      213: 5798510767177061675
+    second: inimigo_robo_ranged_ataque_frente-Sheet_3
+  - first:
+      213: 14111866695051049
+    second: inimigo_robo_ranged_ataque_frente-Sheet_4
+  - first:
+      213: -3553237142176429558
+    second: inimigo_robo_ranged_ataque_frente-Sheet_5
+  - first:
+      213: -3807804430503469298
+    second: inimigo_robo_ranged_ataque_frente-Sheet_6
+  - first:
+      213: -9036384657071848757
+    second: inimigo_robo_ranged_ataque_frente-Sheet_7
+  - first:
+      213: -616504825702369118
+    second: inimigo_robo_ranged_ataque_frente-Sheet_8
+  - first:
+      213: 1243294185362480568
+    second: inimigo_robo_ranged_ataque_frente-Sheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_ataque_frente-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 89
+        width: 502
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95da0da3019f7cdb0800000000000000
+      internalID: -4771571432074203815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_ataque_frente-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 19
+        width: 402
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea62d8f6369363a0800000000000000
+      internalID: -6673325059986003232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_ataque_frente-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 29
+        width: 352
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242062b439cd180e0800000000000000
+      internalID: -2269290212038933950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_ataque_frente-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 29
+        width: 352
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25ddd722d2787050800000000000000
+      internalID: 5798510767177061675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_ataque_frente-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 29
+        width: 352
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927e9710ba2223000800000000000000
+      internalID: 14111866695051049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_ataque_frente-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 29
+        width: 352
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a89d125ad50bec0800000000000000
+      internalID: -3553237142176429558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_ataque_frente-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 29
+        width: 352
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f9ea98b06f72bc0800000000000000
+      internalID: -3807804430503469298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_ataque_frente-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 29
+        width: 352
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2417df700589280800000000000000
+      internalID: -9036384657071848757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_ataque_frente-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4889
+        y: 29
+        width: 352
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a832bd902cb177f0800000000000000
+      internalID: -616504825702369118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_robo_ranged_ataque_frente-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 5479
+        y: 29
+        width: 352
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdd6dd6971114110800000000000000
+      internalID: 1243294185362480568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      inimigo_robo_ranged_ataque_frente-Sheet_0: -4771571432074203815
+      inimigo_robo_ranged_ataque_frente-Sheet_1: -6673325059986003232
+      inimigo_robo_ranged_ataque_frente-Sheet_2: -2269290212038933950
+      inimigo_robo_ranged_ataque_frente-Sheet_3: 5798510767177061675
+      inimigo_robo_ranged_ataque_frente-Sheet_4: 14111866695051049
+      inimigo_robo_ranged_ataque_frente-Sheet_5: -3553237142176429558
+      inimigo_robo_ranged_ataque_frente-Sheet_6: -3807804430503469298
+      inimigo_robo_ranged_ataque_frente-Sheet_7: -9036384657071848757
+      inimigo_robo_ranged_ataque_frente-Sheet_8: -616504825702369118
+      inimigo_robo_ranged_ataque_frente-Sheet_9: 1243294185362480568
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
