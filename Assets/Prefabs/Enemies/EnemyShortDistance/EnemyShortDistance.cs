@@ -15,15 +15,13 @@ public class EnemyShortDistance : MonoBehaviour
     public Animator anim;
 
     // Sistema de vida do inimigo
-    [SerializeField] private int maxLife = 30;
-    [SerializeField] private int currentLife;
-    [SerializeField] private float detectRange, attackRange; //range para detectar e atacar o player
-    [SerializeField] private bool isDead = false;
+
+    [SerializeField] private float detectRange, attackRange; //range para detectar e atacar o player    
     [SerializeField] private Transform target;
-    //[SerializeField] private List<Transform> Waypoints = new List<Transform>();
-    //[SerializeField] private float patrolTurnDistance; //a distância do waypoint para troca
+    [SerializeField] private List<Transform> Waypoints = new List<Transform>();
+    [SerializeField] private float patrolTurnDistance; //a distância do waypoint para troca
     NavMeshAgent agent;
-    //[SerializeField] int currentWaypoint;
+    [SerializeField] int currentWaypoint;
 
 
 
@@ -41,7 +39,7 @@ public class EnemyShortDistance : MonoBehaviour
         anim = GetComponent<Animator>();
 
         //initialPositionEnemy = rbEnemy.position;
-        currentLife = maxLife; // Inicializa a vida do inimigo com o valor máximo
+
     }
 
     void Update()
@@ -50,17 +48,13 @@ public class EnemyShortDistance : MonoBehaviour
         playerDetected = Physics2D.OverlapCircle(transform.position, detectRange, LayerMask.GetMask("Piveta"));     
         playerAttackable = Physics2D.OverlapCircle(transform.position, attackRange, LayerMask.GetMask("Piveta"));
         // teste de dano do inimigo
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            TakeDamageEnemy(10);
-        }
-        //if (!playerDetected && !playerAttackable) Patrol();
+        if (!playerDetected && !playerAttackable) Patrol();
         if (playerDetected && !playerAttackable) FollowPlayer();
         if (playerDetected && playerAttackable) AttackPlayer();
         
     }
 
-    /*/private void Patrol()
+    private void Patrol()
     {
         agent.SetDestination(Waypoints[currentWaypoint].position);
         if (Vector3.Distance(transform.position, Waypoints[currentWaypoint].position) <= patrolTurnDistance) changeWaypoint();        
@@ -73,7 +67,6 @@ public class EnemyShortDistance : MonoBehaviour
             currentWaypoint = 0;
         }
     }
-    /*/
     private void FollowPlayer()
     {
         if (player.gameObject != null)
@@ -100,6 +93,7 @@ public class EnemyShortDistance : MonoBehaviour
     {
         if (player != null)
         {
+            anim.SetTrigger("attack-enemyshort");
             var knockbackDirection = (player.transform.position - transform.position).normalized;
             player.TakeDamage(damage, knockbackDirection);
             if (player.isDead)
@@ -113,32 +107,9 @@ public class EnemyShortDistance : MonoBehaviour
     }
     
 
-    public void TakeDamageEnemy(int amount)
-    {
-        //anim.SetTrigger("hit"); // FALTA SPRITES DE ANIMAÇÃO DE DANO
 
-        if (isDead || isInvulnerable) return;
 
-        currentLife -= amount;
-        Debug.Log("Inimigo levou dano! Vida atual: " + currentLife);
 
-        if (currentLife > 0)
-        {
-            //anim.SetTrigger("hit");
-            StartCoroutine(InvulnerabilityFrames());
-        }
-        else
-        {
-            DieEnemy();
-        }
-    }
-
-    private void DieEnemy()
-    {
-        isDead = true;
-        // Exemplo: desativa o inimigo
-        gameObject.SetActive(false);
-    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -158,15 +129,6 @@ public class EnemyShortDistance : MonoBehaviour
         yield return new WaitForFixedUpdate();
     }
 
-    private bool isInvulnerable = false;
-    [SerializeField] private float invulnerableTime = 0.2f;
 
-
-    private IEnumerator InvulnerabilityFrames()
-    {
-        isInvulnerable = true;
-        yield return new WaitForSeconds(invulnerableTime);
-        isInvulnerable = false;
-    }
 
 }

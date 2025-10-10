@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: bb8f0092c22bb864aa30569f48fd06c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3354908187360852438
+    second: inimigo_robo_ranged_ataque_costas-Sheet_0
+  - first:
+      213: 5426206719833023327
+    second: inimigo_robo_ranged_ataque_costas-Sheet_1
+  - first:
+      213: 4785120241982734460
+    second: inimigo_robo_ranged_ataque_costas-Sheet_2
+  - first:
+      213: 3526407163018859370
+    second: inimigo_robo_ranged_ataque_costas-Sheet_3
+  - first:
+      213: -5135117772243946504
+    second: inimigo_robo_ranged_ataque_costas-Sheet_4
+  - first:
+      213: 8760637742983713948
+    second: inimigo_robo_ranged_ataque_costas-Sheet_5
+  - first:
+      213: -7651538878884488870
+    second: inimigo_robo_ranged_ataque_costas-Sheet_6
+  - first:
+      213: -7280244492725715147
+    second: inimigo_robo_ranged_ataque_costas-Sheet_7
+  - first:
+      213: -8433774995953839798
+    second: inimigo_robo_ranged_ataque_costas-Sheet_8
+  - first:
+      213: -1457932062194986124
+    second: inimigo_robo_ranged_ataque_costas-Sheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 320
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack-enemylong-up-1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d971b9a8370f8e20800000000000000
+      internalID: 3354908187360852438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-enemylong-up-2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 10
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f532c7d2342cd4b40800000000000000
+      internalID: 5426206719833023327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-enemylong-up-3
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 10
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7089e6e189286240800000000000000
+      internalID: 4785120241982734460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-enemylong-up-4
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 10
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63d12d81a050f030800000000000000
+      internalID: 3526407163018859370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-enemylong-up-5
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 10
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3ba99d7956cb8b0800000000000000
+      internalID: -5135117772243946504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-enemylong-up-6
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 10
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c949c648c99049970800000000000000
+      internalID: 8760637742983713948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-enemylong-up-7
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 10
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59dff2ede540d590800000000000000
+      internalID: -7651538878884488870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-enemylong-up-8
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 10
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ff61dc43067fa90800000000000000
+      internalID: -7280244492725715147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-enemylong-up-9
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 10
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a419992435635fa80800000000000000
+      internalID: -8433774995953839798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-enemylong-up-10
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 10
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473173e838264cbe0800000000000000
+      internalID: -1457932062194986124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7e613ed21c9e7e943ad4864c78d3bc5b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      attack-enemylong-up-1: 3354908187360852438
+      attack-enemylong-up-10: -1457932062194986124
+      attack-enemylong-up-2: 5426206719833023327
+      attack-enemylong-up-3: 4785120241982734460
+      attack-enemylong-up-4: 3526407163018859370
+      attack-enemylong-up-5: -5135117772243946504
+      attack-enemylong-up-6: 8760637742983713948
+      attack-enemylong-up-7: -7651538878884488870
+      attack-enemylong-up-8: -7280244492725715147
+      attack-enemylong-up-9: -8433774995953839798
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,616 @@
+fileFormatVersion: 2
+guid: 33e5984e773313d4880f0e1867151971
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -819950066442129449
+    second: inimigo_ranged_morte-Sheet_0
+  - first:
+      213: 4811279689082537385
+    second: inimigo_ranged_morte-Sheet_1
+  - first:
+      213: 1820747559134307288
+    second: inimigo_ranged_morte-Sheet_2
+  - first:
+      213: 7356398758765680065
+    second: inimigo_ranged_morte-Sheet_3
+  - first:
+      213: -2733836500099233768
+    second: inimigo_ranged_morte-Sheet_4
+  - first:
+      213: 7027525144955945014
+    second: inimigo_ranged_morte-Sheet_5
+  - first:
+      213: 3090001279505469236
+    second: inimigo_ranged_morte-Sheet_6
+  - first:
+      213: 5066907592602146084
+    second: inimigo_ranged_morte-Sheet_7
+  - first:
+      213: 8661836823425232432
+    second: inimigo_ranged_morte-Sheet_8
+  - first:
+      213: -1590983609838255464
+    second: inimigo_ranged_morte-Sheet_9
+  - first:
+      213: 6206748704386964442
+    second: inimigo_ranged_morte-Sheet_10
+  - first:
+      213: 6493831325205652816
+    second: inimigo_ranged_morte-Sheet_11
+  - first:
+      213: -8180745555385493409
+    second: inimigo_ranged_morte-Sheet_12
+  - first:
+      213: -5422801789882445325
+    second: inimigo_ranged_morte-Sheet_13
+  - first:
+      213: -148004314142650786
+    second: inimigo_ranged_morte-Sheet_14
+  - first:
+      213: -9221107297540330243
+    second: inimigo_ranged_morte-Sheet_15
+  - first:
+      213: -2469236827954675706
+    second: inimigo_ranged_morte-Sheet_16
+  - first:
+      213: -1418259804883945269
+    second: inimigo_ranged_morte-Sheet_17
+  - first:
+      213: -1431296020074474344
+    second: inimigo_ranged_morte-Sheet_18
+  - first:
+      213: -2413136393605316943
+    second: inimigo_ranged_morte-Sheet_19
+  - first:
+      213: 275901381284097714
+    second: inimigo_ranged_morte-Sheet_20
+  - first:
+      213: -8003996151848307210
+    second: inimigo_ranged_morte-Sheet_21
+  - first:
+      213: -8883379377740338385
+    second: inimigo_ranged_morte-Sheet_22
+  - first:
+      213: 7429644066635003200
+    second: inimigo_ranged_morte-Sheet_23
+  - first:
+      213: -4796349864276956068
+    second: inimigo_ranged_morte-Sheet_24
+  - first:
+      213: 464945318174371810
+    second: inimigo_ranged_morte-Sheet_25
+  - first:
+      213: 480191433486739458
+    second: inimigo_ranged_morte-Sheet_26
+  - first:
+      213: 3939192285638189341
+    second: inimigo_ranged_morte-Sheet_27
+  - first:
+      213: -8473015796696619970
+    second: inimigo_ranged_morte-Sheet_28
+  - first:
+      213: 3844101800425670578
+    second: inimigo_ranged_morte-Sheet_29
+  - first:
+      213: 3400652214688816775
+    second: inimigo_ranged_morte-Sheet_30
+  - first:
+      213: 4705056515097333938
+    second: inimigo_ranged_morte-Sheet_31
+  - first:
+      213: -7465838894987386694
+    second: inimigo_ranged_morte-Sheet_32
+  - first:
+      213: -1467591124391300026
+    second: inimigo_ranged_morte-Sheet_33
+  - first:
+      213: -3021579219984541067
+    second: inimigo_ranged_morte-Sheet_34
+  - first:
+      213: -3748819920827156085
+    second: inimigo_ranged_morte-Sheet_35
+  - first:
+      213: 5876123921153420942
+    second: inimigo_ranged_morte-Sheet_36
+  - first:
+      213: 4702133868049064639
+    second: inimigo_ranged_morte-Sheet_37
+  - first:
+      213: -290630349265242121
+    second: inimigo_ranged_morte-Sheet_38
+  - first:
+      213: -6440102191802928443
+    second: inimigo_ranged_morte-Sheet_39
+  - first:
+      213: -7695423073133330209
+    second: inimigo_ranged_morte-Sheet_40
+  - first:
+      213: 7530129276884381888
+    second: inimigo_ranged_morte-Sheet_41
+  - first:
+      213: -736089120716185849
+    second: inimigo_ranged_morte-Sheet_42
+  - first:
+      213: 2888307086900113097
+    second: inimigo_ranged_morte-Sheet_43
+  - first:
+      213: 7475757944611732996
+    second: inimigo_ranged_morte-Sheet_44
+  - first:
+      213: -114601244140266445
+    second: inimigo_ranged_morte-Sheet_45
+  - first:
+      213: -8290837843635761226
+    second: inimigo_ranged_morte-Sheet_46
+  - first:
+      213: 845140023487782255
+    second: inimigo_ranged_morte-Sheet_47
+  - first:
+      213: -6857180646732823791
+    second: inimigo_ranged_morte-Sheet_48
+  - first:
+      213: 216967985544680909
+    second: inimigo_ranged_morte-Sheet_49
+  - first:
+      213: -1630488943684207561
+    second: inimigo_ranged_morte-Sheet_50
+  - first:
+      213: 3989978061055355148
+    second: inimigo_ranged_morte-Sheet_51
+  - first:
+      213: 5101260992995641929
+    second: inimigo_ranged_morte-Sheet_52
+  - first:
+      213: 2652810912948676897
+    second: inimigo_ranged_morte-Sheet_53
+  - first:
+      213: -3017480747509401822
+    second: inimigo_ranged_morte-Sheet_54
+  - first:
+      213: -1807465546814458123
+    second: inimigo_ranged_morte-Sheet_55
+  - first:
+      213: -4677392097288554939
+    second: inimigo_ranged_morte-Sheet_56
+  - first:
+      213: 4394307960706336563
+    second: inimigo_ranged_morte-Sheet_57
+  - first:
+      213: 3063183915580388648
+    second: inimigo_ranged_morte-Sheet_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 320
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemylong-dead-1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfa82442c3fe94f0800000000000000
+      internalID: -819950066442129449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a501dec26915c240800000000000000
+      internalID: 4811279689082537385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-3
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d32cdf1248944910800000000000000
+      internalID: 1820747559134307288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-4
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c55a5af1bd271660800000000000000
+      internalID: 7356398758765680065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-5
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818869900367f0ad0800000000000000
+      internalID: -2733836500099233768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-6
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630893bc2e8c68160800000000000000
+      internalID: 7027525144955945014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-7
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f0d6ccac3e1ea20800000000000000
+      internalID: 3090001279505469236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-8
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425d7ce1c95415640800000000000000
+      internalID: 5066907592602146084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-9
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ea8a2d2b6053870800000000000000
+      internalID: 8661836823425232432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-10
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8924f1416d0bbe9e0800000000000000
+      internalID: -1590983609838255464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-11
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbd917df0dc22650800000000000000
+      internalID: 6206748704386964442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-12
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055ef2a3f29be1a50800000000000000
+      internalID: 6493831325205652816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-13
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f585465c247287e80800000000000000
+      internalID: -8180745555385493409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-dead-14
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 0
+        width: 540
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f154bad0865eb4b0800000000000000
+      internalID: -5422801789882445325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c266f9c9e2f32334786760745da6df82
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemylong-dead-1: -819950066442129449
+      enemylong-dead-10: -1590983609838255464
+      enemylong-dead-11: 6206748704386964442
+      enemylong-dead-12: 6493831325205652816
+      enemylong-dead-13: -8180745555385493409
+      enemylong-dead-14: -5422801789882445325
+      enemylong-dead-2: 4811279689082537385
+      enemylong-dead-3: 1820747559134307288
+      enemylong-dead-4: 7356398758765680065
+      enemylong-dead-5: -2733836500099233768
+      enemylong-dead-6: 7027525144955945014
+      enemylong-dead-7: 3090001279505469236
+      enemylong-dead-8: 5066907592602146084
+      enemylong-dead-9: 8661836823425232432
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

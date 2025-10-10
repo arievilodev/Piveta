@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 0df73518e30814443ac6cd556aa0b0b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 710616633667839352
+    second: inimigo_robo_ranged_ataque_lado-Sheet1_0
+  - first:
+      213: -2264379143241161517
+    second: inimigo_robo_ranged_ataque_lado-Sheet1_1
+  - first:
+      213: 1340148778903786370
+    second: inimigo_robo_ranged_ataque_lado-Sheet1_2
+  - first:
+      213: -204648538144832137
+    second: inimigo_robo_ranged_ataque_lado-Sheet1_3
+  - first:
+      213: 4265741930707362276
+    second: inimigo_robo_ranged_ataque_lado-Sheet1_4
+  - first:
+      213: 2581798099834669460
+    second: inimigo_robo_ranged_ataque_lado-Sheet1_5
+  - first:
+      213: -4024257386409727278
+    second: inimigo_robo_ranged_ataque_lado-Sheet1_6
+  - first:
+      213: 2132846408472903006
+    second: inimigo_robo_ranged_ataque_lado-Sheet1_7
+  - first:
+      213: 5313231701053151247
+    second: inimigo_robo_ranged_ataque_lado-Sheet1_8
+  - first:
+      213: -2046137053556879800
+    second: inimigo_robo_ranged_ataque_lado-Sheet1_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 320
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemylong-attack-right-1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 510
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8756145301e9cd900800000000000000
+      internalID: 710616633667839352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-attack-right-2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 510
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4ae4a9a2f4390e0800000000000000
+      internalID: -2264379143241161517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-attack-right-3
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 510
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283dbb8c63a299210800000000000000
+      internalID: 1340148778903786370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-attack-right-4
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 0
+        width: 510
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77503142d31f82df0800000000000000
+      internalID: -204648538144832137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-attack-right-5
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 0
+        width: 510
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e12d436fa5f23b30800000000000000
+      internalID: 4265741930707362276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-attack-right-6
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 0
+        width: 510
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4998c6e51b364d320800000000000000
+      internalID: 2581798099834669460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-attack-right-7
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 0
+        width: 510
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da6e4e7a37f628c0800000000000000
+      internalID: -4024257386409727278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-attack-right-8
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 0
+        width: 510
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dbe791284699d10800000000000000
+      internalID: 2132846408472903006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-attack-right-9
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 0
+        width: 510
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f081e96d4146cb940800000000000000
+      internalID: 5313231701053151247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemylong-attack-right-10
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 0
+        width: 510
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e4af0d039aa93e0800000000000000
+      internalID: -2046137053556879800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d899f0be7e34db740a89bee6c3dbeea5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemylong-attack-right-1: 710616633667839352
+      enemylong-attack-right-10: -2046137053556879800
+      enemylong-attack-right-2: -2264379143241161517
+      enemylong-attack-right-3: 1340148778903786370
+      enemylong-attack-right-4: -204648538144832137
+      enemylong-attack-right-5: 4265741930707362276
+      enemylong-attack-right-6: 2581798099834669460
+      enemylong-attack-right-7: -4024257386409727278
+      enemylong-attack-right-8: 2132846408472903006
+      enemylong-attack-right-9: 5313231701053151247
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

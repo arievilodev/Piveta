@@ -54,21 +54,18 @@ public class EnemyLongDistance : MonoBehaviour
         playerDetected = Physics2D.OverlapCircle(transform.position, detectRange, LayerMask.GetMask("Piveta"));
         playerAttackable = Physics2D.OverlapCircle(transform.position, attackRange, LayerMask.GetMask("Piveta"));
         // teste de dano do inimigo
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            TakeDamageEnemy(10);
-        }
+
+        if (!playerDetected && !playerAttackable) Patrol();
         if (playerDetected && !playerAttackable) FollowPlayer();
         if (playerDetected && playerAttackable) AttackPlayer();
 
     }
-    /*/
+
     private void Patrol()
     {
         agent.SetDestination(Waypoints[currentWaypoint].position);
         if (Vector3.Distance(transform.position, Waypoints[currentWaypoint].position) <= patrolTurnDistance) changeWaypoint();
     }
-    
     private void changeWaypoint()
     {
         currentWaypoint++;
@@ -77,7 +74,6 @@ public class EnemyLongDistance : MonoBehaviour
             currentWaypoint = 0;
         }
     }
-    /*/
     private void FollowPlayer()
     {
         if (player.gameObject != null)
@@ -87,7 +83,6 @@ public class EnemyLongDistance : MonoBehaviour
         }
 
     }
-    
     private void FacePlayer()
     {
         if (player == null) return;
@@ -110,6 +105,7 @@ public class EnemyLongDistance : MonoBehaviour
          tirando 10 pontos de vida do jogador */
         if (!onAttackCooldown)
         {
+            anim.SetTrigger("attack-enemylong");
             Vector2 direction = (player.transform.position - projectileSpawnPoint.position).normalized;
 
             // Spawn projectile
@@ -121,31 +117,14 @@ public class EnemyLongDistance : MonoBehaviour
     }
 
 
-    public void TakeDamageEnemy(int amount)
-    {
-        //anim.SetTrigger("hit"); // FALTA SPRITES DE ANIMAÇÃO DE DANO
 
-        if (isDead || isInvulnerable) return;
-
-        currentLife -= amount;
-        Debug.Log("Inimigo levou dano! Vida atual: " + currentLife);
-
-        if (currentLife > 0)
-        {
-            //anim.SetTrigger("hit");
-            StartCoroutine(InvulnerabilityFrames());
-        }
-        else
-        {
-            DieEnemy();
-        }
-    }
 
     private void DieEnemy()
     {
+        anim.SetTrigger("isDead");
         isDead = true;
         // Exemplo: desativa o inimigo
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -170,12 +149,7 @@ public class EnemyLongDistance : MonoBehaviour
     [SerializeField] private float invulnerableTime = 0.2f;
 
 
-    private IEnumerator InvulnerabilityFrames()
-    {
-        isInvulnerable = true;
-        yield return new WaitForSeconds(invulnerableTime);
-        isInvulnerable = false;
-    }
+
     private IEnumerator attackCooldown()
     {
         yield return new WaitForSeconds(cooldown);
