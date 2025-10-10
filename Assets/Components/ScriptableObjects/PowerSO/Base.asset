@@ -15,4 +15,6 @@ MonoBehaviour:
   id: 0
   name: 
   description: 
-  icon: {fileID: 0}
+  icon: {fileID: -855298285791758126, guid: d01943c3c66c2ce41884ea18d70a569b, type: 3}
+  duration: 0
+  cooldown: 0

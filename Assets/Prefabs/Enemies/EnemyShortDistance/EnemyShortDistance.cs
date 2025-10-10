@@ -80,7 +80,7 @@ public class EnemyShortDistance : MonoBehaviour
     }
     private void AttackPlayer()
     {
-        if (player != null)
+        if (player != null && !onAttackCooldown)
         {
             anim.SetTrigger("attack-enemyshort");
             var knockbackDirection = (player.transform.position - transform.position).normalized;
