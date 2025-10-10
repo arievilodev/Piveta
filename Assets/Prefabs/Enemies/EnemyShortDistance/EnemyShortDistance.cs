@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,6 +12,8 @@ public class EnemyShortDistance : MonoBehaviour
     [SerializeField] private bool playerDetected = false;
     [SerializeField] private bool playerAttackable = false;
     [SerializeField] private int damage;
+    [SerializeField] private bool onAttackCooldown = false;
+    [SerializeField] private int cooldown;
     private Vector2 initialPositionEnemy;
     public Animator anim;
 
@@ -82,6 +85,8 @@ public class EnemyShortDistance : MonoBehaviour
             anim.SetTrigger("attack-enemyshort");
             var knockbackDirection = (player.transform.position - transform.position).normalized;
             player.TakeDamage(damage, knockbackDirection);
+            onAttackCooldown = true;
+            StartCoroutine(attackCooldown());
             if (player.isDead)
             {
                 playerDetected = false;
@@ -115,6 +120,10 @@ public class EnemyShortDistance : MonoBehaviour
         yield return new WaitForFixedUpdate();
     }
 
-
+    private IEnumerator attackCooldown()
+    {
+        yield return new WaitForSeconds(cooldown);
+        onAttackCooldown = false;
+    }
 
 }
