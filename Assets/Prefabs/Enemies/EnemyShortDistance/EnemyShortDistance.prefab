@@ -90,6 +90,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3314622524113098130, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6331241595546305400}
+    - targetCorrespondingSourceObject: {fileID: 3314622524113098130, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1442571068947429546}
   m_SourcePrefab: {fileID: 100100000, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
 --- !u!1 &8395361252946929161 stripped
 GameObject:
@@ -170,11 +173,8 @@ MonoBehaviour:
   playerAttackable: 0
   damage: 10
   anim: {fileID: 0}
-  maxLife: 30
-  currentLife: 0
   detectRange: 3
   attackRange: 1
-  isDead: 0
   target: {fileID: 0}
   Waypoints:
   - {fileID: 0}
@@ -182,4 +182,25 @@ MonoBehaviour:
   - {fileID: 0}
   patrolTurnDistance: 1
   currentWaypoint: 0
-  invulnerableTime: 0.2
+--- !u!95 &1442571068947429546
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395361252946929161}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0ece3c6385403114c99c0de82825a678, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

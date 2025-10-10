@@ -20,8 +20,6 @@ public class EnemyLongDistance : MonoBehaviour
     [SerializeField] private float detectRange, attackRange; //range para detectar e atacar o player
     [SerializeField] private bool isDead = false;
     [SerializeField] private Transform target;
-    [SerializeField] private List<Transform> Waypoints = new List<Transform>();
-    [SerializeField] private float patrolTurnDistance; //a distância do waypoint para troca
     [SerializeField] Transform projectileSpawnPoint;
     [SerializeField] GameObject projectile;
     [SerializeField] private bool onAttackCooldown = false;
@@ -55,25 +53,13 @@ public class EnemyLongDistance : MonoBehaviour
         playerAttackable = Physics2D.OverlapCircle(transform.position, attackRange, LayerMask.GetMask("Piveta"));
         // teste de dano do inimigo
 
-        if (!playerDetected && !playerAttackable) Patrol();
+        if (!playerDetected && !playerAttackable) return;
         if (playerDetected && !playerAttackable) FollowPlayer();
         if (playerDetected && playerAttackable) AttackPlayer();
 
     }
 
-    private void Patrol()
-    {
-        agent.SetDestination(Waypoints[currentWaypoint].position);
-        if (Vector3.Distance(transform.position, Waypoints[currentWaypoint].position) <= patrolTurnDistance) changeWaypoint();
-    }
-    private void changeWaypoint()
-    {
-        currentWaypoint++;
-        if (currentWaypoint >= Waypoints.Count)
-        {
-            currentWaypoint = 0;
-        }
-    }
+
     private void FollowPlayer()
     {
         if (player.gameObject != null)
