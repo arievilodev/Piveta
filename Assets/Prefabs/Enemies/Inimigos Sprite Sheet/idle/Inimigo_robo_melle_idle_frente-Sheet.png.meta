@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 320
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,12 +112,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Inimigo_robo_melle_idle_frente-Sheet_0
+      name: enemyshort-idle-down-1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2821
+        width: 470
         height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -134,13 +134,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inimigo_robo_melle_idle_frente-Sheet_1
+      name: enemyshort-idle-down-2
       rect:
         serializedVersion: 2
-        x: 2839
+        x: 470
         y: 0
-        width: 442
-        height: 371
+        width: 470
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,13 +156,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inimigo_robo_melle_idle_frente-Sheet_2
+      name: enemyshort-idle-down-3
       rect:
         serializedVersion: 2
-        x: 3309
+        x: 940
         y: 0
-        width: 442
-        height: 361
+        width: 470
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,13 +178,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inimigo_robo_melle_idle_frente-Sheet_3
+      name: enemyshort-idle-down-4
       rect:
         serializedVersion: 2
-        x: 3779
+        x: 1410
         y: 0
-        width: 442
-        height: 371
+        width: 470
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,12 +200,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inimigo_robo_melle_idle_frente-Sheet_4
+      name: enemyshort-idle-down-5
       rect:
         serializedVersion: 2
-        x: 4229
+        x: 1880
         y: 0
-        width: 941
+        width: 470
         height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -221,11 +221,143 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: enemyshort-idle-down-6
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 0
+        width: 470
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfd92fdd43a759469ccac9902691897
+      internalID: 2082773509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyshort-idle-down-7
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 0
+        width: 470
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe1517efe200094b89aec243792b307
+      internalID: -975869423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyshort-idle-down-8
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 0
+        width: 470
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404225aae6c04ba4a9fb5dca2eaed339
+      internalID: -1647443830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyshort-idle-down-9
+      rect:
+        serializedVersion: 2
+        x: 3760
+        y: 0
+        width: 470
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc96ce6d7d8cd9448ab050594a4c34b9
+      internalID: 107602911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyshort-idle-down-10
+      rect:
+        serializedVersion: 2
+        x: 4230
+        y: 0
+        width: 470
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b04f751ad35b0f45aa3fe75630059b4
+      internalID: -256717561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyshort-idle-down-11
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 0
+        width: 470
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc01fe17eb6922418d291351c2a9f87
+      internalID: 688518756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6f4f42a80c517c5468005cf60c70f4cc
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +367,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Inimigo_robo_melle_idle_frente-Sheet_0: 5778716980535106360
-      Inimigo_robo_melle_idle_frente-Sheet_1: -679090788805504111
-      Inimigo_robo_melle_idle_frente-Sheet_2: 3237114779388270128
-      Inimigo_robo_melle_idle_frente-Sheet_3: 2629462760308952266
-      Inimigo_robo_melle_idle_frente-Sheet_4: 1336398733879892705
+      enemyshort-idle-down-1: 5778716980535106360
+      enemyshort-idle-down-10: -256717561
+      enemyshort-idle-down-11: 688518756
+      enemyshort-idle-down-2: -679090788805504111
+      enemyshort-idle-down-3: 3237114779388270128
+      enemyshort-idle-down-4: 2629462760308952266
+      enemyshort-idle-down-5: 1336398733879892705
+      enemyshort-idle-down-6: 2082773509
+      enemyshort-idle-down-7: -975869423
+      enemyshort-idle-down-8: -1647443830
+      enemyshort-idle-down-9: 107602911
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

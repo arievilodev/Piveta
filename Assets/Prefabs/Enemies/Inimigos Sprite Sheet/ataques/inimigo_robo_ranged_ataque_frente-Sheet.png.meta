@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 320
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: inimigo_robo_ranged_ataque_frente-Sheet_0
+      name: attack-enemylong-down-1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 89
-        width: 502
-        height: 432
+        x: 0
+        y: 0
+        width: 590
+        height: 550
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,13 +149,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_ataque_frente-Sheet_1
+      name: attack-enemylong-down-2
       rect:
         serializedVersion: 2
-        x: 709
-        y: 19
-        width: 402
-        height: 502
+        x: 590
+        y: 0
+        width: 590
+        height: 550
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,13 +171,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_ataque_frente-Sheet_2
+      name: attack-enemylong-down-3
       rect:
         serializedVersion: 2
-        x: 1349
-        y: 29
-        width: 352
-        height: 492
+        x: 1180
+        y: 0
+        width: 590
+        height: 550
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,13 +193,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_ataque_frente-Sheet_3
+      name: attack-enemylong-down-4
       rect:
         serializedVersion: 2
-        x: 1939
-        y: 29
-        width: 352
-        height: 492
+        x: 1770
+        y: 0
+        width: 590
+        height: 550
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,13 +215,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_ataque_frente-Sheet_4
+      name: attack-enemylong-down-5
       rect:
         serializedVersion: 2
-        x: 2529
-        y: 29
-        width: 352
-        height: 492
+        x: 2360
+        y: 0
+        width: 590
+        height: 550
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,13 +237,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_ataque_frente-Sheet_5
+      name: attack-enemylong-down-6
       rect:
         serializedVersion: 2
-        x: 3119
-        y: 29
-        width: 352
-        height: 492
+        x: 2950
+        y: 0
+        width: 590
+        height: 550
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,13 +259,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_ataque_frente-Sheet_6
+      name: attack-enemylong-down-7
       rect:
         serializedVersion: 2
-        x: 3709
-        y: 29
-        width: 352
-        height: 492
+        x: 3540
+        y: 0
+        width: 590
+        height: 550
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,13 +281,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_ataque_frente-Sheet_7
+      name: attack-enemylong-down-8
       rect:
         serializedVersion: 2
-        x: 4299
-        y: 29
-        width: 352
-        height: 492
+        x: 4130
+        y: 0
+        width: 590
+        height: 550
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,13 +303,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_ataque_frente-Sheet_8
+      name: attack-enemylong-down-9
       rect:
         serializedVersion: 2
-        x: 4889
-        y: 29
-        width: 352
-        height: 492
+        x: 4720
+        y: 0
+        width: 590
+        height: 550
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,13 +325,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_ataque_frente-Sheet_9
+      name: attack-enemylong-down-10
       rect:
         serializedVersion: 2
-        x: 5479
-        y: 29
-        width: 352
-        height: 492
+        x: 5310
+        y: 0
+        width: 590
+        height: 550
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,7 +350,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 352f36b2207fe0c48a91935b89b5bb70
     internalID: 0
     vertices: []
     indices: 
@@ -360,16 +360,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      inimigo_robo_ranged_ataque_frente-Sheet_0: -4771571432074203815
-      inimigo_robo_ranged_ataque_frente-Sheet_1: -6673325059986003232
-      inimigo_robo_ranged_ataque_frente-Sheet_2: -2269290212038933950
-      inimigo_robo_ranged_ataque_frente-Sheet_3: 5798510767177061675
-      inimigo_robo_ranged_ataque_frente-Sheet_4: 14111866695051049
-      inimigo_robo_ranged_ataque_frente-Sheet_5: -3553237142176429558
-      inimigo_robo_ranged_ataque_frente-Sheet_6: -3807804430503469298
-      inimigo_robo_ranged_ataque_frente-Sheet_7: -9036384657071848757
-      inimigo_robo_ranged_ataque_frente-Sheet_8: -616504825702369118
-      inimigo_robo_ranged_ataque_frente-Sheet_9: 1243294185362480568
+      attack-enemylong-down-1: -4771571432074203815
+      attack-enemylong-down-10: 1243294185362480568
+      attack-enemylong-down-2: -6673325059986003232
+      attack-enemylong-down-3: -2269290212038933950
+      attack-enemylong-down-4: 5798510767177061675
+      attack-enemylong-down-5: 14111866695051049
+      attack-enemylong-down-6: -3553237142176429558
+      attack-enemylong-down-7: -3807804430503469298
+      attack-enemylong-down-8: -9036384657071848757
+      attack-enemylong-down-9: -616504825702369118
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -105,6 +105,7 @@ public class EnemyLongDistance : MonoBehaviour
          tirando 10 pontos de vida do jogador */
         if (!onAttackCooldown)
         {
+            anim.SetTrigger("attack-enemylong");
             Vector2 direction = (player.transform.position - projectileSpawnPoint.position).normalized;
 
             // Spawn projectile
@@ -120,9 +121,10 @@ public class EnemyLongDistance : MonoBehaviour
 
     private void DieEnemy()
     {
+        anim.SetTrigger("isDead");
         isDead = true;
         // Exemplo: desativa o inimigo
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

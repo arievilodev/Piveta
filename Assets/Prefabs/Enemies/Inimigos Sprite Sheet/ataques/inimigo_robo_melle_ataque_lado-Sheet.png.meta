@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 320
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: inimigo_robo_melle_ataque_lado-Sheet_0
+      name: enemyshort-attack-left-1
       rect:
         serializedVersion: 2
-        x: 89
-        y: 9
-        width: 232
-        height: 392
+        x: 0
+        y: 0
+        width: 410
+        height: 410
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,13 +137,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_melle_ataque_lado-Sheet_1
+      name: enemyshort-attack-left-2
       rect:
         serializedVersion: 2
-        x: 499
-        y: 9
-        width: 232
-        height: 392
+        x: 410
+        y: 0
+        width: 410
+        height: 410
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,13 +159,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_melle_ataque_lado-Sheet_2
+      name: enemyshort-attack-left-3
       rect:
         serializedVersion: 2
-        x: 909
-        y: 9
-        width: 232
-        height: 392
+        x: 820
+        y: 0
+        width: 410
+        height: 410
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,13 +181,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_melle_ataque_lado-Sheet_3
+      name: enemyshort-attack-left-4
       rect:
         serializedVersion: 2
-        x: 1239
-        y: 9
-        width: 312
-        height: 392
+        x: 1230
+        y: 0
+        width: 410
+        height: 410
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,13 +203,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_melle_ataque_lado-Sheet_4
+      name: enemyshort-attack-left-5
       rect:
         serializedVersion: 2
-        x: 1649
-        y: 9
-        width: 312
-        height: 392
+        x: 1640
+        y: 0
+        width: 410
+        height: 410
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,13 +225,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_melle_ataque_lado-Sheet_5
+      name: enemyshort-attack-left-6
       rect:
         serializedVersion: 2
-        x: 2139
-        y: 9
-        width: 232
-        height: 392
+        x: 2050
+        y: 0
+        width: 410
+        height: 410
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9914ba57015e08e4fa54589356fbd18d
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      inimigo_robo_melle_ataque_lado-Sheet_0: 9165689190014641829
-      inimigo_robo_melle_ataque_lado-Sheet_1: -7635299790884612662
-      inimigo_robo_melle_ataque_lado-Sheet_2: 5633223599388482714
-      inimigo_robo_melle_ataque_lado-Sheet_3: 5432694005413922654
-      inimigo_robo_melle_ataque_lado-Sheet_4: 7376607825859329464
-      inimigo_robo_melle_ataque_lado-Sheet_5: 4879049454468581738
+      enemyshort-attack-left-1: 9165689190014641829
+      enemyshort-attack-left-2: -7635299790884612662
+      enemyshort-attack-left-3: 5633223599388482714
+      enemyshort-attack-left-4: 5432694005413922654
+      enemyshort-attack-left-5: 7376607825859329464
+      enemyshort-attack-left-6: 4879049454468581738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

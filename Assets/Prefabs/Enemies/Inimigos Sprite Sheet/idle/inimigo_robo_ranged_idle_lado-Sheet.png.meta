@@ -61,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 320
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -124,13 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: inimigo_robo_ranged_idle_lado-Sheet_0
+      name: enemylong-idle-left-1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 109
-        width: 422
-        height: 422
+        x: 0
+        y: 0
+        width: 510
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,13 +146,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_idle_lado-Sheet_1
+      name: enemylong-idle-left-2
       rect:
         serializedVersion: 2
-        x: 519
-        y: 109
-        width: 422
-        height: 422
+        x: 510
+        y: 0
+        width: 510
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,13 +168,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_idle_lado-Sheet_2
+      name: enemylong-idle-left-3
       rect:
         serializedVersion: 2
-        x: 1029
-        y: 109
-        width: 422
-        height: 422
+        x: 1020
+        y: 0
+        width: 510
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,13 +190,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_idle_lado-Sheet_3
+      name: enemylong-idle-left-4
       rect:
         serializedVersion: 2
-        x: 1539
-        y: 109
-        width: 422
-        height: 422
+        x: 1530
+        y: 0
+        width: 510
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,13 +212,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_idle_lado-Sheet_4
+      name: enemylong-idle-left-5
       rect:
         serializedVersion: 2
-        x: 2049
-        y: 109
-        width: 422
-        height: 422
+        x: 2040
+        y: 0
+        width: 510
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,13 +234,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_idle_lado-Sheet_5
+      name: enemylong-idle-left-6
       rect:
         serializedVersion: 2
-        x: 2559
-        y: 89
-        width: 422
-        height: 422
+        x: 2550
+        y: 0
+        width: 510
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,13 +256,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_idle_lado-Sheet_6
+      name: enemylong-idle-left-7
       rect:
         serializedVersion: 2
-        x: 3069
-        y: 49
-        width: 422
-        height: 422
+        x: 3060
+        y: 0
+        width: 510
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,13 +278,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_idle_lado-Sheet_7
+      name: enemylong-idle-left-8
       rect:
         serializedVersion: 2
-        x: 3579
-        y: 89
-        width: 422
-        height: 422
+        x: 3570
+        y: 0
+        width: 510
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,13 +300,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_ranged_idle_lado-Sheet_8
+      name: enemylong-idle-left-9
       rect:
         serializedVersion: 2
-        x: 4089
-        y: 109
-        width: 422
-        height: 422
+        x: 4080
+        y: 0
+        width: 510
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cfe2290f804b5484baaa493731944d92
     internalID: 0
     vertices: []
     indices: 
@@ -335,15 +335,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      inimigo_robo_ranged_idle_lado-Sheet_0: 4716332922388045166
-      inimigo_robo_ranged_idle_lado-Sheet_1: 7672855547043821474
-      inimigo_robo_ranged_idle_lado-Sheet_2: -7551611547524636392
-      inimigo_robo_ranged_idle_lado-Sheet_3: -8845972647241981116
-      inimigo_robo_ranged_idle_lado-Sheet_4: -1170681822323474518
-      inimigo_robo_ranged_idle_lado-Sheet_5: -7073511862103488327
-      inimigo_robo_ranged_idle_lado-Sheet_6: 2532309153321302863
-      inimigo_robo_ranged_idle_lado-Sheet_7: -8376423802667287922
-      inimigo_robo_ranged_idle_lado-Sheet_8: -8204845582051469350
+      enemylong-idle-left-1: 4716332922388045166
+      enemylong-idle-left-2: 7672855547043821474
+      enemylong-idle-left-3: -7551611547524636392
+      enemylong-idle-left-4: -8845972647241981116
+      enemylong-idle-left-5: -1170681822323474518
+      enemylong-idle-left-6: -7073511862103488327
+      enemylong-idle-left-7: 2532309153321302863
+      enemylong-idle-left-8: -8376423802667287922
+      enemylong-idle-left-9: -8204845582051469350
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 320
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: inimigo_robo_melle_ataque_costas-Sheet_0
+      name: enemyshort-attack-up-1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 9
-        width: 472
-        height: 392
+        x: 0
+        y: 0
+        width: 500
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,13 +134,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_melle_ataque_costas-Sheet_1
+      name: enemyshort-attack-up-2
       rect:
         serializedVersion: 2
-        x: 519
-        y: 9
-        width: 472
-        height: 392
+        x: 500
+        y: 0
+        width: 500
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,13 +156,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_melle_ataque_costas-Sheet_2
+      name: enemyshort-attack-up-3
       rect:
         serializedVersion: 2
-        x: 1109
-        y: 9
-        width: 292
-        height: 392
+        x: 1000
+        y: 0
+        width: 500
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,13 +178,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_melle_ataque_costas-Sheet_3
+      name: enemyshort-attack-up-4
       rect:
         serializedVersion: 2
-        x: 1649
-        y: 9
-        width: 212
-        height: 412
+        x: 1500
+        y: 0
+        width: 500
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,13 +200,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo_robo_melle_ataque_costas-Sheet_4
+      name: enemyshort-attack-up-5
       rect:
         serializedVersion: 2
-        x: 2019
-        y: 9
-        width: 472
-        height: 392
+        x: 2000
+        y: 0
+        width: 500
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0aa29dcab37fd1e4b993d9e4f0ac8ead
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      inimigo_robo_melle_ataque_costas-Sheet_0: 5500442264176237024
-      inimigo_robo_melle_ataque_costas-Sheet_1: -303631719671163104
-      inimigo_robo_melle_ataque_costas-Sheet_2: -5851077711686592409
-      inimigo_robo_melle_ataque_costas-Sheet_3: -6366139038053581978
-      inimigo_robo_melle_ataque_costas-Sheet_4: -7395340814907594176
+      enemyshort-attack-up-1: 5500442264176237024
+      enemyshort-attack-up-2: -303631719671163104
+      enemyshort-attack-up-3: -5851077711686592409
+      enemyshort-attack-up-4: -6366139038053581978
+      enemyshort-attack-up-5: -7395340814907594176
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,6 +8,7 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private int maxLife = 30;
     [SerializeField] private int currentLife;
     [SerializeField] private bool isDead = false;
+    public Animator anim;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
@@ -34,6 +35,7 @@ public class EnemyHealth : MonoBehaviour
     }
     private void DieEnemy()
     {
+        anim.SetTrigger("attack-enemyshort");
         isDead = true;
         // Exemplo: desativa o inimigo
         gameObject.SetActive(false);

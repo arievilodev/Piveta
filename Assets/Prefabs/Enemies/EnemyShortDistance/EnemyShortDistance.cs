@@ -93,6 +93,7 @@ public class EnemyShortDistance : MonoBehaviour
     {
         if (player != null)
         {
+            anim.SetTrigger("attack-enemyshort");
             var knockbackDirection = (player.transform.position - transform.position).normalized;
             player.TakeDamage(damage, knockbackDirection);
             if (player.isDead)
