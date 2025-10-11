@@ -1,12 +1,11 @@
-﻿ using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-
 public class EnemyLongDistance : MonoBehaviour
 {
-    [SerializeField] private Player player; // Variável para armazenar a posição do jogador
+    [SerializeField] private Player player;
     public float speedEnemy;
     [SerializeField] private Rigidbody2D rbEnemy;
     [SerializeField] private bool playerDetected = false;
@@ -14,61 +13,53 @@ public class EnemyLongDistance : MonoBehaviour
     private Vector2 initialPositionEnemy;
     public Animator anim;
 
-    // Sistema de vida do inimigo
     [SerializeField] private int maxLife = 30;
     [SerializeField] private int currentLife;
-    [SerializeField] private float detectRange, attackRange; //range para detectar e atacar o player
+    [SerializeField] private float detectRange, attackRange;
     [SerializeField] private bool isDead = false;
     [SerializeField] private Transform target;
     [SerializeField] Transform projectileSpawnPoint;
     [SerializeField] GameObject projectile;
     [SerializeField] private bool onAttackCooldown = false;
-    [SerializeField] private int cooldown;
+    [SerializeField] private float cooldown = 2f; // Changed to float for better control
     NavMeshAgent agent;
     [SerializeField] private int currentWaypoint;
-
-
 
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
-        agent.updateRotation = false; // Desativa a rotação automática do NavMeshAgent
+        agent.updateRotation = false;
         agent.updateUpAxis = false;
-
-        agent.speed = speedEnemy; // Define a velocidade do inimigo
-
-        // Encontra o jogador na cena e armazena sua posição
+        agent.speed = speedEnemy;
 
         rbEnemy = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        //initialPositionEnemy = rbEnemy.position;
-        currentLife = maxLife; // Inicializa a vida do inimigo com o valor máximo
+        initialPositionEnemy = transform.position;
+        currentLife = maxLife;
     }
 
     void Update()
     {
+        if (isDead) return; // Don't do anything if dead
 
         playerDetected = Physics2D.OverlapCircle(transform.position, detectRange, LayerMask.GetMask("Piveta"));
         playerAttackable = Physics2D.OverlapCircle(transform.position, attackRange, LayerMask.GetMask("Piveta"));
-        // teste de dano do inimigo
 
         if (!playerDetected && !playerAttackable) return;
         if (playerDetected && !playerAttackable) FollowPlayer();
         if (playerDetected && playerAttackable) AttackPlayer();
-
     }
-
 
     private void FollowPlayer()
     {
-        if (player.gameObject != null)
+        if (player != null && player.gameObject != null)
         {
-            agent.SetDestination(player.transform.position); // Move o inimigo em direção ao jogador
+            agent.SetDestination(player.transform.position);
             FacePlayer();
         }
-
     }
+
     private void FacePlayer()
     {
         if (player == null) return;
@@ -82,63 +73,62 @@ public class EnemyLongDistance : MonoBehaviour
             transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
     }
+
     private void AttackPlayer()
     {
-        // Verifica se o objeto colidido é o jogador a partir da tag "Player"
-        // Obt�m o componente Player, guarda os resultados no objeto player
+        if (player == null) return; // Safety check
 
-        /* Se o componente PlayerMov não for nulo, ou seja, se tiver sido encontrado, então o método TakeDamage é chamado,
-         tirando 10 pontos de vida do jogador */
+        agent.SetDestination(transform.position); // Stop moving
+        FacePlayer(); // Face the player before shooting
+
         if (!onAttackCooldown)
         {
-            anim.SetTrigger("attack-enemylong");
-            Vector2 direction = (player.transform.position - projectileSpawnPoint.position).normalized;
-
-            // Spawn projectile
-            GameObject proj = Instantiate(projectile, projectileSpawnPoint.position, Quaternion.identity);
-            proj.GetComponent<Projectile>().SetDirection(direction);
+            ShootProjectile();
             onAttackCooldown = true;
-            StartCoroutine(attackCooldown());
+            StartCoroutine(AttackCooldown());
         }
     }
 
+    private void ShootProjectile()
+    {
+        if (projectile == null || projectileSpawnPoint == null || player == null) return;
 
+        Vector2 direction = (player.transform.position - projectileSpawnPoint.position).normalized;
 
+        GameObject proj = Instantiate(projectile, projectileSpawnPoint.position, Quaternion.identity);
+
+        Projectile projScript = proj.GetComponent<Projectile>();
+        if (projScript != null)
+        {
+            projScript.SetDirection(direction);
+        }
+    }
 
     private void DieEnemy()
     {
-        anim.SetTrigger("isDead");
         isDead = true;
-        // Exemplo: desativa o inimigo
-        //gameObject.SetActive(false);
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-
-    }
-
-
-    // Inicializando a colisão do inimigo
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-
+        agent.enabled = false; // Disable NavMeshAgent when dead
     }
 
     private IEnumerator ReturnToStart()
     {
-        agent.SetDestination(initialPositionEnemy); // Move o inimigo de volta para a posição inicial
+        agent.SetDestination(initialPositionEnemy);
         yield return new WaitForFixedUpdate();
     }
 
-    private bool isInvulnerable = false;
-    [SerializeField] private float invulnerableTime = 0.2f;
-
-
-
-    private IEnumerator attackCooldown()
+    private IEnumerator AttackCooldown()
     {
         yield return new WaitForSeconds(cooldown);
         onAttackCooldown = false;
+    }
+
+    // Visual debugging in editor
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, detectRange);
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 }

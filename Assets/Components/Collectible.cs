@@ -15,13 +15,7 @@ public class Collectible : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerIsInside)
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                SetCurrentPower(powerSO);
-            }
-        }
+        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -29,6 +23,7 @@ public class Collectible : MonoBehaviour
         {
             playerInside = collision.gameObject;
             playerIsInside = true;
+            SetCurrentPower(powerSO);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -43,5 +38,6 @@ public class Collectible : MonoBehaviour
     {
         playerInside.GetComponent<Player>().SetCurrentPower(powerSO);
         powerIcon.sprite = powerSO.icon;
+        Destroy(gameObject);
     }
 }
