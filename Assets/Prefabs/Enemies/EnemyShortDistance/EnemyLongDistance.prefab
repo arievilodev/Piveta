@@ -77,15 +77,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8129452634980360073, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.16
+      value: 67.3
       objectReference: {fileID: 0}
     - target: {fileID: 8129452634980360073, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -44.72
+      value: 89.7
       objectReference: {fileID: 0}
     - target: {fileID: 8129452634980360073, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.0013697181
       objectReference: {fileID: 0}
     - target: {fileID: 8129452634980360073, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       propertyPath: m_LocalRotation.w
@@ -93,15 +93,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8129452634980360073, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8129452634980360073, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8129452634980360073, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8129452634980360073, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -135,6 +135,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 3907787797217449604}
   m_SourcePrefab: {fileID: 100100000, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
+--- !u!50 &690024144048977711 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 5226654414520643612, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
+  m_PrefabInstance: {fileID: 4691549264105539379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3587720921565075642 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8129452634980360073, guid: 99675c9f8f5a6c8439a4d30c7eb00e73, type: 3}
@@ -214,10 +219,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   speedEnemy: 1
-  rbEnemy: {fileID: 0}
+  rbEnemy: {fileID: 690024144048977711}
   playerDetected: 0
   playerAttackable: 0
-  anim: {fileID: 0}
+  anim: {fileID: 3907787797217449604}
   maxLife: 30
   currentLife: 0
   detectRange: 3

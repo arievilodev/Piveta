@@ -25,7 +25,7 @@ public class EnemyLongDistance : MonoBehaviour
     [SerializeField] Transform projectileSpawnPoint;
     [SerializeField] GameObject projectile;
     [SerializeField] private bool onAttackCooldown = false;
-    [SerializeField] private int cooldown;
+    [SerializeField] private float cooldown;
     NavMeshAgent agent;
     [SerializeField] private int currentWaypoint;
 
@@ -110,6 +110,7 @@ public class EnemyLongDistance : MonoBehaviour
          tirando 10 pontos de vida do jogador */
         if (!onAttackCooldown)
         {
+            anim.SetTrigger("attack-enemylong");
             Vector2 direction = (player.transform.position - projectileSpawnPoint.position).normalized;
 
             // Spawn projectile
