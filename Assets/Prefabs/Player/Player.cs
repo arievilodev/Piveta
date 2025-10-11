@@ -58,7 +58,6 @@ public class Player : MonoBehaviour
     {
         knockbackComponent = GetComponent<KnockbackComponent>();
         currentLife = maxLife;
-
     }
 
     void Update()
@@ -148,6 +147,10 @@ public class Player : MonoBehaviour
         anim.SetTrigger("TakeDamage");
         knockbackComponent.Knockbacked();
         knockbackComponent.knockbackDirection = knockbackDirection;
+        IsPlayingPunchRightAnimation = false;
+        IsPlayingPunchKickAnimation = false;
+        IsPlayingPunchLeftAnimation = false;
+        attackQueued = false;
     }
 
     public void Heal(int amount)
@@ -172,7 +175,7 @@ public class Player : MonoBehaviour
     public void chooseAttackByPower()
     {
 
-        if (attackQueued)
+        if (attackQueued && !isDead)
         {
             if (activePower.id == 0)
             {
@@ -189,6 +192,10 @@ public class Player : MonoBehaviour
             if (activePower.id == 3)
             {
                 AttackInvis();
+            }
+            else
+            {
+                AttackBase();
             }
         }
     }
@@ -293,7 +300,9 @@ public class Player : MonoBehaviour
             return; // Não volta para idle/walk se P ainda estiver pressionado
 
         if (mov.sqrMagnitude > 0.01f)
+        {
             anim.Play("walk-piveta");
+        }
         else
             anim.SetFloat("Horizontal", lastMoveDir.x);
             anim.SetFloat("Vertical", lastMoveDir.y);
