@@ -147,6 +147,28 @@ MonoBehaviour:
   currentLife: 100
   isDead: 0
   knockbackComponent: {fileID: 0}
+  IsPlayingPunchRightAnimation: 0
+  IsPlayingPunchLeftAnimation: 0
+  IsPlayingPunchKickAnimation: 0
+  punchRightDamage: 5
+  punchLeftDamage: 7
+  kickDamage: 12
+  stealthAttackDamage: 9999
+  attackRange: 2
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  basePower: {fileID: 11400000, guid: 3ea387ceb53caf542b12656e62f860f1, type: 2}
+  assignedPower: {fileID: 11400000, guid: 3ea387ceb53caf542b12656e62f860f1, type: 2}
+  activePower: {fileID: 11400000, guid: 3ea387ceb53caf542b12656e62f860f1, type: 2}
+  powerIsActive: 0
+  powerIsOnCooldown: 0
+  projectileSpawn: {fileID: 0}
+  playerProjectile: {fileID: 0}
+  defaultMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  strengthMaterial: {fileID: 2100000, guid: 5981d344346873c489b4c2ca10907c8a, type: 2}
+  rangedMaterial: {fileID: 2100000, guid: dfe5fdb30b449d8459ed67ad02f3d1c9, type: 2}
+  invisMaterial: {fileID: 2100000, guid: c1c6d255b19575e449febc65c955776e, type: 2}
 --- !u!114 &8509549431148044568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isKnockbackActive: 0
   knockbackDirection: {x: 0, y: 1}
-  knockbackForce: 8
+  knockbackForce: 2
   knockbackDuration: 0.1
   knockbackTimer: 0
 --- !u!95 &8271344076505710000
@@ -247,7 +269,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0045377016, y: -0.21982053}
+  m_Offset: {x: 0.0008190498, y: -0.2519608}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -257,5 +279,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.60300183, y: 0.74394816}
+  m_Size: {x: 0.26374257, y: 0.44397134}
   m_EdgeRadius: 0
