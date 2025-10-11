@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 1
   name: "Super for\xE7a"
   description: Os ataques do jogador se tornam mais fortes
-  icon: {fileID: -3106506509227680175, guid: 855dcd45f25c0014aa183a617b630d9f, type: 3}
+  icon: {fileID: 3543214711987303864, guid: 84a1c1b094e82fe4c8c6044ffb27f063, type: 3}
   duration: 10
   cooldown: 5

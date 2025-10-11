@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 3
   name: Invisibilidade
   description: "Torna o player invis\xEDvel por X segundos"
-  icon: {fileID: 6937817954938267909, guid: 669b620a10de8f549a9d2e8453ed1ba4, type: 3}
+  icon: {fileID: -5254536275558687293, guid: 53b72f37dc29d5b4884580db9df44509, type: 3}
   duration: 0
   cooldown: 10

@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 2
   name: Longo alcance
   description: "O ataque do jogador dispara proj\xE9teis."
-  icon: {fileID: 8389134475083476877, guid: 6749c7b2048f01840811bc02e64f3323, type: 3}
+  icon: {fileID: -4767962491267328492, guid: b37645c80bcbc0841a9961855eaab55d, type: 3}
   duration: 10
   cooldown: 10
