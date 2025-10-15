@@ -178,17 +178,16 @@ MonoBehaviour:
   rbEnemy: {fileID: 0}
   playerDetected: 0
   playerAttackable: 0
-  damage: 10
+  damage: 3
   anim: {fileID: 0}
+  maxLife: 30
+  currentLife: 0
   detectRange: 3
   attackRange: 1
+  isDead: 0
   target: {fileID: 0}
-  Waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  patrolTurnDistance: 1
-  currentWaypoint: 0
+  attackCooldown: 1.5
+  invulnerableTime: 0.2
 --- !u!114 &1698618063576276313
 MonoBehaviour:
   m_ObjectHideFlags: 0

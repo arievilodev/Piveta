@@ -237,7 +237,7 @@ MonoBehaviour:
   projectileSpawnPoint: {fileID: 2628002122525727932}
   projectile: {fileID: 1474898694749684568, guid: fb286a7ac77eb374e9dc4bfffb8f0c25, type: 3}
   onAttackCooldown: 0
-  cooldown: 1
+  cooldown: 1.5
   currentWaypoint: 0
   invulnerableTime: 0.2
 --- !u!114 &2559370458269989593

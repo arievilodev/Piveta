@@ -42,10 +42,8 @@ public class InvisibleWallArea : MonoBehaviour
         // Se todos os inimigos foram derrotados, libera a parede
         if (enemiesToDefeat.Count == 0)
         {
-            if (wallCollider != null)
-                wallCollider.enabled = false;
-            if (wallRenderer != null)
-                wallRenderer.enabled = false; // Some visualmente
+            Destroy(gameObject);
+            // Some visualmente
 
             // Se quiser que a parede suma completamente do Hierarchy:
             // gameObject.SetActive(false);
