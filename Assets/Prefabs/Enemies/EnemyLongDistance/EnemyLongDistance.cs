@@ -1,4 +1,4 @@
-﻿ using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -87,7 +87,7 @@ public class EnemyLongDistance : MonoBehaviour
         }
 
     }
-    
+
     private void FacePlayer()
     {
         if (player == null) return;
@@ -104,7 +104,7 @@ public class EnemyLongDistance : MonoBehaviour
     private void AttackPlayer()
     {
         // Verifica se o objeto colidido é o jogador a partir da tag "Player"
-        // Obt�m o componente Player, guarda os resultados no objeto player
+        // Obtém o componente Player, guarda os resultados no objeto player
 
         /* Se o componente PlayerMov não for nulo, ou seja, se tiver sido encontrado, então o método TakeDamage é chamado,
          tirando 10 pontos de vida do jogador */
@@ -113,9 +113,19 @@ public class EnemyLongDistance : MonoBehaviour
             anim.SetTrigger("attack-enemylong");
             Vector2 direction = (player.transform.position - projectileSpawnPoint.position).normalized;
 
-            // Spawn projectile
-            GameObject proj = Instantiate(projectile, projectileSpawnPoint.position, Quaternion.identity);
-            proj.GetComponent<Projectile>().SetDirection(direction);
+            // Calcula o ângulo da direção
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+            // Arredonda para o múltiplo de 90 graus mais próximo
+            float roundedAngle = Mathf.Round(angle / 90f) * 90f;
+
+            // Converte o ângulo arredondado de volta para direção
+            float radians = roundedAngle * Mathf.Deg2Rad;
+            Vector2 roundedDirection = new Vector2(Mathf.Cos(radians), Mathf.Sin(radians));
+
+            // Spawn projectile com rotação
+            GameObject proj = Instantiate(projectile, projectileSpawnPoint.position, Quaternion.AngleAxis(roundedAngle, Vector3.forward));
+            proj.GetComponent<Projectile>().SetDirection(roundedDirection);
             onAttackCooldown = true;
             StartCoroutine(attackCooldown());
         }
