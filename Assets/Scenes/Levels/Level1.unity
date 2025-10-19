@@ -317630,7 +317630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbee7078b3dabe4fb79cb7e542dbb93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NomeDoLevel: Level2
+  NomeDoLevel: Endgame
 --- !u!58 &2144788632
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -317736,7 +317736,7 @@ PrefabInstance:
       objectReference: {fileID: 1445758091}
     - target: {fileID: 600970313220732699, guid: eec5f0a0569f9e84f91692488353443b, type: 3}
       propertyPath: maxLife
-      value: 105
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 600970313220732699, guid: eec5f0a0569f9e84f91692488353443b, type: 3}
       propertyPath: redLifeBar
