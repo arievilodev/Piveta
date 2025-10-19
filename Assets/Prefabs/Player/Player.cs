@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
     private int attackIndex = 0;
 
     [SerializeField] private float attackRange = 5f;
+    [SerializeField] private float attackWidth = 1f; // Largura do ataque em linha reta
     [SerializeField] private LayerMask enemyLayer;
     private bool attackQueued = false;
     [SerializeField] PowerSO basePower;
@@ -73,7 +74,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         MoveLogic();
-        if (Input.GetKeyDown(KeyCode.P) &&
+        if (Input.GetKeyDown(KeyCode.Space) &&
         !IsPlayingPunchRightAnimation &&
         !IsPlayingPunchLeftAnimation &&
         !IsPlayingPunchKickAnimation)
@@ -307,17 +308,54 @@ public class Player : MonoBehaviour
 
     private void ApplyDamageToEnemies(int damage)
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
-        foreach (Collider2D enemy in hitEnemies)
+        Vector2 attackDirection = lastMoveDir.sqrMagnitude > 0.01f ? lastMoveDir : Vector2.right;
+
+        // Usa BoxCast para detectar inimigos em linha reta
+        RaycastHit2D[] hits = Physics2D.BoxCastAll(
+            (Vector2)transform.position + attackDirection * (attackRange / 2f),
+            new Vector2(attackWidth, attackRange),
+            0f,
+            attackDirection,
+            0f,
+            enemyLayer
+        );
+
+        foreach (RaycastHit2D hit in hits)
         {
-            enemy.GetComponent<EnemyHealth>()?.TakeDamageEnemy(damage);
+            hit.collider.GetComponent<EnemyHealth>()?.TakeDamageEnemy(damage);
         }
     }
 
     private void OnDrawGizmosSelected()
     {
+        Vector2 attackDir = lastMoveDir.sqrMagnitude > 0.01f ? lastMoveDir : Vector2.right;
+        Vector3 boxCenter = transform.position + (Vector3)attackDir * (attackRange / 2f);
+        Vector3 boxSize = new Vector3(attackWidth, attackRange, 1f);
+
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
+
+        // Desenha um retângulo para visualizar a área de ataque
+        DrawGizmoBox(boxCenter, boxSize, Color.red);
+    }
+
+    private void DrawGizmoBox(Vector3 center, Vector3 size, Color color)
+    {
+        Gizmos.color = color;
+        Vector3 halfExtents = size / 2f;
+
+        Vector3[] corners = new Vector3[]
+        {
+            center + new Vector3(-halfExtents.x, -halfExtents.y, 0),
+            center + new Vector3(halfExtents.x, -halfExtents.y, 0),
+            center + new Vector3(halfExtents.x, halfExtents.y, 0),
+            center + new Vector3(-halfExtents.x, halfExtents.y, 0),
+            center + new Vector3(-halfExtents.x, -halfExtents.y, 0),
+        };
+
+        for (int i = 0; i < corners.Length - 1; i++)
+        {
+            Gizmos.DrawLine(corners[i], corners[i + 1]);
+        }
     }
 
     public void changeMaterial(Material mat)

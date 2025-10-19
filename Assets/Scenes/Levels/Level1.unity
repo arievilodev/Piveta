@@ -9696,7 +9696,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5254536275558687293, guid: 53b72f37dc29d5b4884580db9df44509, type: 3}
+  m_Sprite: {fileID: 6456699244576661101, guid: c974d7823a0157c4c9dbf1039a32674a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -317735,6 +317735,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1445758091}
     - target: {fileID: 600970313220732699, guid: eec5f0a0569f9e84f91692488353443b, type: 3}
+      propertyPath: maxLife
+      value: 105
+      objectReference: {fileID: 0}
+    - target: {fileID: 600970313220732699, guid: eec5f0a0569f9e84f91692488353443b, type: 3}
       propertyPath: redLifeBar
       value: 
       objectReference: {fileID: 1032307606}
@@ -317744,7 +317748,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 3ea387ceb53caf542b12656e62f860f1, type: 2}
     - target: {fileID: 600970313220732699, guid: eec5f0a0569f9e84f91692488353443b, type: 3}
       propertyPath: attackRange
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 600970313220732699, guid: eec5f0a0569f9e84f91692488353443b, type: 3}
       propertyPath: Enemy.m_Bits
