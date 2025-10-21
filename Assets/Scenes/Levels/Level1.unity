@@ -11509,8 +11509,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isKnockbackActive: 0
-  knockbackDirection: {x: 0, y: 0}
-  knockbackForce: 5
+  knockbackDirection: {x: 1, y: 0}
+  knockbackForce: 4
   knockbackDuration: 0.1
   knockbackTimer: 0
 --- !u!1001 &1348909778

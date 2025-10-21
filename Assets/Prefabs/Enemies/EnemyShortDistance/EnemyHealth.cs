@@ -8,11 +8,13 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private int maxLife = 30;
     [SerializeField] private int currentLife;
     [SerializeField] private bool isDead = false;
+    private KnockbackComponent knockback;
     public Animator anim;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
         currentLife = maxLife; // Inicializa a vida do inimigo com o valor máximo
+        knockback = GetComponent<KnockbackComponent>();
     }
     public void TakeDamageEnemy(int amount)
     {
@@ -27,6 +29,7 @@ public class EnemyHealth : MonoBehaviour
         {
             //anim.SetTrigger("hit");
             StartCoroutine(InvulnerabilityFrames());
+            knockback.Knockbacked();
         }
         else
         {

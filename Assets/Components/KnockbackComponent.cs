@@ -22,10 +22,10 @@ public class KnockbackComponent : MonoBehaviour
 
     void Update()
     {
-        // if (isKnockbackActive)
-        // {
-        //     ApplyKnockback();
-        // }
+        if (isKnockbackActive)
+        {
+            ApplyKnockback();
+        }
     }
 
     public void Knockbacked()
