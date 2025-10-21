@@ -322,7 +322,22 @@ public class Player : MonoBehaviour
 
         foreach (RaycastHit2D hit in hits)
         {
-            hit.collider.GetComponent<EnemyHealth>()?.TakeDamageEnemy(damage);
+            EnemyHealth enemyHealth = hit.collider.GetComponent<EnemyHealth>();
+            if (enemyHealth != null)
+            {
+                // Calcula a direção do knockback (do player para o inimigo)
+                Vector2 knockbackDirection = (hit.transform.position - transform.position).normalized;
+
+                // Aplica o dano
+                enemyHealth.TakeDamageEnemy(damage);
+
+                // Aplica o knockback na direção correta
+                KnockbackComponent enemyKnockback = hit.collider.GetComponent<KnockbackComponent>();
+                if (enemyKnockback != null)
+                {
+                    enemyKnockback.knockbackDirection = knockbackDirection;
+                }
+            }
         }
     }
 

@@ -10,16 +10,25 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private bool isDead = false;
     private KnockbackComponent knockback;
     public Animator anim;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    // Referência ao player para calcular a direção do knockback
+    private Transform playerTransform;
+
     private void Awake()
     {
-        currentLife = maxLife; // Inicializa a vida do inimigo com o valor máximo
+        currentLife = maxLife;
         knockback = GetComponent<KnockbackComponent>();
+
+        // Encontra o player na cena
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            playerTransform = player.transform;
+        }
     }
+
     public void TakeDamageEnemy(int amount)
     {
-        //anim.SetTrigger("hit"); // FALTA SPRITES DE ANIMAÇÃO DE DANO
-
         if (isDead || isInvulnerable) return;
 
         currentLife -= amount;
@@ -27,8 +36,15 @@ public class EnemyHealth : MonoBehaviour
 
         if (currentLife > 0)
         {
-            //anim.SetTrigger("hit");
             StartCoroutine(InvulnerabilityFrames());
+
+            // Calcula a direção do knockback baseado na posição do player
+            if (playerTransform != null)
+            {
+                Vector2 knockbackDir = (transform.position - playerTransform.position).normalized;
+                knockback.knockbackDirection = knockbackDir;
+            }
+
             knockback.Knockbacked();
         }
         else
@@ -36,16 +52,16 @@ public class EnemyHealth : MonoBehaviour
             DieEnemy();
         }
     }
+
     private void DieEnemy()
     {
         anim.SetTrigger("attack-enemyshort");
         isDead = true;
-        // Exemplo: desativa o inimigo
         gameObject.SetActive(false);
     }
+
     private bool isInvulnerable = false;
     [SerializeField] private float invulnerableTime = 0.2f;
-
 
     private IEnumerator InvulnerabilityFrames()
     {
