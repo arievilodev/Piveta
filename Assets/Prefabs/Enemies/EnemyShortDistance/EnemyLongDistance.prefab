@@ -223,7 +223,7 @@ MonoBehaviour:
   playerDetected: 0
   playerAttackable: 0
   anim: {fileID: 3907787797217449604}
-  maxLife: 30
+  maxLife: 10
   currentLife: 0
   detectRange: 3
   attackRange: 2
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8cad769f823f164c8399dd9144c0c56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxLife: 30
+  maxLife: 10
   currentLife: 0
   isDead: 0
   anim: {fileID: 3907787797217449604}
