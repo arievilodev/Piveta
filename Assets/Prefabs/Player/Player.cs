@@ -292,6 +292,7 @@ public class Player : MonoBehaviour
         if (attackDir == Vector3.zero)
             attackDir = Vector3.right;
 
+        // ✅ Não avança o combo aqui, será avançado apenas se acertar
         switch (attackIndex)
         {
             case 0:
@@ -304,7 +305,6 @@ public class Player : MonoBehaviour
                 currentAttackCoroutine = StartCoroutine(PlayKickAnimation(attackDir, kickDamage));
                 break;
         }
-        attackIndex = (attackIndex + 1) % 3;
         attackQueued = false;
         isAttacking = true; // ✅ Marca que está atacando
     }
@@ -342,14 +342,26 @@ public class Player : MonoBehaviour
         anim.Play("attack-piveta-punchRight", 0, 0f); // ✅ Força início da animação
         yield return new WaitForSeconds(0.1f);
 
-        // ✅ Verifica se ainda está atacando antes de aplicar dano
+        // ✅ Verifica se acertou algum inimigo
+        bool hitEnemy = false;
         if (isAttacking)
         {
-            ApplyDamageToEnemies(damage);
+            hitEnemy = ApplyDamageToEnemies(damage);
         }
 
         float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animLength - 0.1f);
+
+        // ✅ Avança o combo apenas se acertou um inimigo
+        if (hitEnemy)
+        {
+            attackIndex = (attackIndex + 1) % 3;
+        }
+        else
+        {
+            // ✅ Reseta o combo se errou
+            attackIndex = 0;
+        }
 
         IsPlayingPunchRightAnimation = false;
         isAttacking = false; // ✅ Libera ataque
@@ -367,13 +379,26 @@ public class Player : MonoBehaviour
         anim.Play("attack-piveta-punchLeft", 0, 0f);
         yield return new WaitForSeconds(0.1f);
 
+        // ✅ Verifica se acertou algum inimigo
+        bool hitEnemy = false;
         if (isAttacking)
         {
-            ApplyDamageToEnemies(damage);
+            hitEnemy = ApplyDamageToEnemies(damage);
         }
 
         float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animLength - 0.1f);
+
+        // ✅ Avança o combo apenas se acertou um inimigo
+        if (hitEnemy)
+        {
+            attackIndex = (attackIndex + 1) % 3;
+        }
+        else
+        {
+            // ✅ Reseta o combo se errou
+            attackIndex = 0;
+        }
 
         IsPlayingPunchLeftAnimation = false;
         isAttacking = false;
@@ -391,13 +416,26 @@ public class Player : MonoBehaviour
         anim.Play("attack-piveta-kick", 0, 0f);
         yield return new WaitForSeconds(0.1f);
 
+        // ✅ Verifica se acertou algum inimigo
+        bool hitEnemy = false;
         if (isAttacking)
         {
-            ApplyDamageToEnemies(damage);
+            hitEnemy = ApplyDamageToEnemies(damage);
         }
 
         float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animLength - 0.1f);
+
+        // ✅ Avança o combo apenas se acertou um inimigo (volta pro início já que é o último)
+        if (hitEnemy)
+        {
+            attackIndex = (attackIndex + 1) % 3;
+        }
+        else
+        {
+            // ✅ Reseta o combo se errou
+            attackIndex = 0;
+        }
 
         IsPlayingPunchKickAnimation = false;
         isAttacking = false;
@@ -415,6 +453,7 @@ public class Player : MonoBehaviour
         anim.Play("attack-piveta-punchRight", 0, 0f);
         yield return new WaitForSeconds(0.1f);
 
+        // ✅ Verifica se acertou algum inimigo (mas não precisa do combo aqui)
         if (isAttacking)
         {
             ApplyDamageToEnemies(damage);
@@ -453,7 +492,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void ApplyDamageToEnemies(int damage)
+    private bool ApplyDamageToEnemies(int damage)
     {
         Vector2 attackDirection = lastMoveDir.sqrMagnitude > 0.01f ? lastMoveDir : Vector2.right;
 
@@ -465,6 +504,8 @@ public class Player : MonoBehaviour
             0f,
             enemyLayer
         );
+
+        bool hitAnyEnemy = false; // ✅ Flag para verificar se acertou algum inimigo
 
         foreach (RaycastHit2D hit in hits)
         {
@@ -479,8 +520,12 @@ public class Player : MonoBehaviour
                 {
                     enemyKnockback.knockbackDirection = knockbackDirection;
                 }
+
+                hitAnyEnemy = true; // ✅ Marcou que acertou pelo menos um inimigo
             }
         }
+
+        return hitAnyEnemy; // ✅ Retorna se acertou algum inimigo
     }
 
     private void OnDrawGizmosSelected()
