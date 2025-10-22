@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
     private int attackIndex = 0;
 
     [SerializeField] private float attackRange = 5f;
-    [SerializeField] private float attackWidth = 1f; // Largura do ataque em linha reta
+    [SerializeField] private float attackWidth = 1f;
     [SerializeField] private LayerMask enemyLayer;
     private bool attackQueued = false;
     [SerializeField] PowerSO basePower;
@@ -54,13 +54,16 @@ public class Player : MonoBehaviour
     [SerializeField] private Material rangedMaterial;
     [SerializeField] private Material invisMaterial;
 
+    // ✅ Controles mais robustos para gerenciar ataques
+    private Coroutine currentAttackCoroutine;
+    private bool isAttacking = false; // Flag adicional de segurança
+    private bool isTakingDamage = false; // Previne ações durante dano
 
     void Start()
     {
         knockbackComponent = GetComponent<KnockbackComponent>();
         currentLife = maxLife;
 
-        // ✅ FIX: Initialize activePower to prevent null reference
         if (activePower == null)
         {
             activePower = basePower;
@@ -73,16 +76,19 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        MoveLogic();
-        if (Input.GetKeyDown(KeyCode.Space) &&
-        !IsPlayingPunchRightAnimation &&
-        !IsPlayingPunchLeftAnimation &&
-        !IsPlayingPunchKickAnimation)
+        // ✅ Não processa input durante dano
+        if (!isTakingDamage)
         {
-            attackQueued = true;
-            Debug.Log("Ataque acionado");
+            MoveLogic();
+
+            if (Input.GetKeyDown(KeyCode.Space) && !isAttacking && !isDead)
+            {
+                attackQueued = true;
+                Debug.Log("Ataque acionado");
+            }
+
+            chooseAttackByPower();
         }
-        chooseAttackByPower();
     }
 
     private void FixedUpdate()
@@ -91,7 +97,7 @@ public class Player : MonoBehaviour
         {
             knockbackComponent.ApplyKnockback();
         }
-        else
+        else if (!isTakingDamage) // ✅ Só move se não estiver tomando dano
         {
             rb.linearVelocity = mov.normalized * speed;
         }
@@ -131,13 +137,104 @@ public class Player : MonoBehaviour
     public void TakeDamage(int amount, Vector2 knockbackDirection)
     {
         SetLife(-amount);
+
+        // ✅ Se morreu, não precisa fazer o resto
+        if (isDead)
+        {
+            CancelAllActions();
+            return;
+        }
+
+        // ✅ Cancela TODAS as ações do player
+        CancelAllActions();
+
+        // ✅ Marca que está tomando dano
+        isTakingDamage = true;
+
+        // ✅ Aplica animação e knockback
         anim.SetTrigger("TakeDamage");
         knockbackComponent.Knockbacked();
         knockbackComponent.knockbackDirection = knockbackDirection;
+
+        // ✅ Inicia coroutine de recuperação
+        StartCoroutine(RecoverFromDamage());
+    }
+
+    // ✅ Método centralizado para cancelar todas as ações
+    private void CancelAllActions()
+    {
+        // Para a coroutine de ataque
+        if (currentAttackCoroutine != null)
+        {
+            StopCoroutine(currentAttackCoroutine);
+            currentAttackCoroutine = null;
+        }
+
+        // Reseta todas as flags
         IsPlayingPunchRightAnimation = false;
         IsPlayingPunchKickAnimation = false;
         IsPlayingPunchLeftAnimation = false;
         attackQueued = false;
+        isAttacking = false;
+    }
+
+    // ✅ Coroutine de recuperação após tomar dano
+    private IEnumerator RecoverFromDamage()
+    {
+        // ✅ Se morreu, não recupera
+        if (isDead)
+        {
+            isTakingDamage = false;
+            yield break;
+        }
+
+        // Aguarda um frame
+        yield return null;
+
+        // Aguarda o knockback terminar
+        while (knockbackComponent.isKnockbackActive)
+        {
+            yield return null;
+        }
+
+        // Aguarda a animação de dano terminar (ajuste conforme necessário)
+        yield return new WaitForSeconds(0.2f);
+
+        // ✅ Verifica novamente se morreu durante a recuperação
+        if (isDead)
+        {
+            isTakingDamage = false;
+            yield break;
+        }
+
+        // Libera o player para agir novamente
+        isTakingDamage = false;
+
+        // Força retorno ao estado normal
+        ForceIdleOrWalk();
+    }
+
+    // ✅ Método para forçar retorno ao idle/walk
+    private void ForceIdleOrWalk()
+    {
+        // ✅ Não reseta o animator se o player estiver morto
+        if (isDead) return;
+
+        // Reseta o animator completamente
+        anim.Rebind();
+        anim.Update(0f);
+
+        if (mov.sqrMagnitude > 0.01f)
+        {
+            anim.Play("walk-piveta", 0, 0f);
+        }
+        else
+        {
+            anim.SetFloat("Horizontal", lastMoveDir.x);
+            anim.SetFloat("Vertical", lastMoveDir.y);
+            anim.SetFloat("Speed", 0);
+            anim.Play("idle-piveta", 0, 0f);
+        }
     }
 
     public void Heal(int amount)
@@ -157,12 +254,10 @@ public class Player : MonoBehaviour
         DeadState();
     }
 
-    // ✅ FIX: Changed to else-if chain to prevent multiple attacks
     public void chooseAttackByPower()
     {
-        if (attackQueued && !isDead)
+        if (attackQueued && !isDead && !isAttacking && !isTakingDamage)
         {
-            // Add null check
             if (activePower == null)
             {
                 activePower = basePower;
@@ -186,7 +281,6 @@ public class Player : MonoBehaviour
             }
             else
             {
-                // Fallback for unknown power IDs
                 AttackBase();
             }
         }
@@ -201,17 +295,18 @@ public class Player : MonoBehaviour
         switch (attackIndex)
         {
             case 0:
-                StartCoroutine(PlayPunchRightAnimation(attackDir, punchRightDamage));
+                currentAttackCoroutine = StartCoroutine(PlayPunchRightAnimation(attackDir, punchRightDamage));
                 break;
             case 1:
-                StartCoroutine(PlayPunchLeftAnimation(attackDir, punchLeftDamage));
+                currentAttackCoroutine = StartCoroutine(PlayPunchLeftAnimation(attackDir, punchLeftDamage));
                 break;
             case 2:
-                StartCoroutine(PlayKickAnimation(attackDir, kickDamage));
+                currentAttackCoroutine = StartCoroutine(PlayKickAnimation(attackDir, kickDamage));
                 break;
         }
         attackIndex = (attackIndex + 1) % 3;
         attackQueued = false;
+        isAttacking = true; // ✅ Marca que está atacando
     }
 
     private void AttackRanged()
@@ -220,13 +315,14 @@ public class Player : MonoBehaviour
         if (attackDir == Vector3.zero)
             attackDir = Vector3.right;
 
-        StartCoroutine(PlayPunchRightAnimation(attackDir, 0));
+        currentAttackCoroutine = StartCoroutine(PlayPunchRightAnimation(attackDir, 0));
         Vector2 direction = lastMoveDir.sqrMagnitude > 0.01f ? CorrectDirection(lastMoveDir) : Vector2.down;
 
         GameObject proj = Instantiate(playerProjectile.gameObject, projectileSpawn.position, Quaternion.identity);
         proj.GetComponent<PlayerProjectile>().SetDirection(direction);
 
         attackQueued = false;
+        isAttacking = true; // ✅ Marca que está atacando
     }
 
     private void AttackInvis()
@@ -235,57 +331,108 @@ public class Player : MonoBehaviour
         if (attackDir == Vector3.zero)
             attackDir = Vector3.right;
 
-        StartCoroutine(PlayStealthAttackAnimation(attackDir, stealthAttackDamage));
-        attackQueued = false; // ✅ FIX: Reset attack queue
+        currentAttackCoroutine = StartCoroutine(PlayStealthAttackAnimation(attackDir, stealthAttackDamage));
+        attackQueued = false;
+        isAttacking = true; // ✅ Marca que está atacando
     }
 
     private IEnumerator PlayPunchRightAnimation(Vector3 dir, int damage)
     {
         IsPlayingPunchRightAnimation = true;
-        anim.Play("attack-piveta-punchRight");
+        anim.Play("attack-piveta-punchRight", 0, 0f); // ✅ Força início da animação
         yield return new WaitForSeconds(0.1f);
-        ApplyDamageToEnemies(damage);
+
+        // ✅ Verifica se ainda está atacando antes de aplicar dano
+        if (isAttacking)
+        {
+            ApplyDamageToEnemies(damage);
+        }
+
         float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animLength - 0.1f);
+
         IsPlayingPunchRightAnimation = false;
-        VoltarParaIdleOuWalk();
+        isAttacking = false; // ✅ Libera ataque
+        currentAttackCoroutine = null;
+
+        if (!isTakingDamage) // ✅ Só volta ao idle se não estiver tomando dano
+        {
+            VoltarParaIdleOuWalk();
+        }
     }
 
     private IEnumerator PlayPunchLeftAnimation(Vector3 dir, int damage)
     {
         IsPlayingPunchLeftAnimation = true;
-        anim.Play("attack-piveta-punchLeft");
+        anim.Play("attack-piveta-punchLeft", 0, 0f);
         yield return new WaitForSeconds(0.1f);
-        ApplyDamageToEnemies(damage);
+
+        if (isAttacking)
+        {
+            ApplyDamageToEnemies(damage);
+        }
+
         float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animLength - 0.1f);
+
         IsPlayingPunchLeftAnimation = false;
-        VoltarParaIdleOuWalk();
+        isAttacking = false;
+        currentAttackCoroutine = null;
+
+        if (!isTakingDamage)
+        {
+            VoltarParaIdleOuWalk();
+        }
     }
 
     private IEnumerator PlayKickAnimation(Vector3 dir, int damage)
     {
         IsPlayingPunchKickAnimation = true;
-        anim.Play("attack-piveta-kick");
+        anim.Play("attack-piveta-kick", 0, 0f);
         yield return new WaitForSeconds(0.1f);
-        ApplyDamageToEnemies(damage);
+
+        if (isAttacking)
+        {
+            ApplyDamageToEnemies(damage);
+        }
+
         float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animLength - 0.1f);
+
         IsPlayingPunchKickAnimation = false;
-        VoltarParaIdleOuWalk();
+        isAttacking = false;
+        currentAttackCoroutine = null;
+
+        if (!isTakingDamage)
+        {
+            VoltarParaIdleOuWalk();
+        }
     }
 
     private IEnumerator PlayStealthAttackAnimation(Vector3 dir, int damage)
     {
         IsPlayingPunchRightAnimation = true;
-        anim.Play("attack-piveta-punchRight");
+        anim.Play("attack-piveta-punchRight", 0, 0f);
         yield return new WaitForSeconds(0.1f);
-        ApplyDamageToEnemies(damage);
+
+        if (isAttacking)
+        {
+            ApplyDamageToEnemies(damage);
+        }
+
         float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animLength - 0.1f);
+
         IsPlayingPunchRightAnimation = false;
-        VoltarParaIdleOuWalk();
-        deactivatePower(); // ✅ Deactivate invisibility after attack
+        isAttacking = false;
+        currentAttackCoroutine = null;
+
+        if (!isTakingDamage)
+        {
+            VoltarParaIdleOuWalk();
+        }
+
+        deactivatePower();
     }
 
     private void VoltarParaIdleOuWalk()
@@ -310,7 +457,6 @@ public class Player : MonoBehaviour
     {
         Vector2 attackDirection = lastMoveDir.sqrMagnitude > 0.01f ? lastMoveDir : Vector2.right;
 
-        // Usa BoxCast para detectar inimigos em linha reta
         RaycastHit2D[] hits = Physics2D.BoxCastAll(
             (Vector2)transform.position + attackDirection * (attackRange / 2f),
             new Vector2(attackWidth, attackRange),
@@ -325,13 +471,9 @@ public class Player : MonoBehaviour
             EnemyHealth enemyHealth = hit.collider.GetComponent<EnemyHealth>();
             if (enemyHealth != null)
             {
-                // Calcula a direção do knockback (do player para o inimigo)
                 Vector2 knockbackDirection = (hit.transform.position - transform.position).normalized;
-
-                // Aplica o dano
                 enemyHealth.TakeDamageEnemy(damage);
 
-                // Aplica o knockback na direção correta
                 KnockbackComponent enemyKnockback = hit.collider.GetComponent<KnockbackComponent>();
                 if (enemyKnockback != null)
                 {
@@ -348,8 +490,6 @@ public class Player : MonoBehaviour
         Vector3 boxSize = new Vector3(attackWidth, attackRange, 1f);
 
         Gizmos.color = Color.red;
-
-        // Desenha um retângulo para visualizar a área de ataque
         DrawGizmoBox(boxCenter, boxSize, Color.red);
     }
 
@@ -410,7 +550,7 @@ public class Player : MonoBehaviour
             }
 
             powerIsActive = true;
-            StartCoroutine(powerActive()); // ✅ FIX: Always start duration timer
+            StartCoroutine(powerActive());
         }
     }
 
