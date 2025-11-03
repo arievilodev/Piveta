@@ -54,10 +54,17 @@ public class Player : MonoBehaviour
     [SerializeField] private Material rangedMaterial;
     [SerializeField] private Material invisMaterial;
 
-    // ✅ Controles mais robustos para gerenciar ataques
+    // ✅ Áudios do jogador
+    [Header("Audio Settings")]
+    [SerializeField] private AudioSource attack1;
+    [SerializeField] private AudioSource attack2;
+    [SerializeField] private AudioSource attack3;
+    [SerializeField] private AudioSource damaged;
+
+    // Controles mais robustos para gerenciar ataques
     private Coroutine currentAttackCoroutine;
-    private bool isAttacking = false; // Flag adicional de segurança
-    private bool isTakingDamage = false; // Previne ações durante dano
+    private bool isAttacking = false;
+    private bool isTakingDamage = false;
 
     void Start()
     {
@@ -76,7 +83,6 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        // ✅ Não processa input durante dano
         if (!isTakingDamage)
         {
             MoveLogic();
@@ -97,7 +103,7 @@ public class Player : MonoBehaviour
         {
             knockbackComponent.ApplyKnockback();
         }
-        else if (!isTakingDamage) // ✅ Só move se não estiver tomando dano
+        else if (!isTakingDamage)
         {
             rb.linearVelocity = mov.normalized * speed;
         }
@@ -138,39 +144,33 @@ public class Player : MonoBehaviour
     {
         SetLife(-amount);
 
-        // ✅ Se morreu, não precisa fazer o resto
+        // ✅ Toca o som de dano
+        PlayAudio(damaged);
+
         if (isDead)
         {
             CancelAllActions();
             return;
         }
 
-        // ✅ Cancela TODAS as ações do player
         CancelAllActions();
-
-        // ✅ Marca que está tomando dano
         isTakingDamage = true;
 
-        // ✅ Aplica animação e knockback
         anim.SetTrigger("TakeDamage");
         knockbackComponent.Knockbacked();
         knockbackComponent.knockbackDirection = knockbackDirection;
 
-        // ✅ Inicia coroutine de recuperação
         StartCoroutine(RecoverFromDamage());
     }
 
-    // ✅ Método centralizado para cancelar todas as ações
     private void CancelAllActions()
     {
-        // Para a coroutine de ataque
         if (currentAttackCoroutine != null)
         {
             StopCoroutine(currentAttackCoroutine);
             currentAttackCoroutine = null;
         }
 
-        // Reseta todas as flags
         IsPlayingPunchRightAnimation = false;
         IsPlayingPunchKickAnimation = false;
         IsPlayingPunchLeftAnimation = false;
@@ -178,49 +178,37 @@ public class Player : MonoBehaviour
         isAttacking = false;
     }
 
-    // ✅ Coroutine de recuperação após tomar dano
     private IEnumerator RecoverFromDamage()
     {
-        // ✅ Se morreu, não recupera
         if (isDead)
         {
             isTakingDamage = false;
             yield break;
         }
 
-        // Aguarda um frame
         yield return null;
 
-        // Aguarda o knockback terminar
         while (knockbackComponent.isKnockbackActive)
         {
             yield return null;
         }
 
-        // Aguarda a animação de dano terminar (ajuste conforme necessário)
         yield return new WaitForSeconds(0.2f);
 
-        // ✅ Verifica novamente se morreu durante a recuperação
         if (isDead)
         {
             isTakingDamage = false;
             yield break;
         }
 
-        // Libera o player para agir novamente
         isTakingDamage = false;
-
-        // Força retorno ao estado normal
         ForceIdleOrWalk();
     }
 
-    // ✅ Método para forçar retorno ao idle/walk
     private void ForceIdleOrWalk()
     {
-        // ✅ Não reseta o animator se o player estiver morto
         if (isDead) return;
 
-        // Reseta o animator completamente
         anim.Rebind();
         anim.Update(0f);
 
@@ -292,7 +280,6 @@ public class Player : MonoBehaviour
         if (attackDir == Vector3.zero)
             attackDir = Vector3.right;
 
-        // ✅ Não avança o combo aqui, será avançado apenas se acertar
         switch (attackIndex)
         {
             case 0:
@@ -306,7 +293,7 @@ public class Player : MonoBehaviour
                 break;
         }
         attackQueued = false;
-        isAttacking = true; // ✅ Marca que está atacando
+        isAttacking = true;
     }
 
     private void AttackRanged()
@@ -322,7 +309,7 @@ public class Player : MonoBehaviour
         proj.GetComponent<PlayerProjectile>().SetDirection(direction);
 
         attackQueued = false;
-        isAttacking = true; // ✅ Marca que está atacando
+        isAttacking = true;
     }
 
     private void AttackInvis()
@@ -333,16 +320,19 @@ public class Player : MonoBehaviour
 
         currentAttackCoroutine = StartCoroutine(PlayStealthAttackAnimation(attackDir, stealthAttackDamage));
         attackQueued = false;
-        isAttacking = true; // ✅ Marca que está atacando
+        isAttacking = true;
     }
 
     private IEnumerator PlayPunchRightAnimation(Vector3 dir, int damage)
     {
         IsPlayingPunchRightAnimation = true;
-        anim.Play("attack-piveta-punchRight", 0, 0f); // ✅ Força início da animação
+        anim.Play("attack-piveta-punchRight", 0, 0f);
+
+        // ✅ Toca o som do ataque 1
+        PlayAudio(attack1);
+
         yield return new WaitForSeconds(0.1f);
 
-        // ✅ Verifica se acertou algum inimigo
         bool hitEnemy = false;
         if (isAttacking)
         {
@@ -352,22 +342,20 @@ public class Player : MonoBehaviour
         float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animLength - 0.1f);
 
-        // ✅ Avança o combo apenas se acertou um inimigo
         if (hitEnemy)
         {
             attackIndex = (attackIndex + 1) % 3;
         }
         else
         {
-            // ✅ Reseta o combo se errou
             attackIndex = 0;
         }
 
         IsPlayingPunchRightAnimation = false;
-        isAttacking = false; // ✅ Libera ataque
+        isAttacking = false;
         currentAttackCoroutine = null;
 
-        if (!isTakingDamage) // ✅ Só volta ao idle se não estiver tomando dano
+        if (!isTakingDamage)
         {
             VoltarParaIdleOuWalk();
         }
@@ -377,9 +365,12 @@ public class Player : MonoBehaviour
     {
         IsPlayingPunchLeftAnimation = true;
         anim.Play("attack-piveta-punchLeft", 0, 0f);
+
+        // ✅ Toca o som do ataque 2
+        PlayAudio(attack2);
+
         yield return new WaitForSeconds(0.1f);
 
-        // ✅ Verifica se acertou algum inimigo
         bool hitEnemy = false;
         if (isAttacking)
         {
@@ -389,14 +380,12 @@ public class Player : MonoBehaviour
         float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animLength - 0.1f);
 
-        // ✅ Avança o combo apenas se acertou um inimigo
         if (hitEnemy)
         {
             attackIndex = (attackIndex + 1) % 3;
         }
         else
         {
-            // ✅ Reseta o combo se errou
             attackIndex = 0;
         }
 
@@ -414,9 +403,12 @@ public class Player : MonoBehaviour
     {
         IsPlayingPunchKickAnimation = true;
         anim.Play("attack-piveta-kick", 0, 0f);
+
+        // ✅ Toca o som do ataque 3 (chute)
+        PlayAudio(attack3);
+
         yield return new WaitForSeconds(0.1f);
 
-        // ✅ Verifica se acertou algum inimigo
         bool hitEnemy = false;
         if (isAttacking)
         {
@@ -426,14 +418,12 @@ public class Player : MonoBehaviour
         float animLength = anim.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animLength - 0.1f);
 
-        // ✅ Avança o combo apenas se acertou um inimigo (volta pro início já que é o último)
         if (hitEnemy)
         {
             attackIndex = (attackIndex + 1) % 3;
         }
         else
         {
-            // ✅ Reseta o combo se errou
             attackIndex = 0;
         }
 
@@ -451,9 +441,12 @@ public class Player : MonoBehaviour
     {
         IsPlayingPunchRightAnimation = true;
         anim.Play("attack-piveta-punchRight", 0, 0f);
+
+        // ✅ Toca o som do ataque furtivo
+        PlayAudio(attack1);
+
         yield return new WaitForSeconds(0.1f);
 
-        // ✅ Verifica se acertou algum inimigo (mas não precisa do combo aqui)
         if (isAttacking)
         {
             ApplyDamageToEnemies(damage);
@@ -472,6 +465,15 @@ public class Player : MonoBehaviour
         }
 
         deactivatePower();
+    }
+
+    // ✅ Método auxiliar para tocar áudio com verificação de nulidade
+    private void PlayAudio(AudioSource audioSource)
+    {
+        if (audioSource != null && !audioSource.isPlaying)
+        {
+            audioSource.Play();
+        }
     }
 
     private void VoltarParaIdleOuWalk()
@@ -505,7 +507,7 @@ public class Player : MonoBehaviour
             enemyLayer
         );
 
-        bool hitAnyEnemy = false; // ✅ Flag para verificar se acertou algum inimigo
+        bool hitAnyEnemy = false;
 
         foreach (RaycastHit2D hit in hits)
         {
@@ -521,11 +523,11 @@ public class Player : MonoBehaviour
                     enemyKnockback.knockbackDirection = knockbackDirection;
                 }
 
-                hitAnyEnemy = true; // ✅ Marcou que acertou pelo menos um inimigo
+                hitAnyEnemy = true;
             }
         }
 
-        return hitAnyEnemy; // ✅ Retorna se acertou algum inimigo
+        return hitAnyEnemy;
     }
 
     private void OnDrawGizmosSelected()
